@@ -1,118 +1,131 @@
-# tools/ui_mock.py — v17.7 inbox CLI preview
+# tools/ui_mock.py
 from __future__ import annotations
+
+import argparse, json, os, random
+from datetime import datetime
 from pathlib import Path
-import json, argparse, datetime as dt, textwrap
+from typing import Dict, Any, List, Optional
 
-DEFAULT_INBOX = Path("logs/INBOX")
+# ---------------------------
+# ANSI color helpers (PowerShell-friendly)
+# ---------------------------
+def _ansi_ok() -> bool:
+    if os.name != "nt":
+        return True
+    return os.environ.get("NO_ANSI", "0") != "1"
 
-# 📌 ADDED: ANSI Color Helper
-def _color(s, kind):
-    # basic ANSI without external deps
-    codes = {"info":"\033[32m","warn":"\033[33m","err":"\033[31m","dim":"\033[90m","reset":"\033[0m"}
-    return f"{codes.get(kind,'')}{s}{codes['reset']}"
+def _paint_header(text: str, urgency: str) -> str:
+    if not _ansi_ok():
+        return text
+    u = (urgency or "INFO").upper()
+    if u == "URGENT":
+        return f"\x1b[91m{text}\x1b[0m"  # bright red
+    if u == "WARN":
+        return f"\x1b[93m{text}\x1b[0m"  # yellow
+    return f"\x1b[37m{text}\x1b[0m"      # light gray
 
-def _load_messages(inbox: Path):
-    if not inbox.exists():
-        print(f"[ui_mock] inbox path not found: {inbox}")
-        return []
-    msgs = []
-    for p in sorted(inbox.glob("*.json")):
-        try:
-            msg = json.loads(p.read_text(encoding="utf-8"))
-            msg["_path"] = str(p)
-            msgs.append(msg)
-        except Exception as e:
-            print(f"[ui_mock] skip {p.name}: {e}")
-    return msgs
+def _paint_sent(text: str, score: float) -> str:
+    if not _ansi_ok():
+        return text
+    if score > 0.20:
+        return f"\x1b[92m{text}\x1b[0m"  # green
+    if score < -0.20:
+        return f"\x1b[91m{text}\x1b[0m"  # red
+    return f"\x1b[37m{text}\x1b[0m"      # gray
 
-def _filter_messages(msgs, role=None, urgent=False, since_weeks=None):
-    out = []
-    now = dt.datetime.now()
-    # Using standard 4 spaces for indentation consistency (fixed in previous step)
-    
-    for m in msgs:
-        if role and str(m.get("role","")).lower() != role.lower():
+# ---------------------------
+# Varied phrasing for sentiment
+# ---------------------------
+_PHRASES = ["Sentiment", "Fan mood", "Pulse", "Crowd vibe", "Temperature"]
+
+def _format_sentiment(pkt: Dict[str, Any]) -> Optional[str]:
+    facts = pkt.get("facts") or {}
+    s = facts.get("sentiment", None)
+    if s is None:
+        return None
+    label = random.choice(_PHRASES)
+    return f"{label}: {float(s):+0.2f}"
+
+# ---------------------------
+# Packet loading
+# ---------------------------
+def _load_packet(p: Path) -> Optional[Dict[str, Any]]:
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+def _iter_packets(inbox: Path) -> List[Dict[str, Any]]:
+    files = sorted(inbox.glob("*.json"), key=lambda x: x.stat().st_mtime, reverse=True)
+    out: List[Dict[str, Any]] = []
+    for f in files:
+        pkt = _load_packet(f)
+        if pkt is None:
             continue
-        if urgent and "urgent" not in str(m.get("subject","")).lower():
-            # Check for explicit urgency field as well
-            if str(m.get("urgency","")).lower() != "urgent":
-                continue
-        if since_weeks:
-            ts = Path(m.get("_path","")) 
-            try:
-                stamp_part = ts.stem.rsplit('_', 1)[-1] 
-                
-                if len(stamp_part) == 15 and stamp_part[8] == '_':
-                    t = dt.datetime.strptime(stamp_part, "%Y%m%d_%H%M%S")
-                elif len(stamp_part) >= 6:
-                     t = dt.datetime.strptime(stamp_part, "%H%M%S")
-                else:
-                    raise ValueError("Timestamp format not recognized")
-                
-                if (now - t).days > since_weeks * 7:
-                    continue
-            except Exception:
-                pass
-        out.append(m)
+        pkt["_file"] = f.name
+        pkt["_mtime"] = datetime.fromtimestamp(f.stat().st_mtime).isoformat(timespec="seconds")
+        out.append(pkt)
     return out
 
-def _print_messages(msgs, limit=None):
-    if not msgs:
-        print("[ui_mock] No messages found.")
-        return
-        
-    INDENT_STR = "    "
-    # 📌 REPLACED: Loop with color and badge logic
-    for i, m in enumerate(msgs[:limit or len(msgs)], 1):
-        # Ensure role is padded/truncated cleanly
-        role = m.get("role","?").ljust(6)[:6]
-        subj = m.get("subject","(no subject)")
-        
-        # Urgency/Color Logic
-        urg  = str(m.get("urgency","normal")).lower()
-        badge = {"urgent":"ERR", "high":"WARN", "normal":"INFO", "low":"INFO"}.get(urg, "INFO")
-        kind  = {"urgent":"err","high":"warn","normal":"info","low":"info"}.get(urg,"info")
-        
-        summ = m.get("summary","").strip()
-        facts = m.get("facts",{})
-
-        head = f"[{i:02}] {role} | {subj} | {badge}"
-        print(_color(head, kind))
-        
-        # Dimmed Finance Facts
-        if facts:
-            fact_line = f"{INDENT_STR}$ balance={facts.get('balance','?')}  donor_yield={facts.get('donor_yield','?')}  prestige={facts.get('prestige','?')}  sentiment={facts.get('sentiment','?')}"
-            print(_color(fact_line, "dim"))
-            
-        # Summary and Path
-        print(textwrap.indent(summ, INDENT_STR))
-        print(f"{INDENT_STR}↳", m.get("_path",""))
-        print("-" * 60)
-
-def selftest():
-    inbox = DEFAULT_INBOX
-    msgs = _load_messages(inbox)
-    print(f"[ui_mock] Loaded {len(msgs)} messages from {inbox}")
-    _print_messages(msgs[:5])
-
-def main():
-    p = argparse.ArgumentParser()
-    p.add_argument("--role", help="Filter by role (AAD, Coach, Board)")
-    p.add_argument("--urgent", action="store_true", help="Show only urgent items")
-    p.add_argument("--since", type=int, help="Only show messages newer than N weeks")
-    p.add_argument("--limit", type=int, help="Max messages to display")
-    p.add_argument("--inbox", default=str(DEFAULT_INBOX), help="Path to inbox directory")
-    p.add_argument("--selftest", action="store_true", help="Run quick preview")
-    args = p.parse_args()
+# ---------------------------
+# CLI
+# ---------------------------
+def main(argv: Optional[List[str]] = None) -> int:
+    ap = argparse.ArgumentParser(description="Console viewer for INBOX packets")
+    ap.add_argument("--inbox", default="logs/INBOX", help="Directory with packet JSONs")
+    ap.add_argument("--limit", type=int, default=10, help="Max messages to show")
+    ap.add_argument("--role", choices=["AAD","Coach","Board"], help="Filter by role")
+    ap.add_argument("--since", help="ISO date (YYYY-MM-DD) to filter newer messages")
+    args = ap.parse_args(argv)
 
     inbox = Path(args.inbox)
-    if args.selftest:
-        selftest()
-        return
+    if not inbox.exists():
+        print(f"INBOX not found: {inbox}")
+        return 1
 
-    msgs = _load_messages(inbox)
-    msgs = _filter_messages(msgs, role=args.role, urgent=args.urgent, since_weeks=args.since)
-    _print_messages(msgs, limit=args.limit)
+    packets = _iter_packets(inbox)
+
+    # optional filters
+    if args.role:
+        packets = [p for p in packets if (p.get("role") or "").upper() == args.role.upper()]
+    if args.since:
+        try:
+            cut = datetime.fromisoformat(args.since)
+            packets = [p for p in packets if datetime.fromisoformat(p["_mtime"]) >= cut]
+        except Exception:
+            print("WARN: --since must be YYYY-MM-DD (e.g., 2025-10-29)")
+
+    count = 0
+    for pkt in packets:
+        if count >= max(args.limit, 1):
+            break
+
+        role = pkt.get("role", "?")
+        subject = pkt.get("subject", "(no subject)")
+        urgency = (pkt.get("urgency") or "INFO").upper()
+        badge = pkt.get("urgency_badge") or {"INFO":"[ ]","WARN":"[!]","URGENT":"[!!!]"}[urgency]
+        ts = pkt.get("_mtime", "")
+
+        header = f"{badge} {role}: {subject}  — {ts}"
+        print(_paint_header(header, urgency))
+
+        sent_line = _format_sentiment(pkt)
+        if sent_line:
+            facts = pkt.get("facts") or {}
+            score = float(facts.get("sentiment", 0.0))
+            print("   " + _paint_sent(sent_line, score))
+
+        # optional: show filename in faint text
+        if _ansi_ok():
+            print(f"\x1b[90m   {pkt.get('_file','')}\x1b[0m")
+        else:
+            print(f"   {pkt.get('_file','')}")
+
+        count += 1
+
+    if count == 0:
+        print("(no messages matched)")
+    return 0
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
