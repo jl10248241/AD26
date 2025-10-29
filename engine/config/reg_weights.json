@@ -1,0 +1,9 @@
+{
+  "version": "v17.2-baseline",
+  "weekly_rolls": 3,
+  "weights": {
+    "positive": 0.45,
+    "neutral": 0.25,
+    "negative": 0.3
+  }
+}

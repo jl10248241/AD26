@@ -1,0 +1,50 @@
+{
+  "version": "DBS_v1",
+  "updated": "2025-10-26T16:58:02.223452",
+  "drift_mu_weekly": {
+    "Consistency": 0.006,
+    "Honesty": 0.005,
+    "Accountability": 0.006,
+    "Empathy": 0.01,
+    "Poise": 0.012,
+    "Curiosity": 0.015,
+    "WorkEthic": 0.008,
+    "RiskTolerance": 0.012,
+    "SocialSavvy": 0.015,
+    "SystemsThinking": 0.013,
+    "ShortTerm": 0.011,
+    "LongTerm": 0.009
+  },
+  "era_caps": {
+    "Consistency": 12,
+    "Honesty": 10,
+    "Accountability": 12,
+    "Empathy": 20,
+    "Poise": 20,
+    "Curiosity": 24,
+    "WorkEthic": 14,
+    "RiskTolerance": 18,
+    "SocialSavvy": 24,
+    "SystemsThinking": 18,
+    "ShortTerm": 18,
+    "LongTerm": 16
+  },
+  "region_overrides": {
+    "Southeast": {
+      "SocialSavvy": 1.05,
+      "RiskTolerance": 1.05
+    },
+    "Midwest": {
+      "Consistency": 1.05,
+      "WorkEthic": 1.05
+    },
+    "Northeast": {
+      "SystemsThinking": 1.05,
+      "Poise": 1.05
+    },
+    "WestCoast": {
+      "Curiosity": 1.08,
+      "Empathy": 1.05
+    }
+  }
+}

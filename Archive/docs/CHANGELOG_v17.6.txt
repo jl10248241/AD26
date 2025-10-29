@@ -1,0 +1,57 @@
+College AD – CHANGELOG (v17.6)
+Date: 2025-10-29
+Author: Development Build Assistant
+
+------------------------------------------------------------
+SUMMARY:
+Major milestone introducing the Donor Memory System and
+Assistant AD (AAD) Dialogue prototype.
+------------------------------------------------------------
+
+NEW FILES:
++ engine/src/aad_dialogue.py
++ engine/src/seed_donors.py
++ data/donors.json
++ data/donors.summary.json
++ logs/DONOR_LEDGER.csv
++ docs/PROJECT_STATUS_v17.6.md
++ docs/CHANGELOG_v17.6.txt
+
+UPDATED FILES:
+* engine/src/run_tick.py – verified donor hooks stable
+* engine/src/donor_report_plus.py – generates relationship metrics
+* docs/FINANCE_TRENDS.md – refreshed output structure
+* .env – ensures DATA_DIR and LOG_DIR paths defined
+
+REMOVED / DEPRECATED:
+– None
+
+CORE UPGRADES:
+- Added donor tracking persistence (trust, leverage, pledges)
+- Introduced donor relationship summaries and risk / opportunity flags
+- Expanded Analyzer for donor metrics and insights
+- Implemented natural-language output conversion in AAD assistant
+- Enabled multiple donors and schools (State U + 131 schools)
+- All analyzer and finance systems verified stable with CSV output
+
+INTERACTIVE AAD FEATURES:
+- Responds to player queries via PowerShell or console
+- Recognizes natural language for:
+  "how are donor relationships", "who’s at risk",
+  "list opportunities", "tell me about [School]"
+- Produces conversational feedback (e.g. “Start small, low-ask…”)
+- Dynamic text scoring: Excellent, Good, Fair, Wobbly, At-Risk
+
+NEXT BUILD TARGETS (v17.7):
+- Donor Memory Fade system
+- Cross-AI communication (Coaches, Board, Donors)
+- Donor stipulation + reputation effect tracking
+- Early UI/UX mockups for AD communication screen
+
+NOTES:
+This version represents a fully stable baseline for the v18
+AI-driven expansion. All finance, logging, and donor subsystems
+function independently and integrate cleanly.
+
+------------------------------------------------------------
+End of CHANGELOG_v17.6

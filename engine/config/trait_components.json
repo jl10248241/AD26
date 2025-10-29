@@ -1,0 +1,57 @@
+{
+  "version": "v17.2-baseline",
+  "alpha_blend": 0.35,
+  "traits": {
+    "Charisma": {
+      "core": {
+        "PublicImage": 0.4,
+        "RecruitPull": 0.4,
+        "Morale": 0.2
+      }
+    },
+    "Integrity": {
+      "core": {
+        "Compliance": 0.5,
+        "Honesty": 0.3,
+        "FairPlay": 0.2
+      }
+    },
+    "Discipline": {
+      "core": {
+        "Structure": 0.6,
+        "Accountability": 0.4
+      }
+    },
+    "Ego": {
+      "core": {
+        "Confidence": 0.6,
+        "Humility": -0.4
+      }
+    },
+    "Motivation": {
+      "core": {
+        "Drive": 0.7,
+        "Consistency": 0.3
+      }
+    },
+    "Adaptability": {
+      "core": {
+        "Learning": 0.5,
+        "Modernization": 0.5
+      }
+    },
+    "TacticalIntelligence": {
+      "core": {
+        "Strategy": 0.7,
+        "Situational": 0.3
+      }
+    },
+    "Leadership": {
+      "composite_of": [
+        "Charisma",
+        "Integrity",
+        "Discipline"
+      ]
+    }
+  }
+}

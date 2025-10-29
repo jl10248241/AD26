@@ -1,0 +1,17 @@
+{
+  "schema": "v1",
+  "global": { "tick_interval_weeks": 1, "clamp": { "min": -100.0, "max": 100.0 }, "baseline_gravity": -0.25 },
+  "archetypes": {
+    "Board":    { "half_life_weeks": 26, "ceiling": 100.0, "floor": -50.0 },
+    "Major":    { "half_life_weeks": 20, "ceiling": 95.0,  "floor": -60.0 },
+    "Booster":  { "half_life_weeks": 12, "ceiling": 90.0,  "floor": -70.0 },
+    "Alumni":   { "half_life_weeks": 18, "ceiling": 85.0,  "floor": -60.0 },
+    "Corporate":{ "half_life_weeks": 24, "ceiling": 92.0,  "floor": -55.0 }
+  },
+  "pulse_weights": {
+    "win": 1.0, "upset_win": 2.0, "rival_win": 2.5, "championship": 6.0,
+    "coach_hire": 2.0, "coach_fire": -2.5, "scandal": -6.0,
+    "facility_naming": 4.0, "capital_campaign_launched": 3.0
+  },
+  "readout": { "plain_english": true, "scale_to_0_100": true }
+}

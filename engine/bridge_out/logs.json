@@ -1,0 +1,26 @@
+[
+  {
+    "week": 1,
+    "event_id": "DONOR_PLEDGE",
+    "intensity": 12.99,
+    "target": "Prestige",
+    "effect": "+0.00->+12.99",
+    "notes": ""
+  },
+  {
+    "week": 1,
+    "event_id": "RECRUITING_SCANDAL",
+    "intensity": -15.54,
+    "target": "Prestige",
+    "effect": "+12.99->-2.54",
+    "notes": ""
+  },
+  {
+    "week": 1,
+    "event_id": "RECRUITING_SCANDAL",
+    "intensity": -10.76,
+    "target": "MediaHeat",
+    "effect": "+0.00->-10.76",
+    "notes": ""
+  }
+]

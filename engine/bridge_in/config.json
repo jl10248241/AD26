@@ -1,0 +1,9 @@
+{
+  "core": {
+    "days_per_week": 7,
+    "tick_days": 7,
+    "gravity_scale": 0.25,
+    "anchor_strength_default": 1.0,
+    "base_decay": 0.0
+  }
+}

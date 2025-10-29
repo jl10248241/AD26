@@ -1,0 +1,22 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build & binary junk
+*.zip
+*.tmp
+*.bak
+
+# Generated logs & outputs
+logs/
+engine/data/logs/
+engine/bridge_out/
+
+# Dataset & spreadsheets that should not be versioned
+# (uncomment if you don't want to track the workbook)
+# engine/data/*.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
