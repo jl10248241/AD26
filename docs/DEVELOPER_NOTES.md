@@ -1,15 +1,15 @@
-ï»¿# Developer Notes (Updated for v17.8)
+# Developer Notes (Updated for v17.8)
 
-## CLI â€” Packet Emission
+## CLI — Packet Emission
 - Emit demo packets:
 
 
-python -m engine.src.v17_8.communication_bridge --selftest --out-dir logs/INBOX
+python -m engine.src.v17_8.communication_bridge --selftest --inbox logs/INBOX
 
 - Writes 3 packets (AAD/Coach/Board)
 - Appends logs/INBOX/index.csv with 	imestamp,role,subject,urgency,file
 
-## CLI â€” View / Triage
+## CLI — View / Triage
 - Basic:
 
 

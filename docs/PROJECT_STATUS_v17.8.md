@@ -1,4 +1,4 @@
-Ôªø# Project Status ‚Äî v17.8 (2025-10-29)
+# Project Status ó v17.8 (2025-10-29)
 
 ## Summary
 v17.8 focuses on communication clarity and auditability:
@@ -10,13 +10,13 @@ v17.8 focuses on communication clarity and auditability:
 ## What shipped in v17.8
 - **INBOX Index**: every emitted packet appends a row to logs/INBOX/index.csv (timestamp, role, subject, urgency, file).
 - **Urgency**: packets carry urgency (INFO / WARN / URGENT) and urgency_badge ([ ], [!], [!!!]).
-- **CLI Viewer**: 	ools/ui_mock.py shows badges in color (ANSI-safe), and a varied sentiment line (‚ÄúSentiment / Fan mood / Pulse / Crowd vibe / Temperature‚Äù).
+- **CLI Viewer**: 	ools/ui_mock.py shows badges in color (ANSI-safe), and a varied sentiment line (ìSentiment / Fan mood / Pulse / Crowd vibe / Temperatureî).
 - **Filters**: --role, --limit, --since in the viewer for quick triage.
 - **Guardrails**: scripts/Validate-Workspace.ps1 + pre-commit hook prevent structure drift.
 
 ## Verified commands
 - Emit sample packets:
-python -m engine.src.v17_8.communication_bridge --selftest --out-dir logs/INBOX
+python -m engine.src.v17_8.communication_bridge --selftest --inbox logs/INBOX
 - View packets:
 python tools/ui_mock.py --inbox logs/INBOX --limit 6
 python tools/ui_mock.py --role Coach --since 2025-10-29
@@ -29,7 +29,7 @@ python tools/inbox_build_index.py --inbox logs/INBOX --rebuild
 
 ## Open items (carry to v17.9)
 - Role-aware phrasing packs for sentiment (AAD/Coach/Board).
-- Optional ‚Äúsince minutes/hours‚Äù flags in viewer.
+- Optional ìsince minutes/hoursî flags in viewer.
 - Docs: user-facing quickstart (non-developer).
 
 ## Risks / Notes

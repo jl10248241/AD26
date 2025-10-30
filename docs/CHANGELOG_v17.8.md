@@ -1,4 +1,4 @@
-﻿# Changelog — v17.8 (2025-10-29)
+# Changelog � v17.8 (2025-10-29)
 
 ### Added
 - **INBOX index**: automatic logs/INBOX/index.csv writing on each emit.
@@ -12,7 +12,7 @@
 ### Changed
 - **Bridge** (engine/src/v17_8/communication_bridge.py):
 - Derives urgency at write time; attaches urgency_badge.
-- Self-test CLI writes samples with --selftest --out-dir.
+- Self-test CLI writes samples with --selftest --inbox.
 - **Developer experience**:
 - Pre-commit hook runs scripts/Validate-Workspace.ps1.
 - .gitignore expanded to exclude logs, archives, and caches.
