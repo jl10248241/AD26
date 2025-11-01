@@ -1,0 +1,38 @@
+{
+  "aad_name": "Assistant AD",
+  "actor": "AAD:1",
+  "allow": [],
+  "enabled": true,
+  "allow_autosend": true,
+  "require_ack": false,
+  "max_daily_actions": "3",
+  "hours_per_action": 0.25,
+  "amplify_threshold": 0.5,
+  "downplay_threshold": -0.4,
+  "ignore_window": [
+    -0.1,
+    0.1
+  ],
+  "relationship_targets": {
+    "Local": "Media:Local Beat",
+    "Regional": "Media:Regional",
+    "National": "Media:National"
+  },
+  "schedule_type_map": {
+    "amplify": "comms_media",
+    "downplay": "comms_media",
+    "ignore": "comms_triage"
+  },
+  "sentiment_boosts": {
+    "amplify": {
+      "Local": 0.02,
+      "Regional": 0.03,
+      "National": 0.05
+    },
+    "downplay": {
+      "Local": 0.02,
+      "Regional": 0.02,
+      "National": 0.03
+    }
+  }
+}

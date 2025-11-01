@@ -1,6 +1,6 @@
 # engine/src/aad_dialogue.py
-# v17.6 – AAD (Assistant AD) console helper
-# Standalone, friendly phrasing, no external deps beyond donors.summary.json
+# v17.9 – AAD (Assistant AD) console helper
+# Reads donors.summary.json, renders with plain-language UI strings
 
 from __future__ import annotations
 from pathlib import Path
@@ -8,26 +8,36 @@ from typing import Any, Dict, List, Optional
 import json
 import re
 
+# NEW: pull real, friendly UI helpers
+from ui_strings import (
+    aad_to_public,
+    donor_summary,
+    coach_summary,
+    inbox_title,
+    inbox_line,
+    kv_label,
+    fmt_percent,
+)
+
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
 LOGS = ROOT / "logs"
 
-SUMMARY_PATH = DATA / "donors.summary.json"   # produced by donor_report_plus
-DONORS_PATH  = DATA / "donors.json"           # produced by seed_donors (optional)
-
+SUMMARY_PATH = DATA / "donors.summary.json"    # produced by donor_report_plus
+DONORS_PATH  = DATA / "donors.json"            # produced by seed_donors (optional)
 
 # -------------------------------
 # I/O utilities
 # -------------------------------
 def load_json(p: Path) -> Optional[dict]:
+    """Load JSON from path, returning None if file doesn't exist."""
     if not p.exists():
         return None
     with p.open(encoding="utf-8") as f:
         return json.load(f)
 
-
 # -------------------------------
-# Light scoring / labels
+# Light scoring / labels (kept)
 # -------------------------------
 def clamp(v: float, lo: float = 0.0, hi: float = 1.0) -> float:
     return max(lo, min(hi, v))
@@ -47,41 +57,37 @@ def opp_tag(trust: float, leverage: float, score: float) -> bool:
     # warm but under-leveraged
     return (trust >= 0.6) and (leverage < 0.25) and (score >= 50)
 
-
 # -------------------------------
 # NLG helpers (friendly phrasing)
 # -------------------------------
 def nlg_detail(d: Dict[str, Any]) -> str:
     """
-    Turn a single school's donor summary dict into a readable, coach-friendly line.
+    Convert one school's donor summary dict into a readable line,
+    using ui_strings' donor_summary() for consistent phrasing.
     Expects keys: id, metrics:{trust, lev}, score, flags, pledges:{count,total}
     """
     school = d.get("id", "Unknown")
-    trust = float(d.get("metrics", {}).get("trust", 0.5))
-    lev   = float(d.get("metrics", {}).get("lev", 0.1))
-    score = float(d.get("score", 50))
-    label = score_label(score)
+    trust = d.get("metrics", {}).get("trust")
+    lev   = d.get("metrics", {}).get("lev")
+    pledges = d.get("pledges", {}) or {}
 
-    flags = d.get("flags", [])
-    flags_txt = "none" if not flags else ", ".join(flags)
+    # Build a minimal “public” dict for the donor_summary helper.
+    public_payload = {
+        "name": school,
+        "tier": d.get("tier", "—"),
+        "trust": trust,
+        "leverage": lev,
+        "sentiment": d.get("sentiment"),  # optional
+        "pledge_status": d.get("pledge_status", "pending"),
+        "pledge_expected": pledges.get("total", 0.0),
+        "pledge_received": pledges.get("received", 0.0),
+        "next_action": d.get("next_action"),
+        "next_action_in_days": d.get("next_action_in_days"),
+    }
 
-    pledges = d.get("pledges", {})
-    pcount  = int(pledges.get("count", 0))
-    ptotal  = float(pledges.get("total", 0.0))
-
-    # quick advice
-    if trust < 0.4:
-        tip = "Start soft—quick check-in, share a small win, rebuild confidence."
-    elif lev < 0.1 and trust >= 0.6:
-        tip = "They’re warm but not influential yet—invite them into a small committee."
-    elif score >= 65:
-        tip = "Good footing—consider a targeted ask tied to a visible outcome."
-    else:
-        tip = "Keep a steady cadence—one tangible outcome before the next ask."
-
-    return (f"{school}: trust {trust:.2f}, leverage {lev:.2f}, score {int(round(score))} ({label}). "
-            f"Flags: {flags_txt}. Pledges: {pcount} totaling ${ptotal:,.0f}. Suggestion: {tip}")
-
+    # Normalize any alternate field names if present
+    public_payload = aad_to_public(public_payload)
+    return donor_summary(public_payload)
 
 def nlg_opening(summary: dict) -> str:
     items: List[dict] = summary.get("items", [])
@@ -93,9 +99,9 @@ def nlg_opening(summary: dict) -> str:
     avg_t   = sum(trusts)/len(trusts)
     avg_l   = sum(levs)/len(levs)
     avg_s   = sum(scores)/len(scores)
+    # Use friendly percent for trust/leverage
     return (f"Alright, Coach—what’s on your mind? We’re tracking {len(items)} donor relationships program-wide. "
-            f"Avg trust {avg_t:.2f}, leverage {avg_l:.2f}, score {int(round(avg_s))}.")
-
+            f"Avg trust {fmt_percent(avg_t)}, influence {fmt_percent(avg_l)}, score {int(round(avg_s))}.")
 
 # -------------------------------
 # Data shaping (tolerant to missing fields)
@@ -116,34 +122,37 @@ def normalize_items(summary: dict) -> List[dict]:
             "flags": flags,
             "pledges": {
                 "count": int(pledges.get("count", 0)),
-                "total": float(pledges.get("total", 0.0))
+                "total": float(pledges.get("total", 0.0)),
+                "received": float(pledges.get("received", 0.0)),
             }
         })
     return out
 
-
 # -------------------------------
-# Command handlers
+# Command handlers (kept)
 # -------------------------------
 def handle_overview(summary: dict) -> str:
     return nlg_opening(summary)
 
 def handle_risks(summary: dict) -> str:
     items = normalize_items(summary)
+    if not items:
+        return "I don’t have any donor relationship data yet."
     risky = [i for i in items if risk_tag(i["metrics"]["trust"], i["metrics"]["lev"], i["score"])]
     if not risky:
         return "No donors on the watchlist right now."
-    # list concise bullets
     lines = []
     for r in risky[:8]:
         t = r["metrics"]["trust"]; l = r["metrics"]["lev"]; s = r["score"]
-        lines.append(f"- {r['id']}: trust {t:.2f}, lev {l:.2f}, score {int(round(s))} ({score_label(s)})")
+        lines.append(f"- {r['id']}: trust {fmt_percent(t)}, influence {fmt_percent(l)}, score {int(round(s))} ({score_label(s)})")
     if len(risky) > 8:
         lines.append(f"...and {len(risky)-8} more.")
     return "Watchlist:\n" + "\n".join(lines)
 
 def handle_opportunities(summary: dict) -> str:
     items = normalize_items(summary)
+    if not items:
+        return "I don’t have any donor relationship data yet."
     opps = [i for i in items if opp_tag(i["metrics"]["trust"], i["metrics"]["lev"], i["score"])]
     if not opps:
         return "No new donor opportunities this cycle."
@@ -156,6 +165,8 @@ def handle_opportunities(summary: dict) -> str:
 
 def handle_school(summary: dict, name: str) -> str:
     items = normalize_items(summary)
+    if not items:
+        return "I don’t have any donor relationship data yet."
     # loose match on school name
     name_norm = name.lower().strip()
     best = None
@@ -168,9 +179,8 @@ def handle_school(summary: dict, name: str) -> str:
         return f"I couldn't find anything for '{name}'."
     return nlg_detail(best)
 
-
 # -------------------------------
-# Simple intent router
+# Simple intent router (kept)
 # -------------------------------
 def route(summary: dict, user: str) -> str:
     q = user.strip().lower()
@@ -199,11 +209,52 @@ def route(summary: dict, user: str) -> str:
     # polite prompt for options
     return "I can give you donor summaries, risks, opportunities, or a specific school report."
 
+# -------------------------------
+# Demonstration / Self-Test (updated to use real helpers)
+# -------------------------------
+def selftest_display() -> None:
+    print("\n" + "="*50)
+    print("AAD Dialogue Display Self-Test")
+    print("="*50)
+
+    # --- 1. Event Printing Logic ---
+    print("\n--- Event Formatting Demo ---")
+    events = [
+        # Matches ui_strings pledge line patterns
+        {"type": "pledge_promised", "donor": "MegaCorp", "amount": 250000, "days_ago": 1},
+        {"type": "contact_required", "donor": "Alumni Board", "days_ago": 3},
+        # Fallback example
+        {"type": "update", "subject": "Rival Win", "summary": "Beat Rival 24-20", "days_ago": 0},
+    ]
+    for e in events:
+        print(inbox_title(e))
+        print("  " + inbox_line(e))
+
+    # --- 2. Donor KV Formatting Demo ---
+    print("\n--- Donor KV Formatting Demo ---")
+    donor_data = {
+        "trust": 0.85,
+        "leverage": 0.32,
+        "sentiment": 0.4,
+        "pledge_expected": 1500000.0,   # will format as money
+        "pledge_received": 500000.0,    # will format as money
+        "last_contact_days": 2,
+    }
+    for key, val in donor_data.items():
+        label, pretty = kv_label(key, val)
+        print(f"  {label}: {pretty}")
+
+    print("\n" + "="*50)
 
 # -------------------------------
 # Main REPL
 # -------------------------------
 def main() -> None:
+    import sys
+    if "--selftest" in sys.argv:
+        selftest_display()
+        return
+
     summary = load_json(SUMMARY_PATH) or {"items": []}
 
     print("Assistant AD ready for duty. Type 'exit' to quit.")

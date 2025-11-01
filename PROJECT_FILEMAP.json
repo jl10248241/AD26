@@ -1,0 +1,2662 @@
+﻿[
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.env",
+        "Length":  107,
+        "LastWriteTime":  "\/Date(1761734367763)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.gitattributes",
+        "Length":  126,
+        "LastWriteTime":  "\/Date(1761767181562)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.gitignore",
+        "Length":  330,
+        "LastWriteTime":  "\/Date(1761769479309)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\BACKUP_LOG.tsv",
+        "Length":  26,
+        "LastWriteTime":  "\/Date(1761966542496)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\PROJECT_FILEMAP.txt",
+        "Length":  59334,
+        "LastWriteTime":  "\/Date(1762006702886)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\VERSION.txt",
+        "Length":  9,
+        "LastWriteTime":  "\/Date(1761966565836)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\COMMIT_EDITMSG",
+        "Length":  59,
+        "LastWriteTime":  "\/Date(1761786964151)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\config",
+        "Length":  193,
+        "LastWriteTime":  "\/Date(1761767181510)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\description",
+        "Length":  73,
+        "LastWriteTime":  "\/Date(1761766903368)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\HEAD",
+        "Length":  37,
+        "LastWriteTime":  "\/Date(1761771037471)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\index",
+        "Length":  10687,
+        "LastWriteTime":  "\/Date(1761786963843)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\ORIG_HEAD",
+        "Length":  41,
+        "LastWriteTime":  "\/Date(1761776716651)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\applypatch-msg.sample",
+        "Length":  478,
+        "LastWriteTime":  "\/Date(1761766903368)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\commit-msg.sample",
+        "Length":  896,
+        "LastWriteTime":  "\/Date(1761766903375)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\fsmonitor-watchman.sample",
+        "Length":  4726,
+        "LastWriteTime":  "\/Date(1761766903375)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\post-update.sample",
+        "Length":  189,
+        "LastWriteTime":  "\/Date(1761766903375)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-applypatch.sample",
+        "Length":  424,
+        "LastWriteTime":  "\/Date(1761766903376)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-commit",
+        "Length":  216,
+        "LastWriteTime":  "\/Date(1761770245266)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-commit.sample",
+        "Length":  1649,
+        "LastWriteTime":  "\/Date(1761766903376)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-merge-commit.sample",
+        "Length":  416,
+        "LastWriteTime":  "\/Date(1761766903376)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-push.sample",
+        "Length":  1374,
+        "LastWriteTime":  "\/Date(1761766903377)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-rebase.sample",
+        "Length":  4898,
+        "LastWriteTime":  "\/Date(1761766903377)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\pre-receive.sample",
+        "Length":  544,
+        "LastWriteTime":  "\/Date(1761766903377)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\prepare-commit-msg.sample",
+        "Length":  1492,
+        "LastWriteTime":  "\/Date(1761766903377)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\push-to-checkout.sample",
+        "Length":  2783,
+        "LastWriteTime":  "\/Date(1761766903378)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\sendemail-validate.sample",
+        "Length":  2308,
+        "LastWriteTime":  "\/Date(1761766903378)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\hooks\\update.sample",
+        "Length":  3650,
+        "LastWriteTime":  "\/Date(1761766903378)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\info\\exclude",
+        "Length":  240,
+        "LastWriteTime":  "\/Date(1761766903379)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\logs\\HEAD",
+        "Length":  1385,
+        "LastWriteTime":  "\/Date(1761786964155)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\logs\\refs\\heads\\v17.8\\inbox-index",
+        "Length":  210,
+        "LastWriteTime":  "\/Date(1761770334762)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\logs\\refs\\heads\\v17.8\\scaffold",
+        "Length":  149,
+        "LastWriteTime":  "\/Date(1761771017681)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\logs\\refs\\heads\\v17.8\\urgency-badges",
+        "Length":  959,
+        "LastWriteTime":  "\/Date(1761786964155)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\01\\6739e3b453842a900178d4434afe1ea37c8b94",
+        "Length":  118341,
+        "LastWriteTime":  "\/Date(1761766962021)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\02\\bf089dc02f5eac1c17e7c14806054322fe196b",
+        "Length":  611,
+        "LastWriteTime":  "\/Date(1761766961885)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\04\\be798daae8ca02e5e088dac913183f91f3f713",
+        "Length":  166,
+        "LastWriteTime":  "\/Date(1761766963026)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\04\\d9c41052231d4461e06a8fe3dca62e7aa6a510",
+        "Length":  107,
+        "LastWriteTime":  "\/Date(1761766963204)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\06\\a9b7f9b7360be5b93528c89454820c810ade28",
+        "Length":  9286,
+        "LastWriteTime":  "\/Date(1761766961989)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\07\\35aa04fb9201d8e77c333c078e12a141aa1c76",
+        "Length":  210,
+        "LastWriteTime":  "\/Date(1761786958046)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\07\\659eb035bca3dc543b672595d2d88292212a8c",
+        "Length":  310,
+        "LastWriteTime":  "\/Date(1761786963839)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\09\\c4f80d2afb6b61b0dec4a72485a9614e5d4ec9",
+        "Length":  888,
+        "LastWriteTime":  "\/Date(1761766963218)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0a\\eee43d3adf912ff98d014f81a4aba5f49d5bdf",
+        "Length":  1972,
+        "LastWriteTime":  "\/Date(1761766963126)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0b\\cdcda422bc014b9bd2362f473e1516a587d370",
+        "Length":  337,
+        "LastWriteTime":  "\/Date(1761770271573)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0d\\0f8e82a10cd67fb23be8284214c825df6ab06c",
+        "Length":  3006,
+        "LastWriteTime":  "\/Date(1761766962958)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0d\\f21f93226d3293326213f050441ba87d7f645b",
+        "Length":  402,
+        "LastWriteTime":  "\/Date(1761766961968)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0e\\4d23594a3c36be8d65b0c79207678ed5b602ae",
+        "Length":  60,
+        "LastWriteTime":  "\/Date(1761766963124)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0e\\cd08c0a21ba2ac72914771e9ed5cd7dc8554a4",
+        "Length":  126,
+        "LastWriteTime":  "\/Date(1761766963106)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0f\\1d649c8603f3053e3400992183de92a0d7c8e9",
+        "Length":  236,
+        "LastWriteTime":  "\/Date(1761766963210)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\0f\\b359ae002ddc88fab9bf966860258502aada51",
+        "Length":  2275,
+        "LastWriteTime":  "\/Date(1761766961926)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\13\\20514d826631e53cdc6f6e932a190d08e428d9",
+        "Length":  5125,
+        "LastWriteTime":  "\/Date(1761766963044)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\13\\e40a5ebe2407555d2757b112a51e25e1aeb7bc",
+        "Length":  1142,
+        "LastWriteTime":  "\/Date(1761766963078)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\14\\5191fa800348c64f9911ba2199c080099dcaa1",
+        "Length":  236,
+        "LastWriteTime":  "\/Date(1761766961964)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\15\\a7f593b1634f1d9e76801a8a11d1bcf7e6f892",
+        "Length":  381,
+        "LastWriteTime":  "\/Date(1761767210359)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\16\\75d9e0fbbed67485e6ec030e2326de0dbc4869",
+        "Length":  914,
+        "LastWriteTime":  "\/Date(1761766963019)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\17\\612a7e120444ae1d383f3758e7bbc0be2f2214",
+        "Length":  368,
+        "LastWriteTime":  "\/Date(1761766963127)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\17\\c1e6caed6f0fcb46f7219aa656e32131fb0b3c",
+        "Length":  110188,
+        "LastWriteTime":  "\/Date(1761766962004)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\18\\5bd84af0b5ab049515458b64055f0b92db6f07",
+        "Length":  117,
+        "LastWriteTime":  "\/Date(1761766963187)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\19\\4697efea39d030e1671569c5fdee1594f4b92c",
+        "Length":  186,
+        "LastWriteTime":  "\/Date(1761766961891)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\1a\\83af81c26710cf75e9b617c520189afeac038d",
+        "Length":  2080,
+        "LastWriteTime":  "\/Date(1761766961929)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\1d\\60c9fbbb8a004f1459f9362c82fe556d11704d",
+        "Length":  3029,
+        "LastWriteTime":  "\/Date(1761766962952)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\1d\\c6b8ec4d326ad016a6bd49ee82ac2074891aff",
+        "Length":  3623,
+        "LastWriteTime":  "\/Date(1761775021179)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\1f\\ee7e52a6596e22cccd17cc936ea3e490089333",
+        "Length":  4684,
+        "LastWriteTime":  "\/Date(1761766963052)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\23\\362d5640b531fc50aaa4e799d03aa00b59c57f",
+        "Length":  310,
+        "LastWriteTime":  "\/Date(1761786957684)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\23\\9d7a0f25fdaa9737027e7ba63ce47b99ce09b7",
+        "Length":  256,
+        "LastWriteTime":  "\/Date(1761767858086)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\25\\638ea5bd592ab8f84a949d953daa74e7d5bda8",
+        "Length":  1118,
+        "LastWriteTime":  "\/Date(1761770271575)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\25\\fbda2254956c6a5f4737c240c5e7083e1e65d7",
+        "Length":  230,
+        "LastWriteTime":  "\/Date(1761766963222)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\27\\26751f60ac77509d527389e9eef0a94c94db33",
+        "Length":  93,
+        "LastWriteTime":  "\/Date(1761766963228)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\28\\37165101f747bf0fe01a2408aeb30cfe00ba95",
+        "Length":  126,
+        "LastWriteTime":  "\/Date(1761766961947)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\29\\001ea8de83a30caef90bed8fcdabcc9effeb2d",
+        "Length":  332,
+        "LastWriteTime":  "\/Date(1761766961971)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\29\\0ac38b4d7e97b9f59b93b5fc9f207e88c62822",
+        "Length":  119183,
+        "LastWriteTime":  "\/Date(1761766962053)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\2a\\2bec0e8b5c38714566a194fce3026c8b43017b",
+        "Length":  124140,
+        "LastWriteTime":  "\/Date(1761766962068)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\2b\\52a868acc1d3ce13fc3c6ac300c3c010e587a7",
+        "Length":  401,
+        "LastWriteTime":  "\/Date(1761770271574)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\2b\\a890db2c5ac63d9a1daa97e914d6334b214ed2",
+        "Length":  196,
+        "LastWriteTime":  "\/Date(1761776647722)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\2c\\31d96ae79d49b84b804938906c1fe3717e83f0",
+        "Length":  879,
+        "LastWriteTime":  "\/Date(1761770334416)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\2e\\566d6ff13bd9a48ff4b9e083fed85d2566eb4c",
+        "Length":  158,
+        "LastWriteTime":  "\/Date(1761766961943)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\33\\2482f0738984f64740b642e86c1434c3dc0e4e",
+        "Length":  206,
+        "LastWriteTime":  "\/Date(1761766961959)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\34\\9b9ee1d77dbe1f8e37fe57a9b086c7f246b6ea",
+        "Length":  202,
+        "LastWriteTime":  "\/Date(1761766963064)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\34\\de2ed48f3f8c153a29764af21a9f845de30f22",
+        "Length":  2452,
+        "LastWriteTime":  "\/Date(1761766961931)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\36\\49e968bf15247c3ad75ed41102453fba428ba6",
+        "Length":  461,
+        "LastWriteTime":  "\/Date(1761766963120)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\36\\f5a18bcba0854b8d0415128730e05eb177f8c8",
+        "Length":  113723,
+        "LastWriteTime":  "\/Date(1761766962099)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\37\\31b3e44d251ad543eca169bfdaaf0660d2c7d3",
+        "Length":  117134,
+        "LastWriteTime":  "\/Date(1761766962037)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\37\\97275a35b7f8d91c72b98c9878dbfa887c1f8f",
+        "Length":  2154,
+        "LastWriteTime":  "\/Date(1761767858029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\37\\cc0eb84d8b2893d8e0ec759a603e19c8b04fe0",
+        "Length":  300,
+        "LastWriteTime":  "\/Date(1761766961957)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\3b\\7f49efd6ec92a59f886307c5c75701f5bf190d",
+        "Length":  359,
+        "LastWriteTime":  "\/Date(1761766961937)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\3b\\feca7531cacbf2e1e95dcef97e3df523c33dc8",
+        "Length":  3021,
+        "LastWriteTime":  "\/Date(1761766962950)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\3c\\bfee64ebc9107694e7a74f4f3a8785b974cea1",
+        "Length":  2003,
+        "LastWriteTime":  "\/Date(1761766961934)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\3d\\dcc64d5a45617c9f88d668dc54f33dcf760384",
+        "Length":  120,
+        "LastWriteTime":  "\/Date(1761766963104)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\3f\\d3de8b01ec4b12ed153c1e76fc83089ac07df1",
+        "Length":  419,
+        "LastWriteTime":  "\/Date(1761766961987)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\41\\9b6d9dee5e1ef143db91a56db51a5cd6e0de5e",
+        "Length":  383,
+        "LastWriteTime":  "\/Date(1761769534413)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\42\\bbf789102e3f50288dcdf13bc0400311b58587",
+        "Length":  1652,
+        "LastWriteTime":  "\/Date(1761770271576)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\43\\3357e7031860183db716464399ab5c8afd1a60",
+        "Length":  187,
+        "LastWriteTime":  "\/Date(1761766963185)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\44\\a6f4267f9e87989baf3782eedd94a6ab9271ad",
+        "Length":  1778,
+        "LastWriteTime":  "\/Date(1761776645213)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\45\\9023c67d341f536147d263ae29be170447d5c0",
+        "Length":  30,
+        "LastWriteTime":  "\/Date(1761766961953)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\46\\09f8f690ee3c97d1b292d275cb41b64b70cf1d",
+        "Length":  77,
+        "LastWriteTime":  "\/Date(1761769534394)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\47\\6a34ffa9bcdaa6cf5bcaba477935892f58ccb2",
+        "Length":  1725,
+        "LastWriteTime":  "\/Date(1761766961924)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\48\\06f072a1bd0145ac0b0bc8d577c4a915f330d2",
+        "Length":  369,
+        "LastWriteTime":  "\/Date(1761766963041)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\48\\c3668f2ecfd0b7b4bd6843414112a21472e9b0",
+        "Length":  2281,
+        "LastWriteTime":  "\/Date(1761766961923)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\4b\\cefaae96869278e68616c948b0166e61a45d6f",
+        "Length":  257,
+        "LastWriteTime":  "\/Date(1761766963191)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\4c\\68860921377b02558f19de48349fb194a0abfb",
+        "Length":  303,
+        "LastWriteTime":  "\/Date(1761770334417)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\4c\\7140e23616d6e0c7c7be2e4f548d2aa5fd86f5",
+        "Length":  16238118,
+        "LastWriteTime":  "\/Date(1761766962813)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\4d\\cdf0f3c460050bd9b4abfdbee2cb7e039bff23",
+        "Length":  180,
+        "LastWriteTime":  "\/Date(1761770334402)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\51\\9fbc9fece5ff1b93bc52cb4eb05b39f54173e8",
+        "Length":  68,
+        "LastWriteTime":  "\/Date(1761766963097)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\52\\a10692bedea9106581557ab05acf24218714b9",
+        "Length":  75,
+        "LastWriteTime":  "\/Date(1761766961955)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\53\\3cbdf54c31669da42c86bf59954e129e2b142b",
+        "Length":  944,
+        "LastWriteTime":  "\/Date(1761786963788)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\55\\c75ae84157313a9763676e8a52eb1681325e61",
+        "Length":  197,
+        "LastWriteTime":  "\/Date(1761766963094)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\57\\658b03f7411676b3bc03f01dcd7f2550b45b08",
+        "Length":  211,
+        "LastWriteTime":  "\/Date(1761766963115)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\58\\2d82d9c8a69e2ae35a61e28e9c362afb88ee8f",
+        "Length":  169,
+        "LastWriteTime":  "\/Date(1761766961985)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\58\\6fe8585533455af5c756e3d90d7125e36f75cc",
+        "Length":  193,
+        "LastWriteTime":  "\/Date(1761786964152)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\58\\98122c2728cedf4cca601e06a70d57ee588723",
+        "Length":  218,
+        "LastWriteTime":  "\/Date(1761766963108)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5a\\8a9401ec81f107b9c747b662771b43c00ba968",
+        "Length":  3044,
+        "LastWriteTime":  "\/Date(1761766962949)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5a\\97244e48961653062f34ccd8adbfc5a8bd36a0",
+        "Length":  383,
+        "LastWriteTime":  "\/Date(1761786963841)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5c\\63a15436a244a3a85dda5e0f4770efa2d820e8",
+        "Length":  366,
+        "LastWriteTime":  "\/Date(1761766963013)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5c\\a24eb0132405d13edc36d80969f78a4bd29b83",
+        "Length":  689,
+        "LastWriteTime":  "\/Date(1761786963783)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5c\\df65b19f6049ee8851a46fa57c698f362dcb39",
+        "Length":  200840,
+        "LastWriteTime":  "\/Date(1761766963009)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5d\\e6a2f9953fa9e211a26e81e81cb671a77f5172",
+        "Length":  405,
+        "LastWriteTime":  "\/Date(1761766963131)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\5f\\4630293bfbb5264a00c0fba04db85cb8456528",
+        "Length":  181,
+        "LastWriteTime":  "\/Date(1761766963073)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\60\\693152b929d227577bdd3b12b785b3a0fbcb26",
+        "Length":  209,
+        "LastWriteTime":  "\/Date(1761770334401)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\60\\d60854d09aad57d24b68595b9e04c9ba2bd4dc",
+        "Length":  590,
+        "LastWriteTime":  "\/Date(1761766963200)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\64\\11dd2107ff9517a46fd53a3540340134aa5974",
+        "Length":  338,
+        "LastWriteTime":  "\/Date(1761767858090)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\64\\23c7ac3a68b8c10e0c72290e86665962c1e466",
+        "Length":  1502,
+        "LastWriteTime":  "\/Date(1761766963054)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\65\\d1be5722d52a918ce6dd35856f12ba5ff9e9d6",
+        "Length":  285,
+        "LastWriteTime":  "\/Date(1761766963112)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\65\\d63854a683e4b3293f8da8297a312e0b5484d8",
+        "Length":  555,
+        "LastWriteTime":  "\/Date(1761766961966)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\67\\9e24c31de38e0ecddef22e5555444ab6eaed8b",
+        "Length":  408,
+        "LastWriteTime":  "\/Date(1761766963047)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\67\\ad38147ae19f15a11e19d3a9604581d7b5e48c",
+        "Length":  1010,
+        "LastWriteTime":  "\/Date(1761766963021)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\68\\f211353daa0f9d56104336aa6321d31be7b214",
+        "Length":  372,
+        "LastWriteTime":  "\/Date(1761767858027)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\6a\\59337d2e41f6e9f48ec6031ada18549c64845e",
+        "Length":  541,
+        "LastWriteTime":  "\/Date(1761766963015)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\6d\\0fe325c708122e39ead49db249df8b58f68cdb",
+        "Length":  137,
+        "LastWriteTime":  "\/Date(1761768843865)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\6d\\d39d091517a8bd6836bebfd7c7308712b644e1",
+        "Length":  303,
+        "LastWriteTime":  "\/Date(1761775021243)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\6f\\1944c68441dc8b9abb5aaf1722829960688b9b",
+        "Length":  214,
+        "LastWriteTime":  "\/Date(1761766961945)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\73\\a47df1acf21327afe6cbe7fb526f630ba54205",
+        "Length":  84,
+        "LastWriteTime":  "\/Date(1761766963099)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\74\\05ee2742d365fda4d6ad8ecc838606f9dcd0da",
+        "Length":  253,
+        "LastWriteTime":  "\/Date(1761769497791)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\74\\c22b6351bd0210d9066a5e55850c9b499538e9",
+        "Length":  1036,
+        "LastWriteTime":  "\/Date(1761766961982)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\76\\7f358acc3e363896c832a5f5afd99c8b37feb9",
+        "Length":  1774,
+        "LastWriteTime":  "\/Date(1761766963069)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\78\\2ec821bd68373e1245d379abafcbabd0fcf982",
+        "Length":  56,
+        "LastWriteTime":  "\/Date(1761766963207)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\78\\e8863e922620b2c1cb4b925c18e8dbe832f6ad",
+        "Length":  383,
+        "LastWriteTime":  "\/Date(1761786957693)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\78\\eea1a8369029a0647964c7c4ff0fe2a3b39459",
+        "Length":  56,
+        "LastWriteTime":  "\/Date(1761766963189)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\79\\84778e8809e5bbdf6ddfeba35e9c6c986d6487",
+        "Length":  381,
+        "LastWriteTime":  "\/Date(1761768843867)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\7c\\11f4b9e9d21d78c125f7c033a1d63bcf823eff",
+        "Length":  767,
+        "LastWriteTime":  "\/Date(1761768680319)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\7d\\61c9a9001d2130c0f09d04d15be1d78a130bd2",
+        "Length":  3072,
+        "LastWriteTime":  "\/Date(1761766963038)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\7e\\e01859194394b878ce6113f2dc1337c6864b95",
+        "Length":  3258,
+        "LastWriteTime":  "\/Date(1761767858028)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\80\\380b19e1714f0c6e2139759bb42c0f7c3b0e3e",
+        "Length":  344,
+        "LastWriteTime":  "\/Date(1761766963230)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\81\\c19362df207ee633ca2225e764eee0359e5501",
+        "Length":  115,
+        "LastWriteTime":  "\/Date(1761770271574)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\84\\60631b4d137a0cb841637db39795a48259eac7",
+        "Length":  1296,
+        "LastWriteTime":  "\/Date(1761766961921)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\84\\74d1f9d9607a068a4632102a85654a25a1d857",
+        "Length":  216,
+        "LastWriteTime":  "\/Date(1761767858087)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\85\\6e230c95ef742216bd3a180fc03b6926bd65bb",
+        "Length":  240,
+        "LastWriteTime":  "\/Date(1761766961980)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\87\\02cd75e073932e4ccc9dd6d50cddf1b8718e04",
+        "Length":  524,
+        "LastWriteTime":  "\/Date(1761766963060)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\88\\83e4ac63d577591d96559476886c30b80af405",
+        "Length":  179,
+        "LastWriteTime":  "\/Date(1761770334413)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\88\\b73d8896e28f0496605539de9c0c5ccd03da24",
+        "Length":  988,
+        "LastWriteTime":  "\/Date(1761766963059)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\89\\38952ab0c3c6bcdd9719a355c260addf27edee",
+        "Length":  347,
+        "LastWriteTime":  "\/Date(1761766963225)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\8d\\26f4a4b54fa4fbc6ec977341e3b77bd19ca6f0",
+        "Length":  338,
+        "LastWriteTime":  "\/Date(1761769534411)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\8d\\a7ff3370f11f36f95f093899fce79ef131847a",
+        "Length":  973,
+        "LastWriteTime":  "\/Date(1761766963012)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\8e\\474cdf8e698c5e3dc8b08eca55e37e5f45e9a0",
+        "Length":  2813,
+        "LastWriteTime":  "\/Date(1761767858028)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\8f\\97de7c73ab98d35903dae14762f3ff980902f3",
+        "Length":  1924,
+        "LastWriteTime":  "\/Date(1761766963133)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\90\\6e38a227e3e0396d60ab2885bbe08a0a8068ec",
+        "Length":  341,
+        "LastWriteTime":  "\/Date(1761766961975)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\90\\c23105c4b402a80a28194f4e45447c2fe5c0a7",
+        "Length":  3050,
+        "LastWriteTime":  "\/Date(1761766963028)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\92\\55bf681af9d26331553ffee196597e7bf6c56a",
+        "Length":  111725,
+        "LastWriteTime":  "\/Date(1761766962084)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\92\\6b760343c9be49f45fd6b16ccea5bf94abf9f7",
+        "Length":  169,
+        "LastWriteTime":  "\/Date(1761770334758)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\94\\6c1eefd3476d1e2fcb3a234426352bef78169d",
+        "Length":  193,
+        "LastWriteTime":  "\/Date(1761769534405)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\94\\6ee10fb2c82875dacf1d3fbdfa66f968226a6e",
+        "Length":  913,
+        "LastWriteTime":  "\/Date(1761768843856)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\94\\7692acff7e53adcda2db70ccf30fb9a8305ed8",
+        "Length":  1594,
+        "LastWriteTime":  "\/Date(1761770271575)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\94\\f7ac94bb85d8b87f564f2389d3a0f386bd2f7f",
+        "Length":  567,
+        "LastWriteTime":  "\/Date(1761766963024)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\97\\7fba104e76d86c2477b6dea819ff3766dedbae",
+        "Length":  172,
+        "LastWriteTime":  "\/Date(1761766961951)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9a\\f03d80412d45453281e55e628d36da761428e4",
+        "Length":  913,
+        "LastWriteTime":  "\/Date(1761769534410)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9b\\3536b7b539a8bc978e42aa0d78620061319ff5",
+        "Length":  4299,
+        "LastWriteTime":  "\/Date(1761767858028)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9b\\6bc0146e32ab9c506c46ddd5b07df06feea1b7",
+        "Length":  139,
+        "LastWriteTime":  "\/Date(1761766961961)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9b\\9cb4351ccee9c4b3a3104259e10fdf6fafd03f",
+        "Length":  5371,
+        "LastWriteTime":  "\/Date(1761769497784)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9c\\1c5a2bfebdc365f75431aab5328b6fb54efeac",
+        "Length":  338,
+        "LastWriteTime":  "\/Date(1761766963219)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9d\\2ca497105682880b92885e32faceb31d0375e1",
+        "Length":  8363,
+        "LastWriteTime":  "\/Date(1761767857073)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9d\\9a8acdfff50f1fd839e47c127408e30d258583",
+        "Length":  408,
+        "LastWriteTime":  "\/Date(1761770271574)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9e\\26dfeeb6e641a33dae4961196235bdb965b21b",
+        "Length":  17,
+        "LastWriteTime":  "\/Date(1761766961920)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\9e\\74997e09e63432429a6b196aaf7dbb20f2fe65",
+        "Length":  114840,
+        "LastWriteTime":  "\/Date(1761766962113)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a0\\cce61b735fd799bc7318a50923389397f137b4",
+        "Length":  3014,
+        "LastWriteTime":  "\/Date(1761766962956)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a0\\e600ba3eff41d9ac6f50cd4de1ddaadd547278",
+        "Length":  3021,
+        "LastWriteTime":  "\/Date(1761766962954)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a1\\26ad3ce2f02ba9d633d209b7bc1564c364797b",
+        "Length":  7399,
+        "LastWriteTime":  "\/Date(1761766963034)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a2\\bd709fe37e5f40928b0ceade120da645e2c852",
+        "Length":  9272,
+        "LastWriteTime":  "\/Date(1761766963102)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a5\\29c5369e90585ea3c1794e7993e4ffa1feb73a",
+        "Length":  783,
+        "LastWriteTime":  "\/Date(1761766961978)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a8\\5b7d150ebb04f4d6ff65b33b1906f82e7d0088",
+        "Length":  2002,
+        "LastWriteTime":  "\/Date(1761766961932)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\a9\\12b727efb69f5b4dd986f399602e1a0b883b31",
+        "Length":  192,
+        "LastWriteTime":  "\/Date(1761767858086)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\aa\\b3c7be96c3ee64b71e9b5f7d36994039bf2964",
+        "Length":  338,
+        "LastWriteTime":  "\/Date(1761768843858)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ab\\b9dedefeb832f47e677bfc026ef66ac3731eb2",
+        "Length":  707,
+        "LastWriteTime":  "\/Date(1761786567089)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ab\\f94fdb47e0f1bcead3db8f38a76ce702cd4c14",
+        "Length":  101,
+        "LastWriteTime":  "\/Date(1761766961889)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ac\\bd9c98ddfec02ddcef2a3ec1993ccc24a3033a",
+        "Length":  491,
+        "LastWriteTime":  "\/Date(1761766963057)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ad\\56f22b9b615dd2dca2fa3e4d653c9048f9be83",
+        "Length":  31195888,
+        "LastWriteTime":  "\/Date(1761767857888)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b0\\7f2d14c55ab001780b6c986c40799d362ba36d",
+        "Length":  1226,
+        "LastWriteTime":  "\/Date(1761766963049)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b2\\4a6d27f654d6702c06a194f9872ca9bec1ecb8",
+        "Length":  69,
+        "LastWriteTime":  "\/Date(1761766963193)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b2\\7b7031a22d2182602257fb9c69dc98558d119f",
+        "Length":  288,
+        "LastWriteTime":  "\/Date(1761766963045)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b2\\f3c579c417406408377016a09f34942e7fc126",
+        "Length":  583,
+        "LastWriteTime":  "\/Date(1761786567085)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b3\\cef99fc48d64084e3ab09be9c1ac6cdfa2e876",
+        "Length":  1463,
+        "LastWriteTime":  "\/Date(1761766963129)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b4\\ceac99c81b6baa1b3b6cfb42d64419e5fe541c",
+        "Length":  893,
+        "LastWriteTime":  "\/Date(1761767858088)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b7\\f1441f166a7888dad09f28253522b7a4c7edba",
+        "Length":  383,
+        "LastWriteTime":  "\/Date(1761775021245)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\b9\\7f6f5d5e7c57d565c9c46d1b2920af948302ab",
+        "Length":  288,
+        "LastWriteTime":  "\/Date(1761766963113)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ba\\6273023ca47bd651fc3af46d2138cbb74c9119",
+        "Length":  389,
+        "LastWriteTime":  "\/Date(1761770271575)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\bd\\b6b6297cb0fea85654cbe30200577fce8d9477",
+        "Length":  3476,
+        "LastWriteTime":  "\/Date(1761766963071)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c1\\94492c5a7dda040cf80f0386ec140af3e5d5be",
+        "Length":  9008,
+        "LastWriteTime":  "\/Date(1761766963036)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c1\\e935805bb93c453639011a5bfac449742bdf3e",
+        "Length":  238,
+        "LastWriteTime":  "\/Date(1761766963195)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c2\\9e83fd6af375241b7ab534b1470591ce6e0266",
+        "Length":  381,
+        "LastWriteTime":  "\/Date(1761767203427)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c2\\f5943adbbdd60e83a120ded437d37fe0324074",
+        "Length":  138,
+        "LastWriteTime":  "\/Date(1761766961935)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c3\\306366c15d5a71edd01f6348c5ae49cca3f1e6",
+        "Length":  381,
+        "LastWriteTime":  "\/Date(1761767858091)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c4\\3b1bead4110ffcc028dfa361a8e415ca8c8bc8",
+        "Length":  293,
+        "LastWriteTime":  "\/Date(1761766963120)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c4\\fc3042f4b251a3861cb55476d0284e438a9428",
+        "Length":  98,
+        "LastWriteTime":  "\/Date(1761766961866)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c4\\fd5513fff753aa508f324593de61a6994e4a94",
+        "Length":  262,
+        "LastWriteTime":  "\/Date(1761768843861)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c6\\18a1a544067289259402f5e815ab11dbb761d9",
+        "Length":  214,
+        "LastWriteTime":  "\/Date(1761766961973)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c7\\9e1788105626d80509f72bb3dd0dfaa1e3ba37",
+        "Length":  216,
+        "LastWriteTime":  "\/Date(1761769534407)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c9\\434fddf72cc2ec04d8cf06857821158a4ec0d4",
+        "Length":  71,
+        "LastWriteTime":  "\/Date(1761767192510)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\c9\\861b5b092c1c13c21a2dc15ee90cb7608aeb7d",
+        "Length":  57,
+        "LastWriteTime":  "\/Date(1761766963122)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ca\\c36b56e935c6298bb069e3b14cc4744bb98eff",
+        "Length":  1726,
+        "LastWriteTime":  "\/Date(1761767858029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\cb\\522fe4c066e5d415c24ef3f6272e0ce20d8c8e",
+        "Length":  168,
+        "LastWriteTime":  "\/Date(1761770334401)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\cb\\97f994733f1f54392b01d19e06be0d05a3c412",
+        "Length":  1274,
+        "LastWriteTime":  "\/Date(1761767858030)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d0\\39c60985a0ab5836544ade4c8f1189eb1c62df",
+        "Length":  162,
+        "LastWriteTime":  "\/Date(1761766961941)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d0\\60b429878a446db0568a8858739709b9599cd3",
+        "Length":  4976,
+        "LastWriteTime":  "\/Date(1761766963032)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d0\\cba63d65da151c849797ab61f25286edf625b3",
+        "Length":  563,
+        "LastWriteTime":  "\/Date(1761786963786)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d2\\1094142b66d825f27ce23d6e56ec52f5728b48",
+        "Length":  383,
+        "LastWriteTime":  "\/Date(1761776647410)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d3\\1913b83c5e42c3444c083ba235ee31fa96640c",
+        "Length":  90,
+        "LastWriteTime":  "\/Date(1761770334401)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d5\\9ca9aa2328df40b262ddc811bd5dbd62aa2afb",
+        "Length":  3018,
+        "LastWriteTime":  "\/Date(1761766962946)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d5\\f5e1606f58c69420dc78f609484b8c45e1259d",
+        "Length":  3064,
+        "LastWriteTime":  "\/Date(1761766963051)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d7\\4eaeba4acc775e1d124f06de3a48e535e2bb3f",
+        "Length":  722,
+        "LastWriteTime":  "\/Date(1761766963040)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d7\\6b4dace673ee451c66922e5c83b7e010a7cf82",
+        "Length":  879,
+        "LastWriteTime":  "\/Date(1761775021241)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\d9\\7c71d4da0805ac41e5b50a8971c5f270d9d88c",
+        "Length":  795,
+        "LastWriteTime":  "\/Date(1761766963076)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\dc\\5a86f54762c64ce2362fbe6c46ff7b30d7735d",
+        "Length":  116,
+        "LastWriteTime":  "\/Date(1761766963197)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\dd\\54529b2296d105fa292be4a2555d009b0476f9",
+        "Length":  269,
+        "LastWriteTime":  "\/Date(1761766963062)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\e2\\aa354eebc720964be9b2bc343fe95b8218e1cf",
+        "Length":  348,
+        "LastWriteTime":  "\/Date(1761768843863)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\e3\\69914165fedeaae91834bd38f17c39a255d90d",
+        "Length":  1481,
+        "LastWriteTime":  "\/Date(1761766963022)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\e4\\de6a73dd7f7ea4194fd0a36ca09e8368c7c053",
+        "Length":  3020,
+        "LastWriteTime":  "\/Date(1761766962960)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\e6\\9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "Length":  15,
+        "LastWriteTime":  "\/Date(1761766963026)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\e7\\1e0c0abb8bea83b0666df483e5fef0d221fa4c",
+        "Length":  209,
+        "LastWriteTime":  "\/Date(1761775021604)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\eb\\97595e50c7af8627b1682c32bc028b17d763ff",
+        "Length":  97,
+        "LastWriteTime":  "\/Date(1761766963227)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\eb\\ec0fb857fdda84ec50524feb517441c35c48f9",
+        "Length":  382,
+        "LastWriteTime":  "\/Date(1761770334419)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\eb\\f24bf3fd0eba3071fb67726d03724ef38697f9",
+        "Length":  35,
+        "LastWriteTime":  "\/Date(1761766961949)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ed\\6babfcf878cccc6abec071c9d81b0b8d8864e1",
+        "Length":  193,
+        "LastWriteTime":  "\/Date(1761767858027)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ed\\b56a9fe62bae412ad06ed1987f33dfaa4eb4b4",
+        "Length":  172,
+        "LastWriteTime":  "\/Date(1761766963209)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ee\\1236d2599dca8e8a8430a46fff9d7b783a9def",
+        "Length":  402,
+        "LastWriteTime":  "\/Date(1761766963017)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ee\\41f3e3d41d88f8a2be69eaa4e240945a8ed5c0",
+        "Length":  293,
+        "LastWriteTime":  "\/Date(1761768680316)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ee\\948d16320a88e46c7d0835bdeb5de973966463",
+        "Length":  179,
+        "LastWriteTime":  "\/Date(1761775021236)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ef\\0590619affd21b8846cb3845a1fb396692e192",
+        "Length":  144,
+        "LastWriteTime":  "\/Date(1761767858083)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ef\\0f19a043b01133676f272b2d5a8466404b0169",
+        "Length":  117,
+        "LastWriteTime":  "\/Date(1761767858085)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\ef\\e15d2a88c10126a58b48cb86ffd42f8e59360e",
+        "Length":  3311,
+        "LastWriteTime":  "\/Date(1761766963030)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f0\\1ea9d334cfa310eb851ee9416c14783b53ad70",
+        "Length":  3349,
+        "LastWriteTime":  "\/Date(1761766963055)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f0\\767eee92bae22249ecf59542f8be6543ac5bfa",
+        "Length":  63,
+        "LastWriteTime":  "\/Date(1761766963223)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f1\\d25299a63e5a1f1ffa4767b375af202d94a944",
+        "Length":  422,
+        "LastWriteTime":  "\/Date(1761766963066)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f2\\aff4af57b0281dccdaef593ca47daca552001b",
+        "Length":  4358,
+        "LastWriteTime":  "\/Date(1761766963075)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f3\\5f92a3cb737859e90f444da9eba588fe21b015",
+        "Length":  178,
+        "LastWriteTime":  "\/Date(1761766963206)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f3\\ab47a499d249f0476574627e623ee0923b8ab2",
+        "Length":  525,
+        "LastWriteTime":  "\/Date(1761766963202)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f4\\b0d18949c680e3bcbfc569650f114748668670",
+        "Length":  972,
+        "LastWriteTime":  "\/Date(1761786567091)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f6\\7fed235db1fd1c8ef3f56ef7650906c957c16a",
+        "Length":  216,
+        "LastWriteTime":  "\/Date(1761768843853)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f7\\8568e8cbc6a5fd220a32fa761cb08ce3ce824b",
+        "Length":  137,
+        "LastWriteTime":  "\/Date(1761776647400)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\objects\\f9\\8503b530927084ea260b421b4f747d7814e813",
+        "Length":  2417,
+        "LastWriteTime":  "\/Date(1761768680314)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\refs\\heads\\v17.8\\inbox-index",
+        "Length":  41,
+        "LastWriteTime":  "\/Date(1761770334761)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\refs\\heads\\v17.8\\scaffold",
+        "Length":  41,
+        "LastWriteTime":  "\/Date(1761771017680)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\refs\\heads\\v17.8\\urgency-badges",
+        "Length":  41,
+        "LastWriteTime":  "\/Date(1761786964155)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\.git\\refs\\tags\\v17.8-final",
+        "Length":  41,
+        "LastWriteTime":  "\/Date(1761776716699)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\communication_bridge.py",
+        "Length":  284,
+        "LastWriteTime":  "\/Date(1761793281830)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\donor_memory.py",
+        "Length":  314,
+        "LastWriteTime":  "\/Date(1761793130313)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\pledge_stipulations.py",
+        "Length":  349,
+        "LastWriteTime":  "\/Date(1761793150220)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\__init__.py",
+        "Length":  83,
+        "LastWriteTime":  "\/Date(1761793806767)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\__pycache__\\pledge_stipulations.cpython-314.pyc",
+        "Length":  491,
+        "LastWriteTime":  "\/Date(1761794389467)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_7\\__pycache__\\__init__.cpython-314.pyc",
+        "Length":  244,
+        "LastWriteTime":  "\/Date(1761794389465)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\communication_bridge.py",
+        "Length":  346,
+        "LastWriteTime":  "\/Date(1761792955409)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\donor_memory.py",
+        "Length":  314,
+        "LastWriteTime":  "\/Date(1761793117404)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\pledge_stipulations.py",
+        "Length":  349,
+        "LastWriteTime":  "\/Date(1761793166129)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\__init__.py",
+        "Length":  86,
+        "LastWriteTime":  "\/Date(1761793820580)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\__pycache__\\pledge_stipulations.cpython-314.pyc",
+        "Length":  491,
+        "LastWriteTime":  "\/Date(1761794389479)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\code\\v17_8\\__pycache__\\__init__.cpython-314.pyc",
+        "Length":  244,
+        "LastWriteTime":  "\/Date(1761794389471)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\notes\\CHANGELOG.backup.20251101_082009.md",
+        "Length":  302,
+        "LastWriteTime":  "\/Date(1761966570986)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\notes\\CHANGELOG_v17.8.md",
+        "Length":  1169,
+        "LastWriteTime":  "\/Date(1761786963713)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\status\\PROJECT_STATUS_v17.7.md",
+        "Length":  4806,
+        "LastWriteTime":  "\/Date(1761733480806)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\status\\PROJECT_STATUS_v17.8.md",
+        "Length":  1688,
+        "LastWriteTime":  "\/Date(1761786963692)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\archive\\status\\PROJECT_STATUS_v17.9.md",
+        "Length":  1040,
+        "LastWriteTime":  "\/Date(1761795992386)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\BACKUPS\\AD_v17.8_20251101_0918.zip",
+        "Length":  63371843,
+        "LastWriteTime":  "\/Date(1762006702669)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\anchors.json",
+        "Length":  2,
+        "LastWriteTime":  "\/Date(1761705198809)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\cfg.json",
+        "Length":  142,
+        "LastWriteTime":  "\/Date(1761705198806)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\coaches.json",
+        "Length":  309,
+        "LastWriteTime":  "\/Date(1761705198806)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\context.json",
+        "Length":  2,
+        "LastWriteTime":  "\/Date(1761705198809)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\donors.json",
+        "Length":  10198,
+        "LastWriteTime":  "\/Date(1761705135455)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\G.json",
+        "Length":  2,
+        "LastWriteTime":  "\/Date(1761705198809)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\data\\world.json",
+        "Length":  63100,
+        "LastWriteTime":  "\/Date(1761705198806)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\AD_HEALTH_TRENDS.md",
+        "Length":  337,
+        "LastWriteTime":  "\/Date(1761885788347)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\AD_PRESTIGE.md",
+        "Length":  236,
+        "LastWriteTime":  "\/Date(1761918226558)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\AD_PRESTIGE_TRENDS.md",
+        "Length":  236,
+        "LastWriteTime":  "\/Date(1761918226558)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\CHANGELOG.md",
+        "Length":  1565,
+        "LastWriteTime":  "\/Date(1762003209571)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\CLOSEOUT_v17.8.md",
+        "Length":  165,
+        "LastWriteTime":  "\/Date(1761966565885)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\MEDIA_FEED.md",
+        "Length":  1132,
+        "LastWriteTime":  "\/Date(1762006688694)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\MEDIA_REACH.json",
+        "Length":  168,
+        "LastWriteTime":  "\/Date(1761966593212)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\MEDIA_REACH_MAP.md",
+        "Length":  742,
+        "LastWriteTime":  "\/Date(1761966593211)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\PROJECT_STATUS_v17.8_FINAL.md",
+        "Length":  318,
+        "LastWriteTime":  "\/Date(1762006689113)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\PROJECT_STATUS_v17.9.md",
+        "Length":  245,
+        "LastWriteTime":  "\/Date(1762006702727)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\RECRUITING_READOUT.md",
+        "Length":  580,
+        "LastWriteTime":  "\/Date(1762006688981)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\RELATIONSHIPS.md",
+        "Length":  243,
+        "LastWriteTime":  "\/Date(1761926608553)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\SCHEDULE.md",
+        "Length":  973,
+        "LastWriteTime":  "\/Date(1762006688785)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\SMOKE_v17.9.ps1",
+        "Length":  755,
+        "LastWriteTime":  "\/Date(1761966585790)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\STRUCTURE_AUDIT_2025-11-01_091809.md",
+        "Length":  192,
+        "LastWriteTime":  "\/Date(1762006689555)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\TODO_v17.9.md",
+        "Length":  188,
+        "LastWriteTime":  "\/Date(1762006702757)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\docs\\donors\\State_U..md",
+        "Length":  157,
+        "LastWriteTime":  "\/Date(1761698400400)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\README_INSTALL.txt",
+        "Length":  602,
+        "LastWriteTime":  "\/Date(1761437467190)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\__init__.py",
+        "Length":  0,
+        "LastWriteTime":  "\/Date(1761961905173)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\anchors.json",
+        "Length":  286,
+        "LastWriteTime":  "\/Date(1761517203414)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\coaches.json",
+        "Length":  308,
+        "LastWriteTime":  "\/Date(1761513664803)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\config.json",
+        "Length":  149,
+        "LastWriteTime":  "\/Date(1761517125400)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\contexts.json",
+        "Length":  20,
+        "LastWriteTime":  "\/Date(1761517227273)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\gravity.json",
+        "Length":  577,
+        "LastWriteTime":  "\/Date(1761525644373)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\meta.json",
+        "Length":  14,
+        "LastWriteTime":  "\/Date(1761516475676)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_in\\world.json",
+        "Length":  71,
+        "LastWriteTime":  "\/Date(1761525643448)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_out\\coaches.json",
+        "Length":  584,
+        "LastWriteTime":  "\/Date(1761584755083)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_out\\logs.json",
+        "Length":  476,
+        "LastWriteTime":  "\/Date(1761584755090)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\bridge_out\\world.json",
+        "Length":  172,
+        "LastWriteTime":  "\/Date(1761584755087)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\aad_persona.json",
+        "Length":  319,
+        "LastWriteTime":  "\/Date(1762002989211)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\aad_policies.json",
+        "Length":  282,
+        "LastWriteTime":  "\/Date(1762002989229)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\ad_archetypes.json",
+        "Length":  2302,
+        "LastWriteTime":  "\/Date(1762002989237)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\archetype_anchors.json",
+        "Length":  1354,
+        "LastWriteTime":  "\/Date(1762002989281)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\bridge_filters.json",
+        "Length":  736,
+        "LastWriteTime":  "\/Date(1762002989288)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\comm_auto.policy.json",
+        "Length":  725,
+        "LastWriteTime":  "\/Date(1762002989295)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\comm_auto_policy.json",
+        "Length":  1560,
+        "LastWriteTime":  "\/Date(1762002989305)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\context_gravity.json",
+        "Length":  965,
+        "LastWriteTime":  "\/Date(1762002989312)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\core_principles.json",
+        "Length":  326,
+        "LastWriteTime":  "\/Date(1762002989318)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\donor_decay.json",
+        "Length":  840,
+        "LastWriteTime":  "\/Date(1762002989328)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\interaction_catalog.json",
+        "Length":  827,
+        "LastWriteTime":  "\/Date(1762002989334)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\media_map.config.json",
+        "Length":  583,
+        "LastWriteTime":  "\/Date(1762006032657)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\personality_profiles.json",
+        "Length":  3968,
+        "LastWriteTime":  "\/Date(1762002989374)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\player_quiz_map.json",
+        "Length":  518,
+        "LastWriteTime":  "\/Date(1762002989390)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\pledge_rules.json",
+        "Length":  756,
+        "LastWriteTime":  "\/Date(1762002989396)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\reg_catalog.json",
+        "Length":  3765,
+        "LastWriteTime":  "\/Date(1762002989413)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\reg_weights.json",
+        "Length":  137,
+        "LastWriteTime":  "\/Date(1762002989419)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\trait_components.json",
+        "Length":  970,
+        "LastWriteTime":  "\/Date(1762002989463)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\trait_engine.json",
+        "Length":  188,
+        "LastWriteTime":  "\/Date(1762002989470)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\config\\trait_gravity.json",
+        "Length":  1647,
+        "LastWriteTime":  "\/Date(1762002989476)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\College_AD_Starter_Workbook.xlsx",
+        "Length":  10626,
+        "LastWriteTime":  "\/Date(1761437467333)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b0.csv",
+        "Length":  1479220,
+        "LastWriteTime":  "\/Date(1761442456029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b1.csv",
+        "Length":  1481508,
+        "LastWriteTime":  "\/Date(1761442456028)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b2.csv",
+        "Length":  1479428,
+        "LastWriteTime":  "\/Date(1761442456029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b3.csv",
+        "Length":  1480676,
+        "LastWriteTime":  "\/Date(1761442456030)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b4.csv",
+        "Length":  1479740,
+        "LastWriteTime":  "\/Date(1761442456029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b5.csv",
+        "Length":  1478076,
+        "LastWriteTime":  "\/Date(1761442456030)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b6.csv",
+        "Length":  1478076,
+        "LastWriteTime":  "\/Date(1761442456029)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.b7.csv",
+        "Length":  1480052,
+        "LastWriteTime":  "\/Date(1761442456030)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\TRAIT_HISTORY_LOG.csv",
+        "Length":  53853397,
+        "LastWriteTime":  "\/Date(1761451252675)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b0.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442455998)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b1.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442455999)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b2.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442455999)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b3.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442455999)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b4.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442455999)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b5.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442456000)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b6.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442456000)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.b7.csv",
+        "Length":  54850,
+        "LastWriteTime":  "\/Date(1761442456000)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\data\\logs\\WORLD_EVENTS_LOG.csv",
+        "Length":  5913902,
+        "LastWriteTime":  "\/Date(1761451252605)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\dbs\\DBS_v1_Package\\dbs_config.json",
+        "Length":  769,
+        "LastWriteTime":  "\/Date(1761498713163)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\dbs\\DBS_v1_Package\\dbs_engine_dropin.py",
+        "Length":  1244,
+        "LastWriteTime":  "\/Date(1761498699753)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\dbs\\DBS_v1_Package\\DBS_v1_README.md",
+        "Length":  1742,
+        "LastWriteTime":  "\/Date(1761498634795)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\dbs\\DBS_v1_Package\\era_waterline.json",
+        "Length":  1008,
+        "LastWriteTime":  "\/Date(1761498682890)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\sandbox\\analyze_log.py",
+        "Length":  1883,
+        "LastWriteTime":  "\/Date(1761447292322)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\sandbox\\batch_run.py",
+        "Length":  2191,
+        "LastWriteTime":  "\/Date(1761447292293)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\sandbox\\batch_run_parallel.py",
+        "Length":  3589,
+        "LastWriteTime":  "\/Date(1761442368465)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\sandbox\\sample_coaches.json",
+        "Length":  2771,
+        "LastWriteTime":  "\/Date(1761437467530)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\aad_dialogue.py",
+        "Length":  10026,
+        "LastWriteTime":  "\/Date(1761788596435)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\adhs_nudges.py",
+        "Length":  5986,
+        "LastWriteTime":  "\/Date(1761875692283)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\advance_week.py",
+        "Length":  1570,
+        "LastWriteTime":  "\/Date(1761443956414)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\advance_week_old.py",
+        "Length":  730,
+        "LastWriteTime":  "\/Date(1761437467500)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ad_health.py",
+        "Length":  4647,
+        "LastWriteTime":  "\/Date(1761859474148)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ad_prestige.py",
+        "Length":  20901,
+        "LastWriteTime":  "\/Date(1761918209744)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ad_seed.py",
+        "Length":  4287,
+        "LastWriteTime":  "\/Date(1761844405833)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\analyzer.py",
+        "Length":  15003,
+        "LastWriteTime":  "\/Date(1761592445278)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\asserts.py",
+        "Length":  547,
+        "LastWriteTime":  "\/Date(1761443818541)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\assistant_ad_engine.py",
+        "Length":  4488,
+        "LastWriteTime":  "\/Date(1761935617026)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\communication_bridge.py",
+        "Length":  8080,
+        "LastWriteTime":  "\/Date(1761834846389)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\comm_auto_engine.py",
+        "Length":  6653,
+        "LastWriteTime":  "\/Date(1761948769590)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\config_mirror.py",
+        "Length":  1689,
+        "LastWriteTime":  "\/Date(1761856565671)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\config_paths.py",
+        "Length":  905,
+        "LastWriteTime":  "\/Date(1761855282546)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\donor_ledger.py",
+        "Length":  760,
+        "LastWriteTime":  "\/Date(1761704867706)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\donor_memory.py",
+        "Length":  3353,
+        "LastWriteTime":  "\/Date(1761692553273)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\donor_report.py",
+        "Length":  8019,
+        "LastWriteTime":  "\/Date(1761698000567)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\donor_report_plus.py",
+        "Length":  15648,
+        "LastWriteTime":  "\/Date(1761698259658)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\donor_snapshot.py",
+        "Length":  3473,
+        "LastWriteTime":  "\/Date(1761832133070)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\engine.py",
+        "Length":  3839,
+        "LastWriteTime":  "\/Date(1761580961395)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\excel_bridge.py",
+        "Length":  10092,
+        "LastWriteTime":  "\/Date(1761592602594)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\finance_validator.py",
+        "Length":  6698,
+        "LastWriteTime":  "\/Date(1761846996910)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\finlog.py",
+        "Length":  825,
+        "LastWriteTime":  "\/Date(1761586745790)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\insights_core.py",
+        "Length":  1987,
+        "LastWriteTime":  "\/Date(1761698181652)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\loaders.py",
+        "Length":  1268,
+        "LastWriteTime":  "\/Date(1761447292206)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\logger.py",
+        "Length":  847,
+        "LastWriteTime":  "\/Date(1761831885721)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\media_desk.py",
+        "Length":  5120,
+        "LastWriteTime":  "\/Date(1761935326921)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\media_helpers.py",
+        "Length":  697,
+        "LastWriteTime":  "\/Date(1761931310221)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\media_map.py",
+        "Length":  8003,
+        "LastWriteTime":  "\/Date(1761962991048)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\media_time_guard.py",
+        "Length":  1069,
+        "LastWriteTime":  "\/Date(1761930985147)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\models.py",
+        "Length":  295,
+        "LastWriteTime":  "\/Date(1761443818601)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\personality_engine.py",
+        "Length":  4217,
+        "LastWriteTime":  "\/Date(1761688273323)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\persona_demo.py",
+        "Length":  707,
+        "LastWriteTime":  "\/Date(1761690063765)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\pledge_stipulations.py",
+        "Length":  2133,
+        "LastWriteTime":  "\/Date(1761794375275)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\prestige_factors.py",
+        "Length":  2402,
+        "LastWriteTime":  "\/Date(1761859450144)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\recruiting_bonus.py",
+        "Length":  1292,
+        "LastWriteTime":  "\/Date(1761859513663)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\recruiting_influence.py",
+        "Length":  4393,
+        "LastWriteTime":  "\/Date(1761964671841)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\reg_engine.py",
+        "Length":  9310,
+        "LastWriteTime":  "\/Date(1761692412846)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\reg_loaders.py",
+        "Length":  354,
+        "LastWriteTime":  "\/Date(1761439348647)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\relationship_engine.py",
+        "Length":  4046,
+        "LastWriteTime":  "\/Date(1761926542089)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\relationship_manager.py",
+        "Length":  8260,
+        "LastWriteTime":  "\/Date(1761882742911)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\run_tick.py",
+        "Length":  5957,
+        "LastWriteTime":  "\/Date(1761879495357)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\schedule_engine.py",
+        "Length":  6247,
+        "LastWriteTime":  "\/Date(1761929383796)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\seed_donors.py",
+        "Length":  1449,
+        "LastWriteTime":  "\/Date(1761704679379)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\seed_world_132.py",
+        "Length":  2349,
+        "LastWriteTime":  "\/Date(1761678853587)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\types_shared.py",
+        "Length":  724,
+        "LastWriteTime":  "\/Date(1761832102959)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_aad_cli.py",
+        "Length":  1295,
+        "LastWriteTime":  "\/Date(1761935634374)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_comm_auto_cli.py",
+        "Length":  1105,
+        "LastWriteTime":  "\/Date(1761948219928)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_inbox_cli.py",
+        "Length":  8447,
+        "LastWriteTime":  "\/Date(1761832070549)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_media_cli.py",
+        "Length":  2732,
+        "LastWriteTime":  "\/Date(1761934756420)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_media_map_cli.py",
+        "Length":  984,
+        "LastWriteTime":  "\/Date(1761963371693)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_recruiting_influence_cli.py",
+        "Length":  1171,
+        "LastWriteTime":  "\/Date(1761964316450)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_relationships_cli.py",
+        "Length":  5468,
+        "LastWriteTime":  "\/Date(1761926598702)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_schedule_cli.py",
+        "Length":  3965,
+        "LastWriteTime":  "\/Date(1761932273532)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\ui_strings.py",
+        "Length":  10681,
+        "LastWriteTime":  "\/Date(1761787860249)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\viz_api.py",
+        "Length":  3427,
+        "LastWriteTime":  "\/Date(1761965292279)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\world_logger.py",
+        "Length":  320,
+        "LastWriteTime":  "\/Date(1761439348673)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__init__.py",
+        "Length":  0,
+        "LastWriteTime":  "\/Date(1761961905380)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ad_health.cpython-314.pyc",
+        "Length":  7383,
+        "LastWriteTime":  "\/Date(1761859529805)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ad_prestige.cpython-314.pyc",
+        "Length":  31822,
+        "LastWriteTime":  "\/Date(1761918226309)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ad_seed.cpython-314.pyc",
+        "Length":  5735,
+        "LastWriteTime":  "\/Date(1761845131058)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\assistant_ad_engine.cpython-314.pyc",
+        "Length":  7951,
+        "LastWriteTime":  "\/Date(1761935663269)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\communication_bridge.cpython-314.pyc",
+        "Length":  14909,
+        "LastWriteTime":  "\/Date(1761874987714)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\comm_auto_engine.cpython-314.pyc",
+        "Length":  12050,
+        "LastWriteTime":  "\/Date(1761948780046)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\config_mirror.cpython-314.pyc",
+        "Length":  3490,
+        "LastWriteTime":  "\/Date(1761856575959)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\donor_snapshot.cpython-314.pyc",
+        "Length":  6977,
+        "LastWriteTime":  "\/Date(1761832677254)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\finance_validator.cpython-314.pyc",
+        "Length":  11561,
+        "LastWriteTime":  "\/Date(1761847019847)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\logger.cpython-314.pyc",
+        "Length":  1774,
+        "LastWriteTime":  "\/Date(1761833790556)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\media_desk.cpython-314.pyc",
+        "Length":  10089,
+        "LastWriteTime":  "\/Date(1761935340723)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\media_helpers.cpython-314.pyc",
+        "Length":  1686,
+        "LastWriteTime":  "\/Date(1761931347794)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\media_map.cpython-314.pyc",
+        "Length":  13620,
+        "LastWriteTime":  "\/Date(1761962997295)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\media_time_guard.cpython-314.pyc",
+        "Length":  1653,
+        "LastWriteTime":  "\/Date(1761931347801)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\pledge_stipulations.cpython-314.pyc",
+        "Length":  2944,
+        "LastWriteTime":  "\/Date(1761794389455)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\prestige_factors.cpython-314.pyc",
+        "Length":  3978,
+        "LastWriteTime":  "\/Date(1761859529681)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\recruiting_bonus.cpython-314.pyc",
+        "Length":  2493,
+        "LastWriteTime":  "\/Date(1761859529893)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\recruiting_influence.cpython-314.pyc",
+        "Length":  9537,
+        "LastWriteTime":  "\/Date(1761964679671)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\relationship_engine.cpython-314.pyc",
+        "Length":  9311,
+        "LastWriteTime":  "\/Date(1761926607970)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\relationship_manager.cpython-314.pyc",
+        "Length":  16033,
+        "LastWriteTime":  "\/Date(1761883134335)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\run_tick.cpython-314.pyc",
+        "Length":  12336,
+        "LastWriteTime":  "\/Date(1761876440477)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\schedule_engine.cpython-314.pyc",
+        "Length":  12134,
+        "LastWriteTime":  "\/Date(1761929453752)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_aad_cli.cpython-314.pyc",
+        "Length":  3058,
+        "LastWriteTime":  "\/Date(1761935663244)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_comm_auto_cli.cpython-314.pyc",
+        "Length":  2530,
+        "LastWriteTime":  "\/Date(1761948229781)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_inbox_cli.cpython-314.pyc",
+        "Length":  15776,
+        "LastWriteTime":  "\/Date(1761832214669)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_media_cli.cpython-314.pyc",
+        "Length":  6322,
+        "LastWriteTime":  "\/Date(1761934990513)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_media_map_cli.cpython-314.pyc",
+        "Length":  2280,
+        "LastWriteTime":  "\/Date(1761963376718)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_recruiting_influence_cli.cpython-314.pyc",
+        "Length":  2593,
+        "LastWriteTime":  "\/Date(1761964321906)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_relationships_cli.cpython-314.pyc",
+        "Length":  11044,
+        "LastWriteTime":  "\/Date(1761926607950)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\ui_schedule_cli.cpython-314.pyc",
+        "Length":  6118,
+        "LastWriteTime":  "\/Date(1761932292249)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\viz_api.cpython-314.pyc",
+        "Length":  7111,
+        "LastWriteTime":  "\/Date(1761965315099)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\src\\__pycache__\\__init__.cpython-314.pyc",
+        "Length":  178,
+        "LastWriteTime":  "\/Date(1761961951545)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\ad_prestige_state.json",
+        "Length":  4275,
+        "LastWriteTime":  "\/Date(1761918226558)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\clock.json",
+        "Length":  17,
+        "LastWriteTime":  "\/Date(1761876441081)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\coach_morale.json",
+        "Length":  74,
+        "LastWriteTime":  "\/Date(1761876441081)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\fan_energy.json",
+        "Length":  75,
+        "LastWriteTime":  "\/Date(1761919960410)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\hot_topic.json",
+        "Length":  59,
+        "LastWriteTime":  "\/Date(1761910132588)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\media_meta.json",
+        "Length":  114,
+        "LastWriteTime":  "\/Date(1761919960403)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\recruiting_modifiers.json",
+        "Length":  123,
+        "LastWriteTime":  "\/Date(1762006688981)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\relationships.json",
+        "Length":  593,
+        "LastWriteTime":  "\/Date(1761948792299)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\reputation.json",
+        "Length":  64,
+        "LastWriteTime":  "\/Date(1761910132588)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\scandal_state.json",
+        "Length":  42,
+        "LastWriteTime":  "\/Date(1761910291281)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\schedule.json",
+        "Length":  3996,
+        "LastWriteTime":  "\/Date(1761948792292)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\schedule_state.json",
+        "Length":  113,
+        "LastWriteTime":  "\/Date(1761937191508)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\state\\season_awards.json",
+        "Length":  147,
+        "LastWriteTime":  "\/Date(1761910241668)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\engine\\__pycache__\\__init__.cpython-314.pyc",
+        "Length":  174,
+        "LastWriteTime":  "\/Date(1761961951543)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\DONOR_LEDGER.csv",
+        "Length":  2339,
+        "LastWriteTime":  "\/Date(1761919959855)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\engine.log",
+        "Length":  465,
+        "LastWriteTime":  "\/Date(1761919959919)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W01-update-coach-briefing-0001.json",
+        "Length":  364,
+        "LastWriteTime":  "\/Date(1761876440501)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W01-update-coach-briefing-0002.json",
+        "Length":  367,
+        "LastWriteTime":  "\/Date(1761876440501)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W02-update-coach-briefing-0001.json",
+        "Length":  364,
+        "LastWriteTime":  "\/Date(1761876440768)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W02-update-coach-briefing-0002.json",
+        "Length":  367,
+        "LastWriteTime":  "\/Date(1761876440768)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W03-update-coach-briefing-0001.json",
+        "Length":  364,
+        "LastWriteTime":  "\/Date(1761876440931)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W03-update-coach-briefing-0002.json",
+        "Length":  367,
+        "LastWriteTime":  "\/Date(1761876440932)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W04-update-coach-briefing-0001.json",
+        "Length":  364,
+        "LastWriteTime":  "\/Date(1761876441081)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W04-update-coach-briefing-0002.json",
+        "Length":  367,
+        "LastWriteTime":  "\/Date(1761876441081)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W10-pledge-pending-0002.json",
+        "Length":  278,
+        "LastWriteTime":  "\/Date(1761919959834)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W10-pledge-promised-0001.json",
+        "Length":  269,
+        "LastWriteTime":  "\/Date(1761919959827)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W11-contact-required-0005.json",
+        "Length":  300,
+        "LastWriteTime":  "\/Date(1761919959856)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W11-pledge-lapsed-0004.json",
+        "Length":  277,
+        "LastWriteTime":  "\/Date(1761919959849)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W11-pledge-received-0003.json",
+        "Length":  269,
+        "LastWriteTime":  "\/Date(1761919959841)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\INBOX\\W11-update-0006.json",
+        "Length":  246,
+        "LastWriteTime":  "\/Date(1761919959856)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-345beab16f44.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529765)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-37298e03a360.json",
+        "Length":  412,
+        "LastWriteTime":  "\/Date(1761879529782)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-526bb9fbfa34.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529763)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-56e921c8d58b.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529763)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-5e1b1867f412.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529764)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-67a3b79d5388.json",
+        "Length":  366,
+        "LastWriteTime":  "\/Date(1761879529798)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-69b8cf637955.json",
+        "Length":  376,
+        "LastWriteTime":  "\/Date(1761879529773)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-7de5ed3127a4.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529762)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-7fa41b1f2424.json",
+        "Length":  365,
+        "LastWriteTime":  "\/Date(1761879529779)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-84d63d154c5d.json",
+        "Length":  408,
+        "LastWriteTime":  "\/Date(1761879529782)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-879358c7f81f.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529760)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-8c15fc975aeb.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529766)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-8f0ecba493a3.json",
+        "Length":  434,
+        "LastWriteTime":  "\/Date(1761879529761)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\2025-10-31T02-e3a58879603e.json",
+        "Length":  387,
+        "LastWriteTime":  "\/Date(1761879529782)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W01-media-state-u.json",
+        "Length":  384,
+        "LastWriteTime":  "\/Date(1761876440509)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W01-update-coach-briefing-0001.json",
+        "Length":  627,
+        "LastWriteTime":  "\/Date(1761885207486)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W01-update-coach-briefing-0001.media.json",
+        "Length":  347,
+        "LastWriteTime":  "\/Date(1761934990931)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W01-update-coach-briefing-0002.json",
+        "Length":  630,
+        "LastWriteTime":  "\/Date(1761885207486)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W01-update-coach-briefing-0002.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990933)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W02-media-state-u.json",
+        "Length":  384,
+        "LastWriteTime":  "\/Date(1761876440784)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W02-update-coach-briefing-0001.json",
+        "Length":  627,
+        "LastWriteTime":  "\/Date(1761885207486)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W02-update-coach-briefing-0001.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990932)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W02-update-coach-briefing-0002.json",
+        "Length":  630,
+        "LastWriteTime":  "\/Date(1761885207486)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W02-update-coach-briefing-0002.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990932)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W03-media-state-u.json",
+        "Length":  384,
+        "LastWriteTime":  "\/Date(1761876440939)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W03-update-coach-briefing-0001.json",
+        "Length":  627,
+        "LastWriteTime":  "\/Date(1761885207502)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W03-update-coach-briefing-0001.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990933)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W03-update-coach-briefing-0002.json",
+        "Length":  630,
+        "LastWriteTime":  "\/Date(1761885207502)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W03-update-coach-briefing-0002.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990934)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W04-media-state-u.json",
+        "Length":  684,
+        "LastWriteTime":  "\/Date(1761879668971)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W04-update-coach-briefing-0001.json",
+        "Length":  627,
+        "LastWriteTime":  "\/Date(1761885207502)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W04-update-coach-briefing-0001.media.json",
+        "Length":  258,
+        "LastWriteTime":  "\/Date(1761934990934)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W04-update-coach-briefing-0002.json",
+        "Length":  630,
+        "LastWriteTime":  "\/Date(1761885207502)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W04-update-coach-briefing-0002.media.json",
+        "Length":  384,
+        "LastWriteTime":  "\/Date(1761948792293)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W10-pledge-pending-0002.json",
+        "Length":  484,
+        "LastWriteTime":  "\/Date(1761885207502)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W10-pledge-pending-0002.media.json",
+        "Length":  223,
+        "LastWriteTime":  "\/Date(1761934990935)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W10-pledge-promised-0001.json",
+        "Length":  468,
+        "LastWriteTime":  "\/Date(1761885207518)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W10-pledge-promised-0001.media.json",
+        "Length":  220,
+        "LastWriteTime":  "\/Date(1761934990935)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-contact-required-0005.json",
+        "Length":  547,
+        "LastWriteTime":  "\/Date(1761885207518)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-contact-required-0005.media.json",
+        "Length":  233,
+        "LastWriteTime":  "\/Date(1761934990936)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-pledge-lapsed-0004.json",
+        "Length":  535,
+        "LastWriteTime":  "\/Date(1761885207518)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-pledge-lapsed-0004.media.json",
+        "Length":  231,
+        "LastWriteTime":  "\/Date(1761934990935)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-pledge-received-0003.json",
+        "Length":  537,
+        "LastWriteTime":  "\/Date(1761885207534)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-pledge-received-0003.media.json",
+        "Length":  229,
+        "LastWriteTime":  "\/Date(1761935341124)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-update-0006.json",
+        "Length":  461,
+        "LastWriteTime":  "\/Date(1761885788205)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\logs\\MEDIA\\W11-update-0006.media.json",
+        "Length":  347,
+        "LastWriteTime":  "\/Date(1761948792271)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\CHANGELOG.md",
+        "Length":  3364,
+        "LastWriteTime":  "\/Date(1761749062729)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\DEVELOPER_NOTES.md",
+        "Length":  934,
+        "LastWriteTime":  "\/Date(1761786963742)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\PLAYBOOK.md",
+        "Length":  1243,
+        "LastWriteTime":  "\/Date(1761832191182)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\project_structure.txt",
+        "Length":  11058,
+        "LastWriteTime":  "\/Date(1761750110579)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\README_MIGRATION.txt",
+        "Length":  1040,
+        "LastWriteTime":  "\/Date(1761575480445)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\_structure_snapshots\\structure_post_docs_cleanup_.txt",
+        "Length":  11316,
+        "LastWriteTime":  "\/Date(1761758298971)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\notes\\_structure_snapshots\\structure_verified_v17.7.txt",
+        "Length":  38704,
+        "LastWriteTime":  "\/Date(1761767210249)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\scripts\\finance.cmd",
+        "Length":  208,
+        "LastWriteTime":  "\/Date(1761847366736)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\scripts\\finance.ps1",
+        "Length":  156,
+        "LastWriteTime":  "\/Date(1761847366673)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\scripts\\Setup-Workspace.ps1",
+        "Length":  617,
+        "LastWriteTime":  "\/Date(1761575480476)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\scripts\\Validate-Workspace.ps1",
+        "Length":  3481,
+        "LastWriteTime":  "\/Date(1761763756226)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\tools\\Consolidate-Archives.ps1",
+        "Length":  2911,
+        "LastWriteTime":  "\/Date(1762004118890)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\tools\\inbox_build_index.py",
+        "Length":  1592,
+        "LastWriteTime":  "\/Date(1761768649922)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\tools\\paths_example.py",
+        "Length":  798,
+        "LastWriteTime":  "\/Date(1761575480494)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\tools\\structure_audit.ps1",
+        "Length":  7281,
+        "LastWriteTime":  "\/Date(1761967327167)\/"
+    },
+    {
+        "FullName":  "C:\\COLLEGE_AD26\\College_AD_Unified_Workspace_Blank_v17.2\\tools\\ui_mock.py",
+        "Length":  4428,
+        "LastWriteTime":  "\/Date(1761776607331)\/"
+    }
+]

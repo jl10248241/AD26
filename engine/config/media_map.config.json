@@ -1,0 +1,15 @@
+﻿{
+  "grid_size": 21,
+  "base_radii": { "Local": 9.0, "Regional": 6.0, "National": 9.0 },
+  "base_radius": 6.0,
+  "max_extra_radius": 3.0,
+  "local_min_score": 0.85,
+  "regional_min_score": 0.55,
+  "national_min_score": 0.25,
+  "weights": {
+    "status": { "amplify": 1.0, "neutral": 0.25, "ignore": 0.10 },
+    "tier":   { "Local": 1.0, "Regional": 0.7, "National": 0.5 },
+    "reach":  { "Local": 1.0, "Regional": 0.7, "National": 0.5 }
+  },
+  "charset": [" ", ".", ":", "+", "-", "*", "|"]
+}

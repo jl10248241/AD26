@@ -1,0 +1,131 @@
+{
+  "days": {
+    "2025-10-31": {
+      "hours_used": 8.0,
+      "hours_budget": 8.0,
+      "overtime_hours": 0.0,
+      "actions": [
+        {
+          "id": "1aa266fd-bd87-4665-b7e4-d5dbd462b43b",
+          "day": "2025-10-31",
+          "action_type": "press_conference",
+          "title": "Rival Win Presser",
+          "hours": 1.0,
+          "priority": "high",
+          "actor": "AD:State U",
+          "target": "Media:Local Beat",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "b07695af-0413-43d0-9052-a0ab2ad2352a",
+          "day": "2025-10-31",
+          "action_type": "coach_meeting",
+          "title": "MBB: Recruit Injury Strategy",
+          "hours": 1.0,
+          "priority": "critical",
+          "actor": "AD:State U",
+          "target": "Coach:Basketball M",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "91ea513b-40bd-460a-b919-ff38c7de4693",
+          "day": "2025-10-31",
+          "action_type": "donor_meeting",
+          "title": "MegaCorp Q4 Check-in",
+          "hours": 1.0,
+          "priority": "normal",
+          "actor": "AD:State U",
+          "target": "Donor:MegaCorp",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "48661ac0-0cde-49a8-99e4-7f1ede21f370",
+          "day": "2025-10-31",
+          "action_type": "press_conference",
+          "title": "Media Availability",
+          "hours": 1.0,
+          "priority": "high",
+          "actor": "AD:State U",
+          "target": "Media:Local Beat",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "79484b8e-c459-4d6e-8b11-bf2c20330595",
+          "day": "2025-10-31",
+          "action_type": "coach_meeting",
+          "title": "Staff Sync",
+          "hours": 1.0,
+          "priority": "normal",
+          "actor": "AD:State U",
+          "target": "Coach:Basketball M",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "8813768a-7eea-4387-9c70-3cfc98e18e71",
+          "day": "2025-10-31",
+          "action_type": "press_conference",
+          "title": "Media Availability",
+          "hours": 1.0,
+          "priority": "high",
+          "actor": "AD:State U",
+          "target": "Media:Local Beat",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "d8f3a21d-7491-4e18-8eeb-223c1ac1ca5c",
+          "day": "2025-10-31",
+          "action_type": "coach_meeting",
+          "title": "Staff Sync",
+          "hours": 1.0,
+          "priority": "normal",
+          "actor": "AD:State U",
+          "target": "Coach:Basketball M",
+          "meta": {},
+          "status": "scheduled"
+        },
+        {
+          "id": "e5777cb2-6941-4d01-8e28-1b44e80b63d3",
+          "day": "2025-10-31",
+          "action_type": "press_conference",
+          "title": "Media Availability",
+          "hours": 1.0,
+          "priority": "high",
+          "actor": "AD:State U",
+          "target": "Media:Local Beat",
+          "meta": {},
+          "status": "scheduled"
+        }
+      ],
+      "blocks": [
+        {
+          "id": "a47373b3-7d1c-4d66-bccb-8d8570842bbe",
+          "hours": 0.25,
+          "priority": "normal",
+          "type": "comms_triage",
+          "title": "Beat Rival 24\u201320",
+          "actor": "AAD:1",
+          "target": "Media:Local Beat",
+          "status": "scheduled"
+        },
+        {
+          "id": "341db6e0-20df-4ea8-a41c-3f686f4549c1",
+          "hours": 0.25,
+          "priority": "normal",
+          "type": "comms_triage",
+          "title": "Two practice notes and one recruiting rumor.",
+          "actor": "AAD:1",
+          "target": "Media:Local Beat",
+          "status": "scheduled"
+        }
+      ],
+      "used": 0.5
+    }
+  },
+  "today": "2025-10-31"
+}

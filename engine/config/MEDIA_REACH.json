@@ -1,0 +1,9 @@
+﻿{
+  "multipliers": {
+    "Local": 1.0,
+    "Regional": 0.9,
+    "National": 0.8
+  },
+  "global_multiplier": 1.0,
+  "note": "Engine copy (source of truth). Docs has its own copy for SMOKE."
+}

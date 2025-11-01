@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "AD:State U": {
+      "type": "AD"
+    },
+    "Media:Local Beat": {
+      "type": "Media"
+    },
+    "AAD:1": {
+      "type": "AAD"
+    }
+  },
+  "edges": {
+    "AD:State U→Media:Local Beat": {
+      "trust": 0.5,
+      "rapport": 0.5,
+      "influence": 0.5,
+      "last_intents": {
+        "amplify_story": 1761926608.350334
+      }
+    },
+    "AAD:1→Media:Local Beat": {
+      "trust": 0.5,
+      "rapport": 0.5,
+      "influence": 0.5,
+      "last_intents": {
+        "ignore_story": 1761948792.2999566
+      }
+    }
+  },
+  "meta": {}
+}
