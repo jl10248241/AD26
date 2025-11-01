@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "version": "v16.4",
+    "scale": "-1.0_to_+1.0"
+  },
+  "traits": [
+    "Leadership",
+    "Charisma",
+    "Discipline",
+    "Empathy",
+    "Arrogance",
+    "Authenticity",
+    "Communication"
+  ],
+  "matrix": {
+    "Leadership": {
+      "Leadership": 0.0,
+      "Charisma": 0.4,
+      "Discipline": 0.3,
+      "Empathy": 0.2,
+      "Arrogance": -0.4,
+      "Authenticity": 0.1,
+      "Communication": 0.2
+    },
+    "Charisma": {
+      "Leadership": 0.4,
+      "Charisma": 0.0,
+      "Discipline": 0.0,
+      "Empathy": 0.3,
+      "Arrogance": -0.5,
+      "Authenticity": 0.5,
+      "Communication": 0.35
+    },
+    "Discipline": {
+      "Leadership": 0.2,
+      "Charisma": 0.0,
+      "Discipline": 0.0,
+      "Empathy": -0.2,
+      "Arrogance": -0.1,
+      "Authenticity": 0.3,
+      "Communication": 0.1
+    },
+    "Empathy": {
+      "Leadership": 0.1,
+      "Charisma": 0.3,
+      "Discipline": -0.2,
+      "Empathy": 0.0,
+      "Arrogance": -0.4,
+      "Authenticity": 0.5,
+      "Communication": 0.2
+    },
+    "Arrogance": {
+      "Leadership": -0.5,
+      "Charisma": -0.6,
+      "Discipline": -0.3,
+      "Empathy": -0.5,
+      "Arrogance": 0.0,
+      "Authenticity": -0.6,
+      "Communication": -0.3
+    },
+    "Authenticity": {
+      "Leadership": 0.2,
+      "Charisma": 0.5,
+      "Discipline": 0.3,
+      "Empathy": 0.4,
+      "Arrogance": -0.5,
+      "Authenticity": 0.0,
+      "Communication": 0.2
+    },
+    "Communication": {
+      "Leadership": 0.1,
+      "Charisma": 0.35,
+      "Discipline": 0.1,
+      "Empathy": 0.2,
+      "Arrogance": -0.3,
+      "Authenticity": 0.2,
+      "Communication": 0.0
+    }
+  }
+}

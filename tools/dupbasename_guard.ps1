@@ -1,29 +1,34 @@
 ﻿param()
 $ErrorActionPreference = "Stop"
 
-# Scan roots; exclude snapshot dirs; ignore editor temp/backup patterns; skip anything under \archive\
 $roots = @(
-  @{ Path = ".\docs";          ExcludeDirs = @("_golden") },
-  @{ Path = ".\engine\config"; ExcludeDirs = @() }
+  @{ Path = ".\docs";          ExcludeDirsLike = @("^_golden") },  # ignore any dir that starts with _golden
+  @{ Path = ".\engine\config"; ExcludeDirsLike = @() }
 )
 
+# ignore typical backup/temp names
 $ignoreNameRegex = '(\.bak($|[^/\\]))|(~$)|(#[^/\\]*$)|(\.tmp$)|(\.swp$)|(\.swx$)'
+
 $files = @()
-
 foreach ($r in $roots) {
-  if (-not (Test-Path $r.Path)) { continue }
+  if (Test-Path $r.Path) {
+    Get-ChildItem $r.Path -Recurse -File | Where-Object {
+      $dirLeaf = Split-Path -Leaf $_.DirectoryName
 
-  Get-ChildItem $r.Path -Recurse -File | Where-Object {
-    # exclude archive trees completely
-    $_.FullName -notmatch '\\archive\\' -and
-    # exclude specific leaf directories (_golden snapshots)
-    ($r.ExcludeDirs -notcontains (Split-Path $_.DirectoryName -Leaf)) -and
-    # ignore temp/backup filenames
-    ($_.Name -notmatch $ignoreNameRegex)
-  } | ForEach-Object { $files += $_ }
+      # excluded if the *leaf* folder matches any pattern (e.g., _golden*)
+      $excluded = $false
+      foreach ($pat in $r.ExcludeDirsLike) {
+        if ($dirLeaf -match $pat) { $excluded = $true; break }
+      }
+
+      (-not $excluded) -and
+      ($_.Name -notmatch $ignoreNameRegex) -and
+      ($_.FullName -notmatch '\\archive\\')
+    } | ForEach-Object { $files += $_ }
+  }
 }
 
-# Group by case-insensitive BaseName
+# Group by BaseName (case-insensitive)
 $dups = $files | Group-Object { $_.BaseName.ToLowerInvariant() } | Where-Object { $_.Count -gt 1 }
 
 if ($dups.Count -gt 0) {

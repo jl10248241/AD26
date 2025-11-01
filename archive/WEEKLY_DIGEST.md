@@ -32,3 +32,14 @@
 - Coach morale:
   - State U: 0.548
   - School 029: 0.584
+
+## Week 24
+
+- Inbox items: **2**
+- Media story: `logs\MEDIA\W23-media-state-u.json`
+- Fan energy:
+  - State U: 0.446
+  - School 029: 0.439
+- Coach morale:
+  - State U: 0.562
+  - School 029: 0.582
