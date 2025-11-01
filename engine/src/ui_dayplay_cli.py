@@ -1,4 +1,6 @@
-﻿# ui_dayplay_cli.py — DayPlay (one-week loop) for v17.9.x
+﻿from __future__ import annotations
+
+# ui_dayplay_cli.py — DayPlay (one-week loop) for v17.9.x
 # Safe to run via: python -m engine.src.ui_dayplay_cli play
 
 if __package__ in (None, ""):
@@ -10,7 +12,8 @@ if __package__ in (None, ""):
 import argparse, json
 from .run_tick import run_one_week
 from .ui_recruiting_influence_cli import cmd_show as _recruit_show
-from .ui_comm_auto_cli import main as _noop_import  # ensure CLI modules import cleanly
+from .weekly_digest import write_weekly_digest  # <— ensure we write digest every run
+from .ui_comm_auto_cli import main as _noop_import  # import check
 
 def _print_header(title: str):
     print("\n" + "="*64)
@@ -18,7 +21,6 @@ def _print_header(title: str):
     print("="*64)
 
 def _show_week_snapshot():
-    # Lightweight status peek without coupling to internal formats
     try:
         from .config_paths import DOCS_PATH
         p_feed = DOCS_PATH / "MEDIA_FEED.md"
@@ -38,14 +40,21 @@ def play_one_week():
     _print_header("Starting DayPlay (one-week)")
     result = run_one_week()
     print(json.dumps(result, indent=2))
+
+    # Always write digest (won't throw if writer is missing)
+    try:
+        write_weekly_digest(result)
+    except Exception as e:
+        print("Digest skipped:", e)
+
     _show_week_snapshot()
 
     _print_header("Recruiting Influence (selftest view)")
-    class _Args:  # shim to reuse ui_recruiting_influence_cli.cmd_show
+    class _Args:
         selftest=True; verbose=True
     _recruit_show(_Args())
 
-    print("\n✅ DayPlay complete: docs updated, nudges applied, media/inbox written.")
+    print("\n✅ DayPlay complete: docs updated, digest written, nudges applied, media/inbox written.")
 
 def main():
     p = argparse.ArgumentParser()
@@ -58,3 +67,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

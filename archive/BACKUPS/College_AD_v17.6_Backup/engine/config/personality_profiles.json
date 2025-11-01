@@ -1,0 +1,266 @@
+{
+  "Donor_Patron": {
+    "traits": {
+      "charisma": [
+        0.6,
+        0.9
+      ],
+      "authenticity": [
+        0.4,
+        0.8
+      ],
+      "communication": [
+        0.6,
+        0.9
+      ],
+      "strategy": [
+        0.2,
+        0.6
+      ],
+      "temperament": [
+        0.5,
+        0.9
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.3,
+        0.7
+      ],
+      "generosity": [
+        0.6,
+        0.95
+      ],
+      "media_savvy": [
+        0.4,
+        0.7
+      ]
+    },
+    "style": {
+      "email": "warm",
+      "text": "brief",
+      "call": "animated",
+      "meeting": "collaborative"
+    }
+  },
+  "Donor_Corporate": {
+    "traits": {
+      "charisma": [
+        0.3,
+        0.7
+      ],
+      "authenticity": [
+        0.3,
+        0.6
+      ],
+      "communication": [
+        0.5,
+        0.8
+      ],
+      "strategy": [
+        0.6,
+        0.95
+      ],
+      "temperament": [
+        0.2,
+        0.6
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.2,
+        0.5
+      ],
+      "generosity": [
+        0.4,
+        0.8
+      ],
+      "media_savvy": [
+        0.6,
+        0.95
+      ]
+    },
+    "style": {
+      "email": "formal",
+      "text": "curt",
+      "call": "measured",
+      "meeting": "agenda"
+    }
+  },
+  "Coach_Charismatic": {
+    "traits": {
+      "charisma": [
+        0.7,
+        0.95
+      ],
+      "authenticity": [
+        0.5,
+        0.9
+      ],
+      "communication": [
+        0.6,
+        0.95
+      ],
+      "strategy": [
+        0.3,
+        0.7
+      ],
+      "temperament": [
+        0.4,
+        0.8
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.5,
+        0.8
+      ],
+      "generosity": [
+        0.3,
+        0.6
+      ],
+      "media_savvy": [
+        0.5,
+        0.9
+      ]
+    },
+    "style": {
+      "email": "enthusiastic",
+      "text": "emoji",
+      "call": "high_energy",
+      "meeting": "motivate"
+    }
+  },
+  "Coach_Grinder": {
+    "traits": {
+      "charisma": [
+        0.2,
+        0.6
+      ],
+      "authenticity": [
+        0.6,
+        0.95
+      ],
+      "communication": [
+        0.3,
+        0.7
+      ],
+      "strategy": [
+        0.5,
+        0.9
+      ],
+      "temperament": [
+        0.3,
+        0.7
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.2,
+        0.5
+      ],
+      "generosity": [
+        0.2,
+        0.5
+      ],
+      "media_savvy": [
+        0.3,
+        0.6
+      ]
+    },
+    "style": {
+      "email": "blunt",
+      "text": "short",
+      "call": "matter_of_fact",
+      "meeting": "task_focus"
+    }
+  },
+  "Journalist_Aggressive": {
+    "traits": {
+      "charisma": [
+        0.4,
+        0.8
+      ],
+      "authenticity": [
+        0.3,
+        0.7
+      ],
+      "communication": [
+        0.6,
+        0.95
+      ],
+      "strategy": [
+        0.5,
+        0.9
+      ],
+      "temperament": [
+        0.6,
+        0.95
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.6,
+        0.95
+      ],
+      "generosity": [
+        0.2,
+        0.5
+      ],
+      "media_savvy": [
+        0.7,
+        0.95
+      ]
+    },
+    "style": {
+      "email": "probing",
+      "text": "probing",
+      "call": "confrontational",
+      "meeting": "press_conference"
+    }
+  },
+  "Admin_Cautious": {
+    "traits": {
+      "charisma": [
+        0.3,
+        0.6
+      ],
+      "authenticity": [
+        0.5,
+        0.9
+      ],
+      "communication": [
+        0.5,
+        0.8
+      ],
+      "strategy": [
+        0.6,
+        0.95
+      ],
+      "temperament": [
+        0.2,
+        0.5
+      ]
+    },
+    "modifiers": {
+      "risk_tolerance": [
+        0.1,
+        0.4
+      ],
+      "generosity": [
+        0.3,
+        0.6
+      ],
+      "media_savvy": [
+        0.4,
+        0.7
+      ]
+    },
+    "style": {
+      "email": "formal",
+      "text": "brief",
+      "call": "measured",
+      "meeting": "committee"
+    }
+  }
+}

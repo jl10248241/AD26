@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Coach A",
+    "archetype": "Politician",
+    "traits": {
+      "Charisma": 52.335565287129754,
+      "Integrity": 47.997671833853616,
+      "Discipline": 49.999556539781636,
+      "Communication": 35.055,
+      "Authenticity": 33.5
+    },
+    "subtraits": {
+      "Communication": {
+        "Clarity": 7.0,
+        "Storytelling": 2,
+        "AudienceAdapt": 1
+      },
+      "Authenticity": {
+        "Integrity": 0,
+        "Poise": 0
+      }
+    },
+    "anchor_strength": 1.0,
+    "_reg_cooldowns": {
+      "TEST_SUBTRAIT_CLARITY": 1.0
+    },
+    "_reg_persist": [],
+    "cultivation": {
+      "Charisma": 0.0,
+      "Integrity": 0.0,
+      "Discipline": 0.0,
+      "Communication": 0.0,
+      "Authenticity": 0.0
+    },
+    "era_waterline": {
+      "Charisma": 0.0,
+      "Integrity": 0.0,
+      "Discipline": 0.0,
+      "Communication": 0.0,
+      "Authenticity": 0.0
+    }
+  }
+]

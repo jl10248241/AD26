@@ -1,0 +1,35 @@
+[
+  {
+    "q": "Leak rumor vs Keep silent",
+    "A": {
+      "ShortTerm": 2,
+      "SocialSavvy": 2
+    },
+    "B": {
+      "Honesty": 2,
+      "LongTerm": 2
+    }
+  },
+  {
+    "q": "Spend now vs Save",
+    "A": {
+      "ShortTerm": 2,
+      "RiskTolerance": 2
+    },
+    "B": {
+      "SystemsThinking": 2,
+      "LongTerm": 2
+    }
+  },
+  {
+    "q": "Defend publicly vs Review internally",
+    "A": {
+      "Empathy": 2,
+      "Poise": 2
+    },
+    "B": {
+      "Consistency": 2,
+      "Accountability": 2
+    }
+  }
+]

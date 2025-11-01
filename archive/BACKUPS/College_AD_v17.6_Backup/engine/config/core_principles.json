@@ -1,0 +1,23 @@
+{
+  "principles": [
+    "Consistency",
+    "Honesty",
+    "Accountability",
+    "Empathy",
+    "Poise",
+    "Curiosity",
+    "WorkEthic",
+    "RiskTolerance",
+    "SocialSavvy",
+    "SystemsThinking",
+    "ShortTerm",
+    "LongTerm"
+  ],
+  "decay": {
+    "default": 0.02
+  },
+  "clamp": {
+    "min": -100,
+    "max": 100
+  }
+}

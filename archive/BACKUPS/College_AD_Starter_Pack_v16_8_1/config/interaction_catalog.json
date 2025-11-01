@@ -1,0 +1,49 @@
+[
+  {
+    "action": "BackCoachInPresser",
+    "target": "Coach",
+    "effects": {
+      "CP": {
+        "Empathy": 0.2,
+        "Poise": 0.1
+      },
+      "Trait": {
+        "Charisma": 0.3,
+        "Integrity": 0.1
+      },
+      "Goals": {
+        "Sentiment": 0.2,
+        "MediaHeat": -0.1
+      }
+    },
+    "risk": "Low"
+  },
+  {
+    "action": "PushGrayRecruiting",
+    "effects": {
+      "Coach_CP": {
+        "Honesty": -0.3,
+        "ShortTerm": 0.2
+      },
+      "World": {
+        "NCAA_Risk": 0.3,
+        "RecruitingHeat": 0.2
+      }
+    },
+    "risk": "High"
+  },
+  {
+    "action": "MicromanagePractice",
+    "effects": {
+      "Coach_CP": {
+        "Consistency": 0.2,
+        "Empathy": -0.1
+      },
+      "Goals": {
+        "Wins": 0.05,
+        "Sentiment": -0.05
+      }
+    },
+    "risk": "Medium"
+  }
+]

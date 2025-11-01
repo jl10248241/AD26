@@ -1,0 +1,82 @@
+{
+  "meta": { "alpha": 0.35 },
+
+  "Charisma": {
+    "weights": {
+      "SocialSavvy": 0.35,
+      "Poise": 0.25,
+      "Empathy": 0.20,
+      "Consistency": 0.20
+    }
+  },
+
+  "Integrity": {
+    "weights": {
+      "Honesty": 0.45,
+      "Accountability": 0.30,
+      "LongTerm": 0.25
+    }
+  },
+
+  "Discipline": {
+    "weights": {
+      "Accountability": 0.40,
+      "Consistency": 0.35,
+      "WorkEthic": 0.25
+    }
+  },
+
+  "Ego": {
+    "weights": {
+      "ShortTerm": 0.9166666667,
+      "RiskTolerance": 0.4166666667,
+      "Empathy": -0.3333333334
+    }
+  },
+
+  "Motivation": {
+    "weights": {
+      "WorkEthic": 0.45,
+      "LongTerm": 0.30,
+      "Curiosity": 0.25
+    }
+  },
+
+  "Adaptability": {
+    "weights": {
+      "Curiosity": 0.45,
+      "SystemsThinking": 0.35,
+      "RiskTolerance": 0.20
+    }
+  },
+
+  "TacticalIntelligence": {
+    "weights": {
+      "SystemsThinking": 0.60,
+      "Curiosity": 0.40
+    }
+  },
+
+  "Leadership": {
+    "weights": {
+      "Charisma": 0.40,
+      "Integrity": 0.35,
+      "Discipline": 0.25
+    }
+  },
+
+  "Communication": {
+    "weights": {
+      "Clarity": 0.40,
+      "Storytelling": 0.30,
+      "AudienceAdapt": 0.30
+    }
+  },
+
+  "Authenticity": {
+    "weights": {
+      "Integrity": 0.60,
+      "Poise": 0.40
+    }
+  }
+}

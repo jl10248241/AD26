@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "version": "v16.4",
+    "note": "0-100 scale"
+  },
+  "defaults": {
+    "anchor_strength": 0.6
+  },
+  "archetypes": {
+    "Visionary": {
+      "anchor": {
+        "Leadership": 78,
+        "Charisma": 75,
+        "Discipline": 52,
+        "Empathy": 62,
+        "Arrogance": 38,
+        "Authenticity": 66,
+        "Communication": 72
+      },
+      "anchor_strength": 0.7
+    },
+    "Politician": {
+      "anchor": {
+        "Leadership": 68,
+        "Charisma": 80,
+        "Discipline": 54,
+        "Empathy": 58,
+        "Arrogance": 55,
+        "Authenticity": 48,
+        "Communication": 76
+      }
+    },
+    "Mentor": {
+      "anchor": {
+        "Leadership": 66,
+        "Charisma": 64,
+        "Discipline": 56,
+        "Empathy": 80,
+        "Arrogance": 34,
+        "Authenticity": 78,
+        "Communication": 68
+      }
+    },
+    "Grinder": {
+      "anchor": {
+        "Leadership": 62,
+        "Charisma": 50,
+        "Discipline": 82,
+        "Empathy": 46,
+        "Arrogance": 42,
+        "Authenticity": 64,
+        "Communication": 58
+      }
+    },
+    "Maverick": {
+      "anchor": {
+        "Leadership": 64,
+        "Charisma": 72,
+        "Discipline": 48,
+        "Empathy": 50,
+        "Arrogance": 60,
+        "Authenticity": 45,
+        "Communication": 62
+      },
+      "anchor_strength": 0.5
+    }
+  }
+}

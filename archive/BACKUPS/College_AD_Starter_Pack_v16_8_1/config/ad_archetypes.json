@@ -1,0 +1,125 @@
+{
+  "Politician": {
+    "CP": {
+      "SocialSavvy": 40,
+      "ShortTerm": 20,
+      "Empathy": 10
+    },
+    "GoalWeights": {
+      "Prestige": 0.3,
+      "Wins": 0.25,
+      "Finance": 0.2,
+      "Sentiment": 0.2,
+      "Integrity": 0.05
+    },
+    "NoiseSigma": 0.08,
+    "RiskCeiling": 0.6
+  },
+  "Economist": {
+    "CP": {
+      "SystemsThinking": 35,
+      "LongTerm": 20
+    },
+    "GoalWeights": {
+      "Finance": 0.3,
+      "Prestige": 0.25,
+      "Wins": 0.2,
+      "Integrity": 0.15,
+      "Sentiment": 0.1
+    },
+    "NoiseSigma": 0.07,
+    "RiskCeiling": 0.5
+  },
+  "Purist": {
+    "CP": {
+      "Honesty": 40,
+      "Accountability": 25,
+      "LongTerm": 15
+    },
+    "GoalWeights": {
+      "Integrity": 0.35,
+      "LongHorizonPrestige": 0.25,
+      "Wins": 0.2,
+      "Finance": 0.1,
+      "Sentiment": 0.1
+    },
+    "NoiseSigma": 0.05,
+    "RiskCeiling": 0.3
+  },
+  "Fixer": {
+    "CP": {
+      "ShortTerm": 35,
+      "RiskTolerance": 25
+    },
+    "GoalWeights": {
+      "Wins": 0.35,
+      "Prestige": 0.25,
+      "Finance": 0.15,
+      "Integrity": 0.05,
+      "Sentiment": 0.2
+    },
+    "NoiseSigma": 0.1,
+    "RiskCeiling": 0.8
+  },
+  "Mentor": {
+    "CP": {
+      "Empathy": 35,
+      "WorkEthic": 20
+    },
+    "GoalWeights": {
+      "Wins": 0.25,
+      "Prestige": 0.2,
+      "Integrity": 0.2,
+      "Sentiment": 0.25,
+      "Finance": 0.1
+    },
+    "NoiseSigma": 0.06,
+    "RiskCeiling": 0.4
+  },
+  "Innovator": {
+    "CP": {
+      "Curiosity": 40,
+      "RiskTolerance": 20,
+      "SystemsThinking": 20
+    },
+    "GoalWeights": {
+      "Wins": 0.3,
+      "Prestige": 0.25,
+      "Finance": 0.15,
+      "Integrity": 0.1,
+      "Sentiment": 0.2
+    },
+    "NoiseSigma": 0.09,
+    "RiskCeiling": 0.7
+  },
+  "Stabilizer": {
+    "CP": {
+      "Consistency": 35,
+      "Accountability": 20
+    },
+    "GoalWeights": {
+      "Prestige": 0.25,
+      "Wins": 0.25,
+      "Integrity": 0.2,
+      "Finance": 0.2,
+      "Sentiment": 0.1
+    },
+    "NoiseSigma": 0.04,
+    "RiskCeiling": 0.45
+  },
+  "Kingmaker": {
+    "CP": {
+      "SocialSavvy": 30,
+      "SystemsThinking": 25
+    },
+    "GoalWeights": {
+      "Prestige": 0.35,
+      "Finance": 0.2,
+      "Wins": 0.2,
+      "Sentiment": 0.2,
+      "Integrity": 0.05
+    },
+    "NoiseSigma": 0.07,
+    "RiskCeiling": 0.6
+  }
+}

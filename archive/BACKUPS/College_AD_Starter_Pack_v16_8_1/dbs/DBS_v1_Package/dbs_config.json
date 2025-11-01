@@ -1,0 +1,38 @@
+{
+  "version": "DBS_v1",
+  "updated": "2025-10-26T16:58:02.222604",
+  "plasticity_alpha": {
+    "Consistency": 0.2,
+    "Honesty": 0.1,
+    "Accountability": 0.15,
+    "Empathy": 0.35,
+    "Poise": 0.35,
+    "Curiosity": 0.45,
+    "WorkEthic": 0.25,
+    "RiskTolerance": 0.3,
+    "SocialSavvy": 0.4,
+    "SystemsThinking": 0.35,
+    "ShortTerm": 0.3,
+    "LongTerm": 0.25
+  },
+  "cultivation_caps": {
+    "Consistency": 15,
+    "Honesty": 8,
+    "Accountability": 10,
+    "Empathy": 18,
+    "Poise": 18,
+    "Curiosity": 20,
+    "WorkEthic": 14,
+    "RiskTolerance": 16,
+    "SocialSavvy": 20,
+    "SystemsThinking": 16,
+    "ShortTerm": 16,
+    "LongTerm": 14
+  },
+  "decay_default": 0.02,
+  "backslide_lambda": 0.08,
+  "clamp": {
+    "min": -100,
+    "max": 100
+  }
+}

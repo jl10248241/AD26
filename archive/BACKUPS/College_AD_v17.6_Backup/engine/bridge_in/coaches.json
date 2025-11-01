@@ -1,0 +1,5 @@
+[{"name":"Coach A","archetype":"Politician",
+  "traits":{"Charisma":52,"Integrity":48,"Discipline":50,"Communication":50,"Authenticity":50},
+  "subtraits": {"Communication":{"Clarity":3,"Storytelling":2,"AudienceAdapt":1},
+                "Authenticity":{"Integrity":0,"Poise":0}},
+  "anchor_strength":1.0}]

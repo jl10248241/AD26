@@ -1,0 +1,15 @@
+[
+  {
+    "week": 1,
+    "id": "TEST_SUBTRAIT_CLARITY",
+    "coach": "Coach A",
+    "intensity": 0.4,
+    "trait_deltas": [
+      {
+        "trait": "Communication",
+        "subtrait": "Clarity",
+        "delta": 4.0
+      }
+    ]
+  }
+]

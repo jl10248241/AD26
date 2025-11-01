@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Coach A",
+    "archetype": "Politician",
+    "traits": {
+      "Charisma": 49.4,
+      "Integrity": 45.6,
+      "Discipline": 47.5,
+      "Communication": 50,
+      "Authenticity": 50,
+      "Ego": 0.0,
+      "Motivation": 0.0,
+      "Adaptability": 0.0,
+      "TacticalIntelligence": 0.0,
+      "Leadership": 47.5
+    },
+    "subtraits": {
+      "Communication": {
+        "Clarity": 3,
+        "Storytelling": 2,
+        "AudienceAdapt": 1
+      },
+      "Authenticity": {
+        "Integrity": 0,
+        "Poise": 0
+      }
+    },
+    "anchor_strength": 1.0
+  }
+]

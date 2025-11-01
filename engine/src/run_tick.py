@@ -1,5 +1,10 @@
-﻿# engine/src/run_tick.py
-from __future__ import annotations
+﻿from __future__ import annotations
+
+from .schedule_executor import execute_schedule
+
+from .schedule_executor import execute_schedule
+from .selftest_guardrails import guard_before_advance
+# engine/src/run_tick.py
 from pathlib import Path
 from typing import Dict, Any, List
 import json, random, datetime as _dt, subprocess, sys, time
@@ -186,15 +191,15 @@ def _post_hooks():
             pass
 
 # ---------- Main tick ----------
-def run_one_week() -> Dict[str, Any]:
+def run_one_week() -> dict:
     _ensure_dirs()
     clock = _load_clock()
     week = int(clock.get("week", 1))
     schools = _seed_schools()
 
-    # --- v17.9 guardrails: block unsafe advances ---
+    # ✅ guard before proceeding
     if not guard_before_advance(week):
-        return {"status": "halted", "week": week, "reason": "guardrails"}
+        return {"status": "halted", "week": week, "reason": "guard_blocked"}
 
     inbox_files = _write_briefings(week, schools)
     nudges = _apply_nudges(week, schools)
@@ -206,21 +211,40 @@ def run_one_week() -> Dict[str, Any]:
 
     _post_hooks()
 
-    return {
+    result = {
         "status": "ok",
         "week_started": week,
-        "week_ended": clock["week"],
-        "inbox_files": [str(p.relative_to(ROOT)) for p in inbox_files],
-        "media_file": str(media_file.relative_to(ROOT)),
+        "week_ended": week + 1,
+        "inbox_files": [str(p.relative_to(ROOT)) if isinstance(p, Path) else str(p) for p in inbox_files],
+        "media_file": str(media_file.relative_to(ROOT)) if isinstance(media_file, Path) else str(media_file),
         "nudges": {
-            "fan_energy": nudges["fan_energy"],
-            "coach_morale": nudges["coach_morale"]
-        }
+            "fan_energy": nudges.get("fan_energy", {}),
+            "coach_morale": nudges.get("coach_morale", {}),
+        },
     }
+    return result
 
+
+if __name__ == "__main__":
+    # Allow: python -m engine.src.run_tick
+    out = run_one_week()
+    print(json.dumps(out, ensure_ascii=False, indent=2))
 if __name__ == "__main__":
     out = run_one_week()
     print(json.dumps(out, indent=2))
+
+
+
+
+
+    # attach executed summary and present final result
+    try:
+        ev = executed
+    except NameError:
+        ev = { 'executed_count': 0, 'executed': [] }
+    final = dict(return_value)
+    final['executed_events'] = ev
+
 
 
 

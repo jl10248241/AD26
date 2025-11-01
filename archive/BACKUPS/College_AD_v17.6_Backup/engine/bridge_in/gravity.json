@@ -1,0 +1,7 @@
+{
+  "Charisma":      { "Charisma": 0, "Integrity": 0, "Discipline": 0,  "Communication": 0,  "Authenticity": 0 },
+  "Integrity":     { "Charisma": 0, "Integrity": 0, "Discipline": 0.05, "Communication": 0, "Authenticity": 0.02 },
+  "Discipline":    { "Charisma": -0.02, "Integrity": 0.02, "Discipline": 0, "Communication": 0, "Authenticity": 0 },
+  "Communication": { "Charisma": 0.03, "Integrity": 0, "Discipline": 0, "Communication": 0, "Authenticity": 0 },
+  "Authenticity":  { "Charisma": 0.02, "Integrity": 0.03, "Discipline": 0, "Communication": 0, "Authenticity": 0 }
+}

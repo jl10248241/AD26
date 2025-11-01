@@ -1,0 +1,119 @@
+[
+  {
+    "id": "TEST_SUBTRAIT_CLARITY",
+    "category": "Media",
+    "trigger_chance": 1.0,
+    "weight": 1.0,
+    "intensity": { "min": 0.4, "max": 0.4 },
+    "persistence_weeks": { "min": 0, "max": 0 },
+    "repeatable": true,
+    "cooldown_weeks": 1,
+    "targets": ["Coach"],
+    "effects": [
+      {
+        "type": "trait_delta",
+        "who": "Coach",
+        "trait": "Communication",
+        "subtrait": "Clarity",
+        "formula": "intensity*10"
+      }
+    ]
+  },
+  {
+    "id": "DONOR_DINNER_BONUS",
+    "category": "Donor",
+    "trigger_chance": 0.03,
+    "weight": 1.0,
+    "intensity": { "min": 0.1, "max": 0.4 },
+    "persistence_weeks": { "min": 0, "max": 0 },
+    "repeatable": true,
+    "cooldown_weeks": 12,
+    "targets": ["AD", "School"],
+    "eligibility": { "prestige_min": 20 },
+    "effects": [
+      {
+        "type": "finance",
+        "who": "School",
+        "donor_yield_mul": "1+intensity*0.2"
+      },
+      {
+        "type": "trait_delta",
+        "who": "Coach",
+        "trait": "Charisma",
+        "subtrait": "Persuade",
+        "formula": "intensity*3"
+      },
+      {
+        "type": "trait_delta",
+        "who": "Coach",
+        "trait": "Communication",
+        "subtrait": "Storytelling",
+        "formula": "intensity*2"
+      }
+    ]
+  },
+  {
+    "id": "MEDIA_SCRUM",
+    "category": "Media",
+    "trigger_chance": 0.04,
+    "weight": 1.0,
+    "intensity": { "min": -0.3, "max": 0.3 },
+    "persistence_weeks": { "min": 1, "max": 2 },
+    "repeatable": true,
+    "cooldown_weeks": 8,
+    "targets": ["Coach"],
+    "eligibility": { "prestige_min": 10 },
+    "effects": [
+      {
+        "type": "sentiment",
+        "who": "School",
+        "delta": "intensity*8"
+      },
+      {
+        "type": "trait_delta",
+        "who": "Coach",
+        "trait": "Communication",
+        "subtrait": "AudienceAdapt",
+        "formula": "intensity*4"
+      },
+      {
+        "type": "context_apply",
+        "who": "Coach",
+        "context": "WinningSeason",
+        "weeks": "persistence"
+      }
+    ]
+  },
+  {
+    "id": "SCANDAL_MINOR",
+    "category": "NCAA",
+    "trigger_chance": 0.02,
+    "weight": 1.0,
+    "intensity": { "min": -0.4, "max": -0.2 },
+    "persistence_weeks": { "min": 2, "max": 6 },
+    "repeatable": true,
+    "cooldown_weeks": 26,
+    "targets": ["Coach", "School"],
+    "eligibility": { "prestige_min": 40, "auth_max": 80 },
+    "effects": [
+      {
+        "type": "trait_delta",
+        "who": "Coach",
+        "trait": "Authenticity",
+        "subtrait": "Integrity",
+        "formula": "intensity*12"
+      },
+      {
+        "type": "context_apply",
+        "who": "Coach",
+        "context": "Scandal",
+        "weeks": "persistence"
+      },
+      {
+        "type": "media_heat",
+        "who": "School",
+        "delta": "abs(intensity)*5"
+      }
+    ]
+  }
+]

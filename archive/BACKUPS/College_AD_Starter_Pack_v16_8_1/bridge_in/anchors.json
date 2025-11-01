@@ -1,0 +1,12 @@
+{
+  "Politician": {
+    "anchor": {
+      "Charisma": 55, "Integrity": 48, "Discipline": 50, "Communication": 52, "Authenticity": 49
+    }
+  },
+  "Tactician": {
+    "anchor": {
+      "Charisma": 48, "Integrity": 52, "Discipline": 54, "Communication": 50, "Authenticity": 51
+    }
+  }
+}

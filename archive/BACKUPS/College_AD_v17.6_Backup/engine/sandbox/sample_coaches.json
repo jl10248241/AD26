@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "version": "v16.7",
+    "seed": 424242
+  },
+  "coaches": [
+    {
+      "id": "V01",
+      "archetype": "Visionary",
+      "traits": {
+        "Leadership": 77,
+        "Charisma": 75,
+        "Discipline": 53,
+        "Empathy": 63,
+        "Arrogance": 39,
+        "Authenticity": 67,
+        "Communication": 72
+      }
+    },
+    {
+      "id": "V02",
+      "archetype": "Visionary",
+      "traits": {
+        "Leadership": 79,
+        "Charisma": 73,
+        "Discipline": 51,
+        "Empathy": 61,
+        "Arrogance": 37,
+        "Authenticity": 66,
+        "Communication": 71
+      }
+    },
+    {
+      "id": "P01",
+      "archetype": "Politician",
+      "traits": {
+        "Leadership": 67,
+        "Charisma": 80,
+        "Discipline": 55,
+        "Empathy": 58,
+        "Arrogance": 55,
+        "Authenticity": 48,
+        "Communication": 76
+      }
+    },
+    {
+      "id": "P02",
+      "archetype": "Politician",
+      "traits": {
+        "Leadership": 69,
+        "Charisma": 78,
+        "Discipline": 54,
+        "Empathy": 57,
+        "Arrogance": 56,
+        "Authenticity": 49,
+        "Communication": 75
+      }
+    },
+    {
+      "id": "M01",
+      "archetype": "Mentor",
+      "traits": {
+        "Leadership": 66,
+        "Charisma": 64,
+        "Discipline": 57,
+        "Empathy": 79,
+        "Arrogance": 34,
+        "Authenticity": 78,
+        "Communication": 68
+      }
+    },
+    {
+      "id": "M02",
+      "archetype": "Mentor",
+      "traits": {
+        "Leadership": 65,
+        "Charisma": 63,
+        "Discipline": 56,
+        "Empathy": 81,
+        "Arrogance": 33,
+        "Authenticity": 77,
+        "Communication": 67
+      }
+    },
+    {
+      "id": "G01",
+      "archetype": "Grinder",
+      "traits": {
+        "Leadership": 62,
+        "Charisma": 50,
+        "Discipline": 82,
+        "Empathy": 46,
+        "Arrogance": 42,
+        "Authenticity": 64,
+        "Communication": 58
+      }
+    },
+    {
+      "id": "G02",
+      "archetype": "Grinder",
+      "traits": {
+        "Leadership": 63,
+        "Charisma": 51,
+        "Discipline": 80,
+        "Empathy": 47,
+        "Arrogance": 41,
+        "Authenticity": 63,
+        "Communication": 59
+      }
+    },
+    {
+      "id": "X01",
+      "archetype": "Maverick",
+      "traits": {
+        "Leadership": 64,
+        "Charisma": 72,
+        "Discipline": 48,
+        "Empathy": 50,
+        "Arrogance": 60,
+        "Authenticity": 45,
+        "Communication": 62
+      }
+    },
+    {
+      "id": "X02",
+      "archetype": "Maverick",
+      "traits": {
+        "Leadership": 65,
+        "Charisma": 70,
+        "Discipline": 49,
+        "Empathy": 51,
+        "Arrogance": 59,
+        "Authenticity": 46,
+        "Communication": 61
+      }
+    }
+  ]
+}

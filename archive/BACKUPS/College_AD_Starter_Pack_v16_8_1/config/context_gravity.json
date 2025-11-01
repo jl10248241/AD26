@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "version": "v16.4",
+    "decay_weeks": 6
+  },
+  "contexts": {
+    "WinningSeason": {
+      "gravity_overrides": [
+        {
+          "source": "Leadership",
+          "target": "Charisma",
+          "delta": 0.1
+        }
+      ],
+      "anchor_bias": {
+        "Leadership": 2,
+        "Charisma": 2
+      }
+    },
+    "Scandal": {
+      "gravity_overrides": [
+        {
+          "source": "Arrogance",
+          "target": "Authenticity",
+          "delta": -0.15
+        },
+        {
+          "source": "Charisma",
+          "target": "Authenticity",
+          "delta": -0.1
+        }
+      ],
+      "anchor_bias": {
+        "Authenticity": -8,
+        "Empathy": -3
+      }
+    },
+    "BudgetCrisis": {
+      "gravity_overrides": [
+        {
+          "source": "Discipline",
+          "target": "Charisma",
+          "delta": -0.1
+        }
+      ],
+      "anchor_bias": {
+        "Discipline": 4,
+        "Charisma": -2
+      }
+    }
+  }
+}

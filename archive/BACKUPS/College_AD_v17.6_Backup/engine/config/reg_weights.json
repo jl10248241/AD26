@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "version": "v16.9",
+    "difficulty_profiles": [
+      "Normal"
+    ]
+  },
+  "Normal": {
+    "category_on": {
+      "Donor": true,
+      "Media": true,
+      "NCAA": true
+    },
+    "category_weight": {
+      "Donor": 1.0,
+      "Media": 1.0,
+      "NCAA": 0.7
+    }
+  }
+}

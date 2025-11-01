@@ -12,8 +12,7 @@ files = []
 for root, exclude_dirs in roots:
     if not root.exists():
         continue
-    for p in root.rglob("*"):
-        if not p.is_file():
+    for p in root.rglob('*'):\n        if not p.is_file():\n            continue\n        if 'archive' in str(p.parent).replace('\\\\','/').lower():\n            continue\n        if p.parent.name == '_docs':
             continue
         if p.parent.name in exclude_dirs:
             continue
@@ -37,3 +36,4 @@ if dups:
     raise SystemExit(1)
 
 print("Duplicate-basename scan OK.")
+

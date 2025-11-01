@@ -1,0 +1,11 @@
+﻿[
+  {
+    "week": 99999,
+    "id": "sample-press-1",
+    "type": "press_conference",
+    "title": "Sample press: check-in",
+    "actor": "AD:State U",
+    "target": "Media:Local Beat",
+    "notes": "Test schedule entry — will run when week matches."
+  }
+]
