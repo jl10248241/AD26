@@ -3,145 +3,145 @@
     "State U": {
       "programs": {
         "football": {
-          "current_prestige": 53.64284084315793,
+          "current_prestige": 51.56830679236849,
           "historical_rating": 63.09999530843278,
           "facility": {
-            "condition": 0.7965672345646171,
+            "condition": 0.7930672345646175,
             "nostalgia": 0.2
           }
         },
         "mens_bb": {
-          "current_prestige": 54.394610025588825,
+          "current_prestige": 52.532953732847076,
           "historical_rating": 63.459448289241564,
           "facility": {
-            "condition": 0.8042369598796237,
+            "condition": 0.7993369598796235,
             "nostalgia": 0.12
           }
         },
         "womens_bb": {
-          "current_prestige": 55.501883569567894,
+          "current_prestige": 53.158047696001624,
           "historical_rating": 63.706291758109046,
           "facility": {
-            "condition": 0.8727517606010667,
+            "condition": 0.8678517606010665,
             "nostalgia": 0.12
           }
         },
         "baseball": {
-          "current_prestige": 56.202452623286526,
+          "current_prestige": 54.820924733476666,
           "historical_rating": 73.94686751397121,
           "facility": {
-            "condition": 0.88649848586481,
+            "condition": 0.8829984858648103,
             "nostalgia": 0.2
           }
         },
         "softball": {
-          "current_prestige": 52.6723925867554,
+          "current_prestige": 55.547853756097666,
           "historical_rating": 69.67848149227024,
           "facility": {
-            "condition": 0.8118805698031195,
+            "condition": 0.8083805698031199,
             "nostalgia": 0.2
           }
         },
         "soccer": {
-          "current_prestige": 53.944620620608156,
+          "current_prestige": 58.544885163793026,
           "historical_rating": 71.15243073927344,
           "facility": {
-            "condition": 0.8876791780628163,
+            "condition": 0.8841791780628167,
             "nostalgia": 0.2
           }
         },
         "track": {
-          "current_prestige": 54.34532469824113,
+          "current_prestige": 53.976909460195955,
           "historical_rating": 65.79881558242657,
           "facility": {
-            "condition": 0.7955887766732024,
+            "condition": 0.7920887766732028,
             "nostalgia": 0.2
           }
         },
         "others": {
-          "current_prestige": 53.668771795109855,
+          "current_prestige": 54.41615549556734,
           "historical_rating": 63.11186482707451,
           "facility": {
-            "condition": 0.8051042764375637,
+            "condition": 0.7981042764375637,
             "nostalgia": 0.0
           }
         }
       },
       "meta": {
         "seasons": 10,
-        "weeks": 22
+        "weeks": 29
       }
     },
     "School 029": {
       "programs": {
         "football": {
-          "current_prestige": 55.56788779604716,
+          "current_prestige": 55.91344303604749,
           "historical_rating": 63.81281184258345,
           "facility": {
-            "condition": 0.8147238670386439,
+            "condition": 0.8112238670386442,
             "nostalgia": 0.2
           }
         },
         "mens_bb": {
-          "current_prestige": 56.024037531343865,
+          "current_prestige": 56.5421186864008,
           "historical_rating": 64.37295612173756,
           "facility": {
-            "condition": 0.876046096076522,
+            "condition": 0.8711460960765217,
             "nostalgia": 0.12
           }
         },
         "womens_bb": {
-          "current_prestige": 54.64574029533436,
+          "current_prestige": 56.715401598282504,
           "historical_rating": 63.61466544620289,
           "facility": {
-            "condition": 0.870894305056569,
+            "condition": 0.8659943050565687,
             "nostalgia": 0.12
           }
         },
         "baseball": {
-          "current_prestige": 56.5650780398577,
+          "current_prestige": 56.069081641056414,
           "historical_rating": 68.9361042623503,
           "facility": {
-            "condition": 0.8358012456173055,
+            "condition": 0.8323012456173059,
             "nostalgia": 0.2
           }
         },
         "softball": {
-          "current_prestige": 53.666343336547186,
+          "current_prestige": 53.854263405788444,
           "historical_rating": 65.49114580563901,
           "facility": {
-            "condition": 0.8052100629279507,
+            "condition": 0.8017100629279511,
             "nostalgia": 0.2
           }
         },
         "soccer": {
-          "current_prestige": 53.61480993918409,
+          "current_prestige": 55.64483376316612,
           "historical_rating": 67.56078360281094,
           "facility": {
-            "condition": 0.8715202471690277,
+            "condition": 0.868020247169028,
             "nostalgia": 0.2
           }
         },
         "track": {
-          "current_prestige": 54.09718622283431,
+          "current_prestige": 54.75609262455702,
           "historical_rating": 69.21447717208378,
           "facility": {
-            "condition": 0.8608252103215186,
+            "condition": 0.857325210321519,
             "nostalgia": 0.2
           }
         },
         "others": {
-          "current_prestige": 52.5898331201248,
+          "current_prestige": 52.64305338742987,
           "historical_rating": 68.01518725028005,
           "facility": {
-            "condition": 0.8240217384573718,
+            "condition": 0.8170217384573718,
             "nostalgia": 0.0
           }
         }
       },
       "meta": {
         "seasons": 10,
-        "weeks": 22
+        "weeks": 29
       }
     }
   }

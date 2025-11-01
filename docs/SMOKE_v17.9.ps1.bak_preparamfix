@@ -1,11 +1,9 @@
-﻿# Show MEDIA_REACH (engine/config) — source of truth
-if (Test-Path .\engine\config\MEDIA_REACH.json) {
-  Get-Content .\engine\config\MEDIA_REACH.json -Raw | Write-Output
-}
-# --- guard sanity (import + call + compile) ---
+﻿# --- guard sanity (import + call + compile) ---
 & powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\verify_guard.ps1
 if ($LASTEXITCODE -ne 0) { throw "Guard verification failed." }
 # docs\SMOKE_v17.9.ps1
+param()
+
 # UTF-8 nicety
 chcp 65001 > $null
 [Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
@@ -27,9 +25,3 @@ Get-Content .\docs\RECRUITING_READOUT.md | Select-Object -First 12
 Write-Host "`nSMOKE_v17.9 ✅" -ForegroundColor Green
 
 
-
-
-
-
-# DayPlay quick check
-& powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\dayplay.ps1

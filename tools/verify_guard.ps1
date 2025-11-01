@@ -1,34 +1,35 @@
-﻿# tools/verify_guard.ps1 — ensure run_tick guard import + call exist and file compiles
-
+﻿# tools/verify_guard.ps1 — verify guard import, call, and compile with full diagnostics (PowerShell-safe)
 $ErrorActionPreference = "Stop"
-$root  = (Get-Location).Path
-$rt    = Join-Path $root 'engine\src\run_tick.py'
 
-if (-not (Test-Path $rt)) { Write-Error "run_tick not found: $rt"; exit 1 }
+$rt = ".\engine\src\run_tick.py"
+if (-not (Test-Path $rt)) { Write-Error "run_tick.py not found: $rt"; exit 1 }
 
-# Read once
 $txt = Get-Content $rt -Raw
 
-# Check import
-$hasImport = ($txt -match 'from\s+engine\.src\.selftest_guardrails\s+import\s+guard_before_advance')
-if (-not $hasImport) {
+if ($txt -notmatch 'from\s+engine\.src\.selftest_guardrails\s+import\s+guard_before_advance') {
   Write-Host "❌ guard import missing in run_tick.py" -ForegroundColor Red
   exit 1
 }
-
-# Check invocation (allow whitespace)
-$hasCall = ($txt -match 'if\s+not\s+guard_before_advance\s*\(\s*week\s*\)\s*:')
-if (-not $hasCall) {
+if ($txt -notmatch 'if\s+not\s+guard_before_advance\s*\(\s*week\s*\)\s*:') {
   Write-Host "❌ guard call missing after week assignment in run_tick.py" -ForegroundColor Red
   exit 1
 }
 
-# Compile check (no exec)
-$cmd = 'import py_compile,sys; py_compile.compile(r"engine/src/run_tick.py", doraise=True)'
-$proc = & python -c $cmd 2>&1
+$code = @"
+import py_compile, traceback, sys
+try:
+    py_compile.compile(r'engine/src/run_tick.py', doraise=True)
+    print('PYCOMPILE_OK')
+    sys.exit(0)
+except Exception:
+    traceback.print_exc()
+    sys.exit(1)
+"@
+
+$procOut = & python -c $code 2>&1
 if ($LASTEXITCODE -ne 0) {
   Write-Host "❌ Python compile failed for run_tick.py:" -ForegroundColor Red
-  Write-Host $proc
+  Write-Host $procOut
   exit 1
 }
 

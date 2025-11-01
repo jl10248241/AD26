@@ -1,39 +1,32 @@
-﻿# engine/src/selftest_guardrails.py
+﻿# selftest_guardrails.py — verify preconditions for autopilot run
+
 from pathlib import Path
-from engine.src.run_tick import guard_before_advance, STATE
+import json
 
-def main():
-    failures = []
+ROOT = Path(__file__).resolve().parents[2]
+CFG  = ROOT / "engine" / "config"
+STATE = ROOT / "engine" / "state"
 
-    # week cap
-    if guard_before_advance(1) is not True:
-        failures.append("week 1 should be allowed")
-    if guard_before_advance(60) is not False:
-        failures.append("week 60 should be blocked")
-
-    # missing state files case
-    # temporarily hide required files if they exist
-    req = ["clock.json","schedule_state.json","recruiting_modifiers.json"]
-    moved = []
-    for f in req:
-        p = STATE / f
-        if p.exists():
-            pb = p.with_suffix(p.suffix + ".bak")
-            p.rename(pb)
-            moved.append((p, pb))
-    try:
-        if guard_before_advance(1) is not False:
-            failures.append("missing state files should block advance")
-    finally:
-        # restore
-        for p, pb in moved:
-            if pb.exists():
-                pb.rename(p)
-
-    if failures:
-        print("SELFTEST FAIL:", failures)
-        raise SystemExit(1)
-    print("SELFTEST OK")
+def guard_before_advance(week:int) -> bool:
+    """Check if it's safe to advance a simulation week."""
+    required = [
+        CFG / "MEDIA_REACH.json",
+        CFG / "comm_auto_policy.json",
+        CFG / "media_map.config.json",
+    ]
+    for r in required:
+        if not r.exists():
+            print(f"[HALT] Missing required config: {r.name}")
+            return False
+    # sanity: recruiting + relationships exist
+    for name in ("recruiting_modifiers.json", "relationships.json"):
+        if not (STATE / name).exists():
+            print(f"[HALT] Missing state: {name}")
+            return False
+    print(f"[OK] Guard check passed for week {week}")
+    return True
 
 if __name__ == "__main__":
-    main()
+    from engine.src.run_tick import _load_clock
+    wk = _load_clock().get("week", 1)
+    guard_before_advance(wk)

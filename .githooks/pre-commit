@@ -1,0 +1,34 @@
+#!/usr/bin/env sh
+# .githooks/pre-commit ? try Windows PowerShell, then pwsh, else Python fallback
+
+run_ps () {
+  # $1 is the PS executable to try
+  "$1" -NoProfile -ExecutionPolicy Bypass -File "./tools/dupbasename_guard.ps1"
+  return $?
+}
+
+# Try classic Windows PowerShell first
+if command -v powershell >/dev/null 2>&1; then
+  run_ps powershell
+  exit $?
+fi
+
+# Try PowerShell 7 (pwsh)
+if command -v pwsh >/dev/null 2>&1; then
+  run_ps pwsh
+  exit $?
+fi
+
+# Fallback: Python implementation (no PowerShell required)
+if command -v python >/dev/null 2>&1; then
+  python "./tools/dupbasename_guard.py"
+  exit $?
+fi
+
+if command -v py >/dev/null 2>&1; then
+  py -3 "./tools/dupbasename_guard.py"
+  exit $?
+fi
+
+echo "pre-commit: No PowerShell or Python found; skipping duplicate-basename guard." >&2
+exit 0
