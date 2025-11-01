@@ -1,4 +1,7 @@
-﻿# docs\SMOKE_v17.9.ps1
+﻿# --- guard sanity (import + call + compile) ---
+& powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\verify_guard.ps1
+if ($LASTEXITCODE -ne 0) { throw "Guard verification failed." }
+# docs\SMOKE_v17.9.ps1
 param()
 
 # UTF-8 nicety
@@ -20,4 +23,5 @@ Get-Content .\engine\config\MEDIA_REACH.json | Select-Object -First 12
 Get-Content .\docs\RECRUITING_READOUT.md | Select-Object -First 12
 
 Write-Host "`nSMOKE_v17.9 ✅" -ForegroundColor Green
+
 
