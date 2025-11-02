@@ -1,0 +1,12 @@
+﻿{
+    "label":  "Mixed Reputation",
+    "components":  {
+                       "media":  50,
+                       "relationships":  52.13,
+                       "sentiment":  50,
+                       "integrity":  70
+                   },
+    "score":  56.75,
+    "week":  1,
+    "updated":  "2025-11-01T21:07:43"
+}

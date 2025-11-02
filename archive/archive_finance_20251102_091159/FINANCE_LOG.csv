@@ -1,0 +1,17 @@
+﻿week,school,category,donor_yield,expenses,balance,prestige_change,sentiment,note
+1,State U,,150000,90000,60000,0.5,0,
+1,State U,,0,30000,-30000,0,0,
+2,State U,,150000,0,120000,0,0,
+3,State U,Recruiting,0,0,30000,-30000,0,
+4,State U,,,150000,0,120000,0,
+5,State U,,150000,0,270000,0,0,Donor dinner
+6,State U,Recruiting,0,30000,240000,0,0,Campus visit
+7,State U,,150000,0,390000,0,0,Donor dinner
+8,State U,Recruiting,0,30000,360000,0,0,Campus visit
+9,State U,,150000,0,510000,0,0,Donor dinner
+10,State U,Recruiting,0,30000,480000,0,0,Campus visit
+11,State U,,150000,0,630000,0,0,Donor dinner
+12,State U,Recruiting,0,30000,600000,0,0,Campus visit
+13,State U,Income,25000,0,625000,0,0,Booster check
+14,State U,Income,50000,0,675000,0,0,test income
+15,State U,Income,50000,0,725000,0,0,Donor dinner

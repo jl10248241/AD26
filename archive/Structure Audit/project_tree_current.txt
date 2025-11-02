@@ -1,0 +1,1960 @@
+﻿Folder PATH listing
+Volume serial number is 88AA-C4EF
+C:.
+ª   .env
+ª   .gitattributes
+ª   .gitignore
+ª   project_structure.txt
+ª   project_tree_current.txt
+ª   
++---.git
+ª   ª   COMMIT_EDITMSG
+ª   ª   config
+ª   ª   description
+ª   ª   HEAD
+ª   ª   index
+ª   ª   ORIG_HEAD
+ª   ª   
+ª   +---hooks
+ª   ª       applypatch-msg.sample
+ª   ª       commit-msg.sample
+ª   ª       fsmonitor-watchman.sample
+ª   ª       post-update.sample
+ª   ª       pre-applypatch.sample
+ª   ª       pre-commit
+ª   ª       pre-commit.sample
+ª   ª       pre-merge-commit.sample
+ª   ª       pre-push.sample
+ª   ª       pre-rebase.sample
+ª   ª       pre-receive.sample
+ª   ª       prepare-commit-msg.sample
+ª   ª       push-to-checkout.sample
+ª   ª       sendemail-validate.sample
+ª   ª       update.sample
+ª   ª       
+ª   +---info
+ª   ª       exclude
+ª   ª       
+ª   +---logs
+ª   ª   ª   HEAD
+ª   ª   ª   
+ª   ª   +---refs
+ª   ª       +---heads
+ª   ª           +---v17.8
+ª   ª           ª       inbox-index
+ª   ª           ª       scaffold
+ª   ª           ª       urgency-badges
+ª   ª           ª       
+ª   ª           +---v18.0.0
+ª   ª                   baseline
+ª   ª                   
+ª   +---objects
+ª   ª   +---00
+ª   ª   ª       932afc93dbc0482faefb5c4b79150559990cce
+ª   ª   ª       940356a57350084e2977acc3c745d370748229
+ª   ª   ª       
+ª   ª   +---01
+ª   ª   ª       5d53523c07fc69cf9f4f02cce293a9f79d7d53
+ª   ª   ª       6739e3b453842a900178d4434afe1ea37c8b94
+ª   ª   ª       
+ª   ª   +---02
+ª   ª   ª       3ba9b209840fdfba28258107d968a02a31edac
+ª   ª   ª       bf089dc02f5eac1c17e7c14806054322fe196b
+ª   ª   ª       
+ª   ª   +---03
+ª   ª   ª       3822ff7beb4160d08b4643941bb6a6beeef2d2
+ª   ª   ª       c0174c87eaf97b674ed9be0e1830cf0b5129f1
+ª   ª   ª       
+ª   ª   +---04
+ª   ª   ª       0d5d846bb6a3a46370818e7fc0cbbef1733e79
+ª   ª   ª       be798daae8ca02e5e088dac913183f91f3f713
+ª   ª   ª       d9c41052231d4461e06a8fe3dca62e7aa6a510
+ª   ª   ª       
+ª   ª   +---05
+ª   ª   ª       4555df094d956d3832ecda9414174939b5351b
+ª   ª   ª       986f99d9b24c1ba9638f6df19f37bdd06e6617
+ª   ª   ª       
+ª   ª   +---06
+ª   ª   ª       a9b7f9b7360be5b93528c89454820c810ade28
+ª   ª   ª       ce1f220320a30a82e6760342dd6a0b2c40ac86
+ª   ª   ª       
+ª   ª   +---07
+ª   ª   ª       35aa04fb9201d8e77c333c078e12a141aa1c76
+ª   ª   ª       659eb035bca3dc543b672595d2d88292212a8c
+ª   ª   ª       
+ª   ª   +---08
+ª   ª   ª       28295f07549f6cf2f463b4abbb5c2df75e4369
+ª   ª   ª       c0d3a224027c37f6859fa6f485e1c56d27cf67
+ª   ª   ª       f7e43b41576a77f67e37af5cd7cffbc2fb33d8
+ª   ª   ª       
+ª   ª   +---09
+ª   ª   ª       c4f80d2afb6b61b0dec4a72485a9614e5d4ec9
+ª   ª   ª       d775aa35b2eac9dcc7b15a8cf2c36bc4dcdf15
+ª   ª   ª       
+ª   ª   +---0a
+ª   ª   ª       c6702ca5b9bd6aca1bee070cfd9ae4dd990339
+ª   ª   ª       eee43d3adf912ff98d014f81a4aba5f49d5bdf
+ª   ª   ª       
+ª   ª   +---0b
+ª   ª   ª       1e33594d0c0c3ef11b2fea65c8e88f9f016401
+ª   ª   ª       41cc0fb5006960fba3fe2cad3b0a08e6700f85
+ª   ª   ª       60e27ec573951cddecb4691b86fe8ab39b4877
+ª   ª   ª       cdcda422bc014b9bd2362f473e1516a587d370
+ª   ª   ª       dad3158b75fdf5cf3b0d398ba09f1ed13aeedb
+ª   ª   ª       
+ª   ª   +---0d
+ª   ª   ª       0f8e82a10cd67fb23be8284214c825df6ab06c
+ª   ª   ª       59770652ed8dc4f6f8bcebc48788709067358f
+ª   ª   ª       f21f93226d3293326213f050441ba87d7f645b
+ª   ª   ª       
+ª   ª   +---0e
+ª   ª   ª       4d23594a3c36be8d65b0c79207678ed5b602ae
+ª   ª   ª       62a22b7484a024e6f506c78da6893a87ff8a4d
+ª   ª   ª       cd08c0a21ba2ac72914771e9ed5cd7dc8554a4
+ª   ª   ª       
+ª   ª   +---0f
+ª   ª   ª       1d649c8603f3053e3400992183de92a0d7c8e9
+ª   ª   ª       b359ae002ddc88fab9bf966860258502aada51
+ª   ª   ª       fa132576d5ffaf05db7396e05a6ccfb5d03564
+ª   ª   ª       
+ª   ª   +---10
+ª   ª   ª       0225da3cbd531b02076ea8a6629806e47fd227
+ª   ª   ª       72fd129734ffdbf20c865ca7d82f388cc59a76
+ª   ª   ª       
+ª   ª   +---11
+ª   ª   ª       5a1fd3b7d8d8365268eea897e7019e6a1095ec
+ª   ª   ª       f32c36cd2dfe52a335de117fba7223b1efd084
+ª   ª   ª       
+ª   ª   +---12
+ª   ª   ª       a5c6fa9dcff5cc8692ce89727bc2c8d75e7a84
+ª   ª   ª       
+ª   ª   +---13
+ª   ª   ª       20514d826631e53cdc6f6e932a190d08e428d9
+ª   ª   ª       e40a5ebe2407555d2757b112a51e25e1aeb7bc
+ª   ª   ª       
+ª   ª   +---14
+ª   ª   ª       5191fa800348c64f9911ba2199c080099dcaa1
+ª   ª   ª       c611a6a5dd6e92216542f5b53b1182cd936096
+ª   ª   ª       
+ª   ª   +---15
+ª   ª   ª       a7f593b1634f1d9e76801a8a11d1bcf7e6f892
+ª   ª   ª       b7b44ef8f34f6ca0a1f1c02ace6c3d7c7efa35
+ª   ª   ª       
+ª   ª   +---16
+ª   ª   ª       75d9e0fbbed67485e6ec030e2326de0dbc4869
+ª   ª   ª       8321bd6ecf9c22271e79c40de85fe6bcd0a431
+ª   ª   ª       
+ª   ª   +---17
+ª   ª   ª       612a7e120444ae1d383f3758e7bbc0be2f2214
+ª   ª   ª       a2aa8782d979fb11962e41c1b86dc24e7a6dc3
+ª   ª   ª       c1e6caed6f0fcb46f7219aa656e32131fb0b3c
+ª   ª   ª       
+ª   ª   +---18
+ª   ª   ª       17922e60912f8b8d3dca8e655da504c918ebc5
+ª   ª   ª       5bd84af0b5ab049515458b64055f0b92db6f07
+ª   ª   ª       963d8e81edd5f8dbd68a2c74f9bb09f13c8809
+ª   ª   ª       
+ª   ª   +---19
+ª   ª   ª       4697efea39d030e1671569c5fdee1594f4b92c
+ª   ª   ª       5565ae4008d99a495a32eb6f314af61146ed48
+ª   ª   ª       
+ª   ª   +---1a
+ª   ª   ª       78410ac5d55d7c3414544c92037557a8e6f7ba
+ª   ª   ª       83af81c26710cf75e9b617c520189afeac038d
+ª   ª   ª       9f30ec8c382abac9c10ecdd7b3037557fbb556
+ª   ª   ª       
+ª   ª   +---1b
+ª   ª   ª       44e555c46b03c7cdd3fd64632e338682005055
+ª   ª   ª       4bb764499a4569e7d98c2672052f62552830e3
+ª   ª   ª       7762ba193e0f2748e4d58a5c4faac39a507176
+ª   ª   ª       
+ª   ª   +---1d
+ª   ª   ª       60c9fbbb8a004f1459f9362c82fe556d11704d
+ª   ª   ª       c6b8ec4d326ad016a6bd49ee82ac2074891aff
+ª   ª   ª       
+ª   ª   +---1e
+ª   ª   ª       23145d98dc722c257872eade920c38a1a2969c
+ª   ª   ª       2fd622713aa40c3b0e5d9f61b60f4590285f5f
+ª   ª   ª       
+ª   ª   +---1f
+ª   ª   ª       ee7e52a6596e22cccd17cc936ea3e490089333
+ª   ª   ª       fdc360a1a0cf6a2d8c219a4692732463cd4638
+ª   ª   ª       
+ª   ª   +---20
+ª   ª   ª       776ed321c9e67bdee527ce2ad0ae0329d90835
+ª   ª   ª       
+ª   ª   +---22
+ª   ª   ª       12d6d098e82e6546ec1d91769d230fafe282ea
+ª   ª   ª       
+ª   ª   +---23
+ª   ª   ª       362d5640b531fc50aaa4e799d03aa00b59c57f
+ª   ª   ª       651a9bfdc500dc7409efded1026ef80cf12229
+ª   ª   ª       9d7a0f25fdaa9737027e7ba63ce47b99ce09b7
+ª   ª   ª       
+ª   ª   +---24
+ª   ª   ª       f6b9ef957c528022e70eec30bc718d8edc9abf
+ª   ª   ª       
+ª   ª   +---25
+ª   ª   ª       276030a6146088d2f90b9025deda8555d2d6e4
+ª   ª   ª       638ea5bd592ab8f84a949d953daa74e7d5bda8
+ª   ª   ª       fbda2254956c6a5f4737c240c5e7083e1e65d7
+ª   ª   ª       
+ª   ª   +---26
+ª   ª   ª       1d08f784abc744c978a55be9a95bd882949cb0
+ª   ª   ª       27afd1d8cb53ae564b405a973d28c43c8d751c
+ª   ª   ª       
+ª   ª   +---27
+ª   ª   ª       26751f60ac77509d527389e9eef0a94c94db33
+ª   ª   ª       c2e75b5c62596e66ace675ca153eb60f2abcbd
+ª   ª   ª       
+ª   ª   +---28
+ª   ª   ª       37165101f747bf0fe01a2408aeb30cfe00ba95
+ª   ª   ª       b82d35b32aff01ea032c760aa73d0286eb7e07
+ª   ª   ª       
+ª   ª   +---29
+ª   ª   ª       001ea8de83a30caef90bed8fcdabcc9effeb2d
+ª   ª   ª       0ac38b4d7e97b9f59b93b5fc9f207e88c62822
+ª   ª   ª       
+ª   ª   +---2a
+ª   ª   ª       2bec0e8b5c38714566a194fce3026c8b43017b
+ª   ª   ª       
+ª   ª   +---2b
+ª   ª   ª       32d1897e1906c774b83a984954c704a728daf7
+ª   ª   ª       52a868acc1d3ce13fc3c6ac300c3c010e587a7
+ª   ª   ª       7c9184f9ee6f686bbf948ba979b485dca94492
+ª   ª   ª       a890db2c5ac63d9a1daa97e914d6334b214ed2
+ª   ª   ª       
+ª   ª   +---2c
+ª   ª   ª       31d96ae79d49b84b804938906c1fe3717e83f0
+ª   ª   ª       4e5db566e13e9b3d3d50f57d24de986bf91897
+ª   ª   ª       
+ª   ª   +---2e
+ª   ª   ª       566d6ff13bd9a48ff4b9e083fed85d2566eb4c
+ª   ª   ª       
+ª   ª   +---32
+ª   ª   ª       3e0ad7713b9487a4e7b86abc61b73388205b08
+ª   ª   ª       
+ª   ª   +---33
+ª   ª   ª       2482f0738984f64740b642e86c1434c3dc0e4e
+ª   ª   ª       eea24a132f61b9a48c583d42fa6ba00cb41829
+ª   ª   ª       
+ª   ª   +---34
+ª   ª   ª       4b5ebe906eb90346e6716c5e3707e8f5ea9a8c
+ª   ª   ª       6c6f55abbbf7fe1b32790104078cca639f3dd3
+ª   ª   ª       9b9ee1d77dbe1f8e37fe57a9b086c7f246b6ea
+ª   ª   ª       de2ed48f3f8c153a29764af21a9f845de30f22
+ª   ª   ª       
+ª   ª   +---35
+ª   ª   ª       372949cb89af7f1d6413225a86bdd2f51e5c5f
+ª   ª   ª       
+ª   ª   +---36
+ª   ª   ª       49e968bf15247c3ad75ed41102453fba428ba6
+ª   ª   ª       f5a18bcba0854b8d0415128730e05eb177f8c8
+ª   ª   ª       
+ª   ª   +---37
+ª   ª   ª       1429ed3a0dadf8dd57cee741c528c66f699883
+ª   ª   ª       178fb489c1a3b3b745c8fffc1d0e14337d5896
+ª   ª   ª       31b3e44d251ad543eca169bfdaaf0660d2c7d3
+ª   ª   ª       77a9a32540f2960f8007cbd631a36c56c1a8a1
+ª   ª   ª       97275a35b7f8d91c72b98c9878dbfa887c1f8f
+ª   ª   ª       cc0eb84d8b2893d8e0ec759a603e19c8b04fe0
+ª   ª   ª       
+ª   ª   +---38
+ª   ª   ª       1b7799cc87b3db9cdc577f3549712971e4634b
+ª   ª   ª       2226dc64f5f07d683cf0cbf20040c91ad04a47
+ª   ª   ª       924bd255b4b3c9074b04e87a067315231bedbe
+ª   ª   ª       dd9feb0c605ec8adeba325fdc59d342220791c
+ª   ª   ª       ddcc863471a616e64b460907e7fa79d54f789d
+ª   ª   ª       f8381d8b1b86dd3cd60eb8356c62fdc8ab1de6
+ª   ª   ª       
+ª   ª   +---3a
+ª   ª   ª       1035c505e9afee9bc51fbc0dd8b923dde6cd17
+ª   ª   ª       
+ª   ª   +---3b
+ª   ª   ª       7f49efd6ec92a59f886307c5c75701f5bf190d
+ª   ª   ª       a9d874475f109307cca9538204297416e5c41a
+ª   ª   ª       feca7531cacbf2e1e95dcef97e3df523c33dc8
+ª   ª   ª       
+ª   ª   +---3c
+ª   ª   ª       b09de18d86539ace20918441700402d8cd8c71
+ª   ª   ª       bf83bad5767687a17b00bdf0945162346810e0
+ª   ª   ª       bfee64ebc9107694e7a74f4f3a8785b974cea1
+ª   ª   ª       
+ª   ª   +---3d
+ª   ª   ª       93749bc66c519b4a7652bda443c9924237f016
+ª   ª   ª       b6277e42abd48406084c1226eb575c39a94ebc
+ª   ª   ª       dcc64d5a45617c9f88d668dc54f33dcf760384
+ª   ª   ª       
+ª   ª   +---3e
+ª   ª   ª       13bb9fe1ae77ce3c02ce6bb2e859208b4065b8
+ª   ª   ª       6725d7cf3694c6674179857b1096b84497c420
+ª   ª   ª       7595b918716348c2ef4da5a65b1fff422158dd
+ª   ª   ª       
+ª   ª   +---3f
+ª   ª   ª       d3de8b01ec4b12ed153c1e76fc83089ac07df1
+ª   ª   ª       
+ª   ª   +---41
+ª   ª   ª       750ba49e002d9da511a184ee8ca146155a0a34
+ª   ª   ª       9b6d9dee5e1ef143db91a56db51a5cd6e0de5e
+ª   ª   ª       d25a6a7fafdb717f3d1120e1a8431cbad864db
+ª   ª   ª       d4ff80f522729d56c4b27f816f3d743184f82a
+ª   ª   ª       
+ª   ª   +---42
+ª   ª   ª       bbf789102e3f50288dcdf13bc0400311b58587
+ª   ª   ª       
+ª   ª   +---43
+ª   ª   ª       3357e7031860183db716464399ab5c8afd1a60
+ª   ª   ª       b7fdf6ea76d6db7397fc158e420498d2741d17
+ª   ª   ª       e8bd46a371011fe07fcb09ff58721874b6c71e
+ª   ª   ª       
+ª   ª   +---44
+ª   ª   ª       5a4842bf4132f6c079ac587688eeef3c710a0d
+ª   ª   ª       a6f4267f9e87989baf3782eedd94a6ab9271ad
+ª   ª   ª       b6846b1ae5967ff794585332e13f74617e4c7d
+ª   ª   ª       fb12c8a492c039dbb3584d3a69ae7c98fd0a43
+ª   ª   ª       
+ª   ª   +---45
+ª   ª   ª       9023c67d341f536147d263ae29be170447d5c0
+ª   ª   ª       
+ª   ª   +---46
+ª   ª   ª       09f8f690ee3c97d1b292d275cb41b64b70cf1d
+ª   ª   ª       
+ª   ª   +---47
+ª   ª   ª       6a34ffa9bcdaa6cf5bcaba477935892f58ccb2
+ª   ª   ª       b6a9e754e5589331caba3cb164d0c844dfa0c0
+ª   ª   ª       
+ª   ª   +---48
+ª   ª   ª       06f072a1bd0145ac0b0bc8d577c4a915f330d2
+ª   ª   ª       215c317cd0a37d5108032209689d75b344fc13
+ª   ª   ª       c3668f2ecfd0b7b4bd6843414112a21472e9b0
+ª   ª   ª       
+ª   ª   +---49
+ª   ª   ª       8c4a0b2c9edd0bdeaf10a13b00a58519a8d134
+ª   ª   ª       9c850e4f762396f928726e8d1f1827736a382e
+ª   ª   ª       
+ª   ª   +---4a
+ª   ª   ª       65b909763046427d964d68d310ab00c429b3a1
+ª   ª   ª       
+ª   ª   +---4b
+ª   ª   ª       6a2829743f70d42d0097527fa14d2e7ade8451
+ª   ª   ª       cefaae96869278e68616c948b0166e61a45d6f
+ª   ª   ª       
+ª   ª   +---4c
+ª   ª   ª       55535aad91367daa1b65de9f47046c3d4fdc4e
+ª   ª   ª       68860921377b02558f19de48349fb194a0abfb
+ª   ª   ª       7140e23616d6e0c7c7be2e4f548d2aa5fd86f5
+ª   ª   ª       ada4944dcea1b1f70869809fb743079e365230
+ª   ª   ª       
+ª   ª   +---4d
+ª   ª   ª       13305c4e849fcba2308159e275d0681a6a25fb
+ª   ª   ª       62cdc1e3ed174f1c740a44e830f413f80a7c74
+ª   ª   ª       cdf0f3c460050bd9b4abfdbee2cb7e039bff23
+ª   ª   ª       
+ª   ª   +---4e
+ª   ª   ª       3f7cfbe9b7f7c8a25aac95cbeb5fd8015e5d34
+ª   ª   ª       
+ª   ª   +---4f
+ª   ª   ª       4e3893515e8fde5c266271e6e2b92b87d15ffe
+ª   ª   ª       
+ª   ª   +---50
+ª   ª   ª       b6bfdd41e2fcc268e9f7dca4af84f7a00298b3
+ª   ª   ª       f8f3b784a1fce35685690e8454ae8d75b3dd6d
+ª   ª   ª       
+ª   ª   +---51
+ª   ª   ª       3c33b68066b4acd17516ff56fe75a21dcc15bf
+ª   ª   ª       9fbc9fece5ff1b93bc52cb4eb05b39f54173e8
+ª   ª   ª       
+ª   ª   +---52
+ª   ª   ª       7b86e566ecc07fce09eebae048107ecb9bcedb
+ª   ª   ª       a10692bedea9106581557ab05acf24218714b9
+ª   ª   ª       
+ª   ª   +---53
+ª   ª   ª       3cbdf54c31669da42c86bf59954e129e2b142b
+ª   ª   ª       
+ª   ª   +---54
+ª   ª   ª       7aa328f96be92c803fab2b284823c125c899b7
+ª   ª   ª       8f641d7162a736c5121fe9f53be78a40c9414f
+ª   ª   ª       
+ª   ª   +---55
+ª   ª   ª       c36112664595fa06624f95f8f8dcf3f74642d6
+ª   ª   ª       c75ae84157313a9763676e8a52eb1681325e61
+ª   ª   ª       e0ccfb6fd8dc9f8228997d6ac295dfbff110e4
+ª   ª   ª       
+ª   ª   +---57
+ª   ª   ª       5b6dd252248568a47de61586e74eac9d14f9c4
+ª   ª   ª       658b03f7411676b3bc03f01dcd7f2550b45b08
+ª   ª   ª       66b7c67670f6ad2c0d272b8a364b8c9861278e
+ª   ª   ª       
+ª   ª   +---58
+ª   ª   ª       032554cf2d9b3f3f36f7828c86091b2e6f65a9
+ª   ª   ª       19a3eeed7bfc9645261ef1e070b3f86924e8b6
+ª   ª   ª       2d82d9c8a69e2ae35a61e28e9c362afb88ee8f
+ª   ª   ª       67722b21883e48348d09c17790bc7d2e43332a
+ª   ª   ª       6c2604d10953810e156271154aefe53a4a8400
+ª   ª   ª       6fe8585533455af5c756e3d90d7125e36f75cc
+ª   ª   ª       98122c2728cedf4cca601e06a70d57ee588723
+ª   ª   ª       b022d0ea9f2e91f107b3392928cac2371bee89
+ª   ª   ª       
+ª   ª   +---59
+ª   ª   ª       4a57da826b311c482e42b560af804537ca8347
+ª   ª   ª       eabf677c064678c46db39187984719124aaa56
+ª   ª   ª       
+ª   ª   +---5a
+ª   ª   ª       8a9401ec81f107b9c747b662771b43c00ba968
+ª   ª   ª       97244e48961653062f34ccd8adbfc5a8bd36a0
+ª   ª   ª       979be9856a658866dcd7160035bd13a472b32a
+ª   ª   ª       a955b9b9b3461081adef948e28b9b37af96741
+ª   ª   ª       
+ª   ª   +---5b
+ª   ª   ª       06b61be0dd886c9b53315baa2b23f0dce5bd43
+ª   ª   ª       0cfb3c292724a742f0a4651a9fb593dd8fe463
+ª   ª   ª       b00deed1e37caca06bf169a25b7b22c851af1a
+ª   ª   ª       
+ª   ª   +---5c
+ª   ª   ª       61af7fb260d3651a4f22866e063d9b5806e274
+ª   ª   ª       63a15436a244a3a85dda5e0f4770efa2d820e8
+ª   ª   ª       a24eb0132405d13edc36d80969f78a4bd29b83
+ª   ª   ª       abc8c9d1a313fa0936eacadfe58001c5c4f001
+ª   ª   ª       df65b19f6049ee8851a46fa57c698f362dcb39
+ª   ª   ª       
+ª   ª   +---5d
+ª   ª   ª       8ef700a90253c4e68c0ae001af84874012ec4e
+ª   ª   ª       c5ed2202cc8769547281ab71c41d9c2736e790
+ª   ª   ª       e6a2f9953fa9e211a26e81e81cb671a77f5172
+ª   ª   ª       
+ª   ª   +---5e
+ª   ª   ª       5281a468ad23152b496536231ad847286cc33c
+ª   ª   ª       61170ee15d413abe11cd6c346cd866ee13049d
+ª   ª   ª       89ac8cb9fad7f6d7e2124c6f4132e59bf54518
+ª   ª   ª       bc1c053316116cc4f3e44fbb3f822ebb04b9dc
+ª   ª   ª       
+ª   ª   +---5f
+ª   ª   ª       290fdc522d2599d886ba728288be432852422f
+ª   ª   ª       4630293bfbb5264a00c0fba04db85cb8456528
+ª   ª   ª       
+ª   ª   +---60
+ª   ª   ª       693152b929d227577bdd3b12b785b3a0fbcb26
+ª   ª   ª       d60854d09aad57d24b68595b9e04c9ba2bd4dc
+ª   ª   ª       
+ª   ª   +---62
+ª   ª   ª       690b35a2206282497e318935707bd8f49a8ed0
+ª   ª   ª       f0ebcbce0d70f37bd1188415e8104e95bc26de
+ª   ª   ª       
+ª   ª   +---64
+ª   ª   ª       11dd2107ff9517a46fd53a3540340134aa5974
+ª   ª   ª       23c7ac3a68b8c10e0c72290e86665962c1e466
+ª   ª   ª       
+ª   ª   +---65
+ª   ª   ª       0fd6af3a088da155c0fa92b02952a7c7b3b610
+ª   ª   ª       a33c964380a0df9fbec8a943cf1097acfb6344
+ª   ª   ª       cc34e652458bd1a64a5acdfc3b566ec4007103
+ª   ª   ª       d1be5722d52a918ce6dd35856f12ba5ff9e9d6
+ª   ª   ª       d63854a683e4b3293f8da8297a312e0b5484d8
+ª   ª   ª       
+ª   ª   +---66
+ª   ª   ª       cf35bc908c8fdf0b92e333647c294a1c334e4b
+ª   ª   ª       
+ª   ª   +---67
+ª   ª   ª       16e54aeecdaeb7d32f6a0bd174bcce8893a625
+ª   ª   ª       9e24c31de38e0ecddef22e5555444ab6eaed8b
+ª   ª   ª       a1d65f259e9e9fec78a013a37799d3aa3c3540
+ª   ª   ª       ad38147ae19f15a11e19d3a9604581d7b5e48c
+ª   ª   ª       
+ª   ª   +---68
+ª   ª   ª       f211353daa0f9d56104336aa6321d31be7b214
+ª   ª   ª       
+ª   ª   +---69
+ª   ª   ª       206747999d3f2468f37e9e024be642e2ecedee
+ª   ª   ª       786f7e6b3aec05ce03778edcab6d80505bc292
+ª   ª   ª       b3911687672a60dcde5797101c5ee19a2812b1
+ª   ª   ª       fb403a76e6947dbbb5afec1f543b0a88890131
+ª   ª   ª       
+ª   ª   +---6a
+ª   ª   ª       59337d2e41f6e9f48ec6031ada18549c64845e
+ª   ª   ª       
+ª   ª   +---6b
+ª   ª   ª       7f0612dfa5b7ba1a4c8636f6138a2dc73bf97b
+ª   ª   ª       a4bf25380ddcda6482232d446ff3c1aa42b754
+ª   ª   ª       b970414d2399afd2f49fef4dfc5c6f70ae0867
+ª   ª   ª       e88f712a3b162aa22b42388da6207aebc0af9c
+ª   ª   ª       f66f6ad6640e84ffe40dfc7142971c85120e72
+ª   ª   ª       
+ª   ª   +---6c
+ª   ª   ª       3aa3d9f3d804df412c4abbc05a71b37d9f17a4
+ª   ª   ª       56bb4f53fcb213b0b5aa1934a1b20c7c4f4edd
+ª   ª   ª       
+ª   ª   +---6d
+ª   ª   ª       0fe325c708122e39ead49db249df8b58f68cdb
+ª   ª   ª       845061666f1d83a266c6f356a3b48203269259
+ª   ª   ª       d39d091517a8bd6836bebfd7c7308712b644e1
+ª   ª   ª       fd98e0e951f452137b09264f630c8e3833412d
+ª   ª   ª       
+ª   ª   +---6e
+ª   ª   ª       54d3324bab4080c6c116c4b8a170a4a1501ce2
+ª   ª   ª       5f3b44bc8ae95f9fd71dc0053bf8307816a4fa
+ª   ª   ª       
+ª   ª   +---6f
+ª   ª   ª       1944c68441dc8b9abb5aaf1722829960688b9b
+ª   ª   ª       3d5cb90f8f5b32ee41db03a1af0ccfa388b9a3
+ª   ª   ª       5112aa11749c2c6efa6226238dbf7a8881bf30
+ª   ª   ª       910adaa3c1d5b637135a78d8b8ce9235a4e56b
+ª   ª   ª       9b8366fb2dcbb9141756ce0c4593ba72f91b39
+ª   ª   ª       
+ª   ª   +---70
+ª   ª   ª       7482980934702c3624ffb943279e78fa3559da
+ª   ª   ª       
+ª   ª   +---71
+ª   ª   ª       2e699a501df675f5e7de9796b33fe0d7201b6f
+ª   ª   ª       415a45cc79e50edd1402a438090b83131a6c87
+ª   ª   ª       
+ª   ª   +---73
+ª   ª   ª       3f292e53c6483acd83175318073a4dcc68c329
+ª   ª   ª       78b96e2c6dec975f2686979eb6b56d6cfa662e
+ª   ª   ª       9cadc2b0195adb1b2f461474baa1fa52b32609
+ª   ª   ª       a47df1acf21327afe6cbe7fb526f630ba54205
+ª   ª   ª       
+ª   ª   +---74
+ª   ª   ª       05ee2742d365fda4d6ad8ecc838606f9dcd0da
+ª   ª   ª       0c3e2b8244667e7cc88677acc003cfd6d8e111
+ª   ª   ª       c22b6351bd0210d9066a5e55850c9b499538e9
+ª   ª   ª       c8ad9b79c23485741a8518ef5abed8a4b5df5d
+ª   ª   ª       
+ª   ª   +---76
+ª   ª   ª       7f358acc3e363896c832a5f5afd99c8b37feb9
+ª   ª   ª       
+ª   ª   +---78
+ª   ª   ª       2ec821bd68373e1245d379abafcbabd0fcf982
+ª   ª   ª       c241d0d699de92bcb5e3646c9b7253fddafaab
+ª   ª   ª       e8863e922620b2c1cb4b925c18e8dbe832f6ad
+ª   ª   ª       eea1a8369029a0647964c7c4ff0fe2a3b39459
+ª   ª   ª       
+ª   ª   +---79
+ª   ª   ª       2e6ddfc41a68dd6d2770a0d75453a3678620e4
+ª   ª   ª       84778e8809e5bbdf6ddfeba35e9c6c986d6487
+ª   ª   ª       a1657dc6e2cc7be771f36c56998fba39057ec9
+ª   ª   ª       
+ª   ª   +---7a
+ª   ª   ª       844aede7e66c89ce6dbf39e8d1aa5e6ea68c16
+ª   ª   ª       
+ª   ª   +---7b
+ª   ª   ª       e55475ba1e1f51b271b87fb17be65b431f96e8
+ª   ª   ª       
+ª   ª   +---7c
+ª   ª   ª       11f4b9e9d21d78c125f7c033a1d63bcf823eff
+ª   ª   ª       1ff835c4ae163afb1f2c5eed1f3125441888c2
+ª   ª   ª       57c7a6172994fb622f71ed29ed35b8e462c30b
+ª   ª   ª       deed23c452da49a62540d38cf0353b1c25aaf8
+ª   ª   ª       
+ª   ª   +---7d
+ª   ª   ª       61c9a9001d2130c0f09d04d15be1d78a130bd2
+ª   ª   ª       
+ª   ª   +---7e
+ª   ª   ª       e01859194394b878ce6113f2dc1337c6864b95
+ª   ª   ª       
+ª   ª   +---7f
+ª   ª   ª       17539f4b36deae8a3e270a74b04efe6cc89a8c
+ª   ª   ª       1b3dacddfd9aae2db2f6ea6be441d5b7f320f5
+ª   ª   ª       
+ª   ª   +---80
+ª   ª   ª       21efbbab5501397969f3c8d412ec238e297582
+ª   ª   ª       380b19e1714f0c6e2139759bb42c0f7c3b0e3e
+ª   ª   ª       e4251ea8fdb4652f8fb44fcb512d8956931703
+ª   ª   ª       
+ª   ª   +---81
+ª   ª   ª       ab056e3a2043b4a550d961443b6fef68a8eaf0
+ª   ª   ª       c19362df207ee633ca2225e764eee0359e5501
+ª   ª   ª       f478358c8c175be8e89093348a24eab27c5ba5
+ª   ª   ª       
+ª   ª   +---82
+ª   ª   ª       45c596eba39746ebd3bbf246a7abffc7b0b2ae
+ª   ª   ª       
+ª   ª   +---84
+ª   ª   ª       3df286f0ec353340c62259c5c3c394231ca2f5
+ª   ª   ª       60631b4d137a0cb841637db39795a48259eac7
+ª   ª   ª       74d1f9d9607a068a4632102a85654a25a1d857
+ª   ª   ª       
+ª   ª   +---85
+ª   ª   ª       6e230c95ef742216bd3a180fc03b6926bd65bb
+ª   ª   ª       
+ª   ª   +---86
+ª   ª   ª       021c3baf4fd1b3a421a3743e6505657b3fed20
+ª   ª   ª       640ad3c93b6d1d1dce8bdf4c2dd8f744c4e1dd
+ª   ª   ª       8eb37056b77ee7c0befcb8f4917c7b1c596c5a
+ª   ª   ª       
+ª   ª   +---87
+ª   ª   ª       02cd75e073932e4ccc9dd6d50cddf1b8718e04
+ª   ª   ª       06170a1fbd1ff3b7eec0c269b4c66003b1cab5
+ª   ª   ª       
+ª   ª   +---88
+ª   ª   ª       83e4ac63d577591d96559476886c30b80af405
+ª   ª   ª       b73d8896e28f0496605539de9c0c5ccd03da24
+ª   ª   ª       
+ª   ª   +---89
+ª   ª   ª       38952ab0c3c6bcdd9719a355c260addf27edee
+ª   ª   ª       
+ª   ª   +---8b
+ª   ª   ª       494d3ad5ed9146392bfcf68ff88812f5250187
+ª   ª   ª       7c13747acc878d953ffe48780f273e22bc71cc
+ª   ª   ª       
+ª   ª   +---8c
+ª   ª   ª       b7d0f371cc25071056399bfc99bc39ee8f44b7
+ª   ª   ª       
+ª   ª   +---8d
+ª   ª   ª       26f4a4b54fa4fbc6ec977341e3b77bd19ca6f0
+ª   ª   ª       8b8fa5ca9231760af712fec749279b04c4d854
+ª   ª   ª       a7ff3370f11f36f95f093899fce79ef131847a
+ª   ª   ª       
+ª   ª   +---8e
+ª   ª   ª       474cdf8e698c5e3dc8b08eca55e37e5f45e9a0
+ª   ª   ª       
+ª   ª   +---8f
+ª   ª   ª       97de7c73ab98d35903dae14762f3ff980902f3
+ª   ª   ª       ab522a4f091f37533bd1b2712e3ebd5695fef0
+ª   ª   ª       
+ª   ª   +---90
+ª   ª   ª       6e38a227e3e0396d60ab2885bbe08a0a8068ec
+ª   ª   ª       74b46a05aefcff2a064cf8427cba5c947cf9f8
+ª   ª   ª       851de363a48d99c48f68f1dcab020f945c7d13
+ª   ª   ª       c23105c4b402a80a28194f4e45447c2fe5c0a7
+ª   ª   ª       d87b1667058509b3312bdeeed5c35f377791ef
+ª   ª   ª       
+ª   ª   +---92
+ª   ª   ª       2b68402d3b488195a53ce6a50d788619b9a8a7
+ª   ª   ª       55bf681af9d26331553ffee196597e7bf6c56a
+ª   ª   ª       6b760343c9be49f45fd6b16ccea5bf94abf9f7
+ª   ª   ª       
+ª   ª   +---93
+ª   ª   ª       83467bd0f0251a335f80477235d32a599c5d7c
+ª   ª   ª       
+ª   ª   +---94
+ª   ª   ª       69af3d19d62622e41fb39094d6134f65dbc5b3
+ª   ª   ª       6c1eefd3476d1e2fcb3a234426352bef78169d
+ª   ª   ª       6ee10fb2c82875dacf1d3fbdfa66f968226a6e
+ª   ª   ª       7692acff7e53adcda2db70ccf30fb9a8305ed8
+ª   ª   ª       d606b7f64f030ae135b39a274dd3807caa93fb
+ª   ª   ª       f7ac94bb85d8b87f564f2389d3a0f386bd2f7f
+ª   ª   ª       
+ª   ª   +---95
+ª   ª   ª       c64b24111e07412d846c3d018af8ba5d9d83d2
+ª   ª   ª       
+ª   ª   +---97
+ª   ª   ª       5fba138d3bc9b81ebf056ea469b1fbb5e8f671
+ª   ª   ª       7fba104e76d86c2477b6dea819ff3766dedbae
+ª   ª   ª       
+ª   ª   +---98
+ª   ª   ª       4ede0050348daa160209d276ccab0f3f4d8bf3
+ª   ª   ª       
+ª   ª   +---99
+ª   ª   ª       06f2932042fedfaf0b1cb9b2c8edc7c64701a0
+ª   ª   ª       
+ª   ª   +---9a
+ª   ª   ª       20cd1ecd5a0e03b50a5dfe4cbb993f402d917e
+ª   ª   ª       37392d0748f62a31b4a4ddc44614d72cddad51
+ª   ª   ª       88efb91edd559a9a22078ad27db34bf16a8a14
+ª   ª   ª       f03d80412d45453281e55e628d36da761428e4
+ª   ª   ª       
+ª   ª   +---9b
+ª   ª   ª       3536b7b539a8bc978e42aa0d78620061319ff5
+ª   ª   ª       6bc0146e32ab9c506c46ddd5b07df06feea1b7
+ª   ª   ª       9c847502262c201df4b1fe614aedd199d7578d
+ª   ª   ª       9cb4351ccee9c4b3a3104259e10fdf6fafd03f
+ª   ª   ª       b41f40e49848b6097cf1e06e63c1f4fc62a063
+ª   ª   ª       
+ª   ª   +---9c
+ª   ª   ª       1c5a2bfebdc365f75431aab5328b6fb54efeac
+ª   ª   ª       c15b7d206808f8540ef601befb7c4777b4efd9
+ª   ª   ª       e88c59e1c1f25ec622e6ad285d067b1df6e0e1
+ª   ª   ª       
+ª   ª   +---9d
+ª   ª   ª       2ca497105682880b92885e32faceb31d0375e1
+ª   ª   ª       9a8acdfff50f1fd839e47c127408e30d258583
+ª   ª   ª       
+ª   ª   +---9e
+ª   ª   ª       26dfeeb6e641a33dae4961196235bdb965b21b
+ª   ª   ª       60b48b8c7b5062044c2ef1c5da8ec3985e4313
+ª   ª   ª       74997e09e63432429a6b196aaf7dbb20f2fe65
+ª   ª   ª       9b64cbef89a1be130345d967ccfee9fe79fe56
+ª   ª   ª       
+ª   ª   +---9f
+ª   ª   ª       7fb64c9a55c13453443c18dcffe99f0b470d9c
+ª   ª   ª       d8b22a2bb94fed8af2f68177bbdf20716ed9fd
+ª   ª   ª       
+ª   ª   +---a0
+ª   ª   ª       75f8af6e44c89df8a22271dcf58af15c300527
+ª   ª   ª       cce61b735fd799bc7318a50923389397f137b4
+ª   ª   ª       e600ba3eff41d9ac6f50cd4de1ddaadd547278
+ª   ª   ª       
+ª   ª   +---a1
+ª   ª   ª       26ad3ce2f02ba9d633d209b7bc1564c364797b
+ª   ª   ª       31bc7d52fa13e2c816b1bc17b3823bd14f1c74
+ª   ª   ª       
+ª   ª   +---a2
+ª   ª   ª       75f679c16340ed1736a58db2f1ee9ae12bd520
+ª   ª   ª       90713ec9191e85908f44775f681723d02fc9fb
+ª   ª   ª       bd709fe37e5f40928b0ceade120da645e2c852
+ª   ª   ª       
+ª   ª   +---a3
+ª   ª   ª       4d1a90986ced0f7f95bcf096ea7aa8e3105a1f
+ª   ª   ª       e3027ec4e8c7be584c0d4f8e3ad0950489fea7
+ª   ª   ª       
+ª   ª   +---a4
+ª   ª   ª       166056992def29427207b3096de96856a1200b
+ª   ª   ª       80032087284685f33f0eba5b9e0f5eadc460b7
+ª   ª   ª       
+ª   ª   +---a5
+ª   ª   ª       00e306c0c1d2632990faefc44f261f65043407
+ª   ª   ª       1819b40ba7d58581d1eb84fd48a42ea319ed7d
+ª   ª   ª       1c7a0ca8f6d7ba21b2ab3f6d589e91029f3268
+ª   ª   ª       29c5369e90585ea3c1794e7993e4ffa1feb73a
+ª   ª   ª       
+ª   ª   +---a6
+ª   ª   ª       d5dd767be8b678f26b4438619fa969f04ba7d0
+ª   ª   ª       
+ª   ª   +---a7
+ª   ª   ª       86489ada050938d5d772fae1203556fb550178
+ª   ª   ª       
+ª   ª   +---a8
+ª   ª   ª       5b7d150ebb04f4d6ff65b33b1906f82e7d0088
+ª   ª   ª       
+ª   ª   +---a9
+ª   ª   ª       12b727efb69f5b4dd986f399602e1a0b883b31
+ª   ª   ª       52705f84224c16032a3aa2ba8da8d030c954e4
+ª   ª   ª       fc0da6e3a443e08f3cf8889954f1f653fc4b03
+ª   ª   ª       
+ª   ª   +---aa
+ª   ª   ª       49bdcad7af575e1ac593a9bea38a640ce25154
+ª   ª   ª       b3c7be96c3ee64b71e9b5f7d36994039bf2964
+ª   ª   ª       be1192a94b9006c7a642a6647be858a836f3fd
+ª   ª   ª       
+ª   ª   +---ab
+ª   ª   ª       b9dedefeb832f47e677bfc026ef66ac3731eb2
+ª   ª   ª       c86fdf2da79c37abea26b6059743d165d10018
+ª   ª   ª       f94fdb47e0f1bcead3db8f38a76ce702cd4c14
+ª   ª   ª       
+ª   ª   +---ac
+ª   ª   ª       43052c7087ae4b42df2f0f3cc6d6b529bd3d13
+ª   ª   ª       bd9c98ddfec02ddcef2a3ec1993ccc24a3033a
+ª   ª   ª       
+ª   ª   +---ad
+ª   ª   ª       56f22b9b615dd2dca2fa3e4d653c9048f9be83
+ª   ª   ª       
+ª   ª   +---ae
+ª   ª   ª       b7d5cf05e95959248a34a8a57641d07af77594
+ª   ª   ª       
+ª   ª   +---af
+ª   ª   ª       5537a40da74efead309e5cefd1a5999bb5524b
+ª   ª   ª       7a7ea0118787be8a815d0803f642083aec8096
+ª   ª   ª       
+ª   ª   +---b0
+ª   ª   ª       7f2d14c55ab001780b6c986c40799d362ba36d
+ª   ª   ª       7ff190d2d0368c6d9a08ef49e904d51b1d4342
+ª   ª   ª       
+ª   ª   +---b2
+ª   ª   ª       4a6d27f654d6702c06a194f9872ca9bec1ecb8
+ª   ª   ª       7b7031a22d2182602257fb9c69dc98558d119f
+ª   ª   ª       f3c579c417406408377016a09f34942e7fc126
+ª   ª   ª       
+ª   ª   +---b3
+ª   ª   ª       2c681199ed86cc508749832376162d1c399fd8
+ª   ª   ª       cef99fc48d64084e3ab09be9c1ac6cdfa2e876
+ª   ª   ª       f0e5255d07874e70199db154b37f6800f23d6d
+ª   ª   ª       
+ª   ª   +---b4
+ª   ª   ª       67fa90e50924130ca58161b5f7e2d4a9b18445
+ª   ª   ª       81c2a690507d512ed718e7e5e08fced074f629
+ª   ª   ª       ceac99c81b6baa1b3b6cfb42d64419e5fe541c
+ª   ª   ª       
+ª   ª   +---b5
+ª   ª   ª       608188aa474c55426ad46f2675929e2bdaedea
+ª   ª   ª       730ddb53d39ed2946d0f659e4bce04671812b1
+ª   ª   ª       78d67d3d1ecdd4e2d91fe58db6b517a2ba6f9e
+ª   ª   ª       8aaa0b687a58d1c7a09e42fd6ef794aff0fe4d
+ª   ª   ª       b042ca89118b0d67575d6fa00f8613a6741096
+ª   ª   ª       f1c9d176791a6ee2cbffed808d76f6db34cd34
+ª   ª   ª       
+ª   ª   +---b7
+ª   ª   ª       f1441f166a7888dad09f28253522b7a4c7edba
+ª   ª   ª       
+ª   ª   +---b8
+ª   ª   ª       47bf6d43e2b318af3a6548610445282990ab62
+ª   ª   ª       8b246b7e4a1aa032e9c010bc3cf14e578714c0
+ª   ª   ª       9695c193912dc356a92fb26465076e7a8e5bab
+ª   ª   ª       b836855a94cfa24f804166bc9117d62539b097
+ª   ª   ª       
+ª   ª   +---b9
+ª   ª   ª       7f6f5d5e7c57d565c9c46d1b2920af948302ab
+ª   ª   ª       8dc1ec7a09b34b4ab1c1325c48f3ce77d2c280
+ª   ª   ª       a71e80180345e4f9503f3e37ee0eab20b288ec
+ª   ª   ª       
+ª   ª   +---ba
+ª   ª   ª       6273023ca47bd651fc3af46d2138cbb74c9119
+ª   ª   ª       6484852e2400bae75c3e4996f95affc927a04a
+ª   ª   ª       88775d3133a1ffa72b0638bf05407113a95869
+ª   ª   ª       
+ª   ª   +---bb
+ª   ª   ª       53b85ac4ee2a3577b346d267c9af50cffd5771
+ª   ª   ª       b6b6c3a26ce78f3b0673c5e6dbc8bcbc7f68b6
+ª   ª   ª       ffbc775451434992ec3511f9304b3547115438
+ª   ª   ª       
+ª   ª   +---bc
+ª   ª   ª       0fdba55f99f7069f35bf391ce936479f1dd3b8
+ª   ª   ª       0fe09838efad0801e38089c9c30cca16f630fa
+ª   ª   ª       5494552f9c47922adea581efcd1118ded8bd9a
+ª   ª   ª       67ed12bf6e8735471f748c87a89642093b1edb
+ª   ª   ª       
+ª   ª   +---bd
+ª   ª   ª       061fafa4e643de59814badca26e2723d6172e5
+ª   ª   ª       b3272982299fb6fe67ecbe5a96e0e119a39934
+ª   ª   ª       b6b6297cb0fea85654cbe30200577fce8d9477
+ª   ª   ª       
+ª   ª   +---be
+ª   ª   ª       60316105c4d04a293a683494b0b4fc8619888f
+ª   ª   ª       72ebd776544d270505d002801615195b51749f
+ª   ª   ª       
+ª   ª   +---bf
+ª   ª   ª       95e9a93e4299eb09793a6225e7b2e9b7152e7a
+ª   ª   ª       ace13e26bb10446824d24c1c124963a3f9c05c
+ª   ª   ª       
+ª   ª   +---c0
+ª   ª   ª       497fbbd139002b3aa97ef28169997e35057236
+ª   ª   ª       
+ª   ª   +---c1
+ª   ª   ª       94492c5a7dda040cf80f0386ec140af3e5d5be
+ª   ª   ª       e935805bb93c453639011a5bfac449742bdf3e
+ª   ª   ª       
+ª   ª   +---c2
+ª   ª   ª       370e189c290a4396d81551a20753d185ea2cd4
+ª   ª   ª       9e83fd6af375241b7ab534b1470591ce6e0266
+ª   ª   ª       f5943adbbdd60e83a120ded437d37fe0324074
+ª   ª   ª       
+ª   ª   +---c3
+ª   ª   ª       2c731ccc9516dc8894a848924f0636011c66ce
+ª   ª   ª       306366c15d5a71edd01f6348c5ae49cca3f1e6
+ª   ª   ª       6c6adaa7975c6f7d4a5e64df35dc7229993e89
+ª   ª   ª       e34d5557073775b53310af727490cb7d7d45b0
+ª   ª   ª       
+ª   ª   +---c4
+ª   ª   ª       3b1bead4110ffcc028dfa361a8e415ca8c8bc8
+ª   ª   ª       fc3042f4b251a3861cb55476d0284e438a9428
+ª   ª   ª       fd5513fff753aa508f324593de61a6994e4a94
+ª   ª   ª       
+ª   ª   +---c6
+ª   ª   ª       18a1a544067289259402f5e815ab11dbb761d9
+ª   ª   ª       1e76b90dee7291f6400a8591dc22cfae72c2cd
+ª   ª   ª       8c677815acf50f88bf2464cfc82148dfd763a7
+ª   ª   ª       
+ª   ª   +---c7
+ª   ª   ª       9e1788105626d80509f72bb3dd0dfaa1e3ba37
+ª   ª   ª       aa2d2b1d7970a5fdc08d184380fcbbda9563be
+ª   ª   ª       fcbcef37895457d6b90faecb0fa6b28987f90f
+ª   ª   ª       
+ª   ª   +---c8
+ª   ª   ª       a975b55cbdcbc2a372cad09fc53046079f8812
+ª   ª   ª       
+ª   ª   +---c9
+ª   ª   ª       434fddf72cc2ec04d8cf06857821158a4ec0d4
+ª   ª   ª       861b5b092c1c13c21a2dc15ee90cb7608aeb7d
+ª   ª   ª       
+ª   ª   +---ca
+ª   ª   ª       2d708772255e8f32b3adf9b3f80b783b67837e
+ª   ª   ª       c36b56e935c6298bb069e3b14cc4744bb98eff
+ª   ª   ª       
+ª   ª   +---cb
+ª   ª   ª       522fe4c066e5d415c24ef3f6272e0ce20d8c8e
+ª   ª   ª       97f994733f1f54392b01d19e06be0d05a3c412
+ª   ª   ª       
+ª   ª   +---cc
+ª   ª   ª       5f4f92b9036c9be56992ef2520ca6e02ddf447
+ª   ª   ª       
+ª   ª   +---ce
+ª   ª   ª       d778178a5bd03436d5b2bde308ffd8eaec43aa
+ª   ª   ª       
+ª   ª   +---d0
+ª   ª   ª       39c60985a0ab5836544ade4c8f1189eb1c62df
+ª   ª   ª       60b429878a446db0568a8858739709b9599cd3
+ª   ª   ª       8d72f092f4860bb1dd28d0ed913a96fc2589d4
+ª   ª   ª       cba63d65da151c849797ab61f25286edf625b3
+ª   ª   ª       cfa8fcc5362f5bc016b354784565406d21f6b2
+ª   ª   ª       
+ª   ª   +---d2
+ª   ª   ª       1094142b66d825f27ce23d6e56ec52f5728b48
+ª   ª   ª       fb073f5db13dba264a4dc3b7948d05a28605e5
+ª   ª   ª       
+ª   ª   +---d3
+ª   ª   ª       011f88140da0af94db54744c0b8cf03629bb07
+ª   ª   ª       1913b83c5e42c3444c083ba235ee31fa96640c
+ª   ª   ª       9ce1730670496f32245541ebdb222488c853eb
+ª   ª   ª       
+ª   ª   +---d4
+ª   ª   ª       526460264365af13ab62848a541201d891a0f5
+ª   ª   ª       5598178bce9e9835414b3a763278ce56bac6ef
+ª   ª   ª       e80c7334ca1450583dae59a3b9d02cf5bafafe
+ª   ª   ª       
+ª   ª   +---d5
+ª   ª   ª       0ef2418642b08a2c8c52dc067517421b354cbd
+ª   ª   ª       7b431eb355082601a2ee76f058adb8d064088d
+ª   ª   ª       9ca9aa2328df40b262ddc811bd5dbd62aa2afb
+ª   ª   ª       f5e1606f58c69420dc78f609484b8c45e1259d
+ª   ª   ª       
+ª   ª   +---d7
+ª   ª   ª       11661bde77bb683c9eb7a132e88b56bc780697
+ª   ª   ª       4eaeba4acc775e1d124f06de3a48e535e2bb3f
+ª   ª   ª       6b4dace673ee451c66922e5c83b7e010a7cf82
+ª   ª   ª       f6b802d736702ac0bcc8bff84b641541d121ff
+ª   ª   ª       
+ª   ª   +---d9
+ª   ª   ª       7c71d4da0805ac41e5b50a8971c5f270d9d88c
+ª   ª   ª       
+ª   ª   +---da
+ª   ª   ª       6a28a029d56173710a2cadf8e4d2a5a50adcd9
+ª   ª   ª       
+ª   ª   +---db
+ª   ª   ª       0671b2c756761daa997a6c9f5bf465e69be9c8
+ª   ª   ª       1f10be9ef16b1af5244831f3908bd6eb16e4f3
+ª   ª   ª       b23cff3c63180f71601288decaec8b87b0f829
+ª   ª   ª       f9a439295e3bf722a38eb85a04ad812ab3cef5
+ª   ª   ª       
+ª   ª   +---dc
+ª   ª   ª       5a86f54762c64ce2362fbe6c46ff7b30d7735d
+ª   ª   ª       b5f9dd44044659107a126772112704b6b4895a
+ª   ª   ª       
+ª   ª   +---dd
+ª   ª   ª       54529b2296d105fa292be4a2555d009b0476f9
+ª   ª   ª       
+ª   ª   +---de
+ª   ª   ª       a05a87cb22b6a5c79bc61ed0ed833121cdddf6
+ª   ª   ª       e5c9c3fc10070a69b42806a7550567bdba25bf
+ª   ª   ª       
+ª   ª   +---df
+ª   ª   ª       53357d2fc428b005735b01277f6f13e8716dbc
+ª   ª   ª       57ffe170d18cb19196591e78662f1e34423de7
+ª   ª   ª       986dda8f80b1dbb4668b6daac6af33a15aa880
+ª   ª   ª       b8b4f9942fd849f49dc816dcfe8d2e36641619
+ª   ª   ª       e9812fe1086d1c23162951412fae988a9de470
+ª   ª   ª       
+ª   ª   +---e0
+ª   ª   ª       133657ead9d4c59a9161a14bd267dfb4dc5b85
+ª   ª   ª       b831af7c77fcb2edd359058d1032b77380b09b
+ª   ª   ª       d1a66b9713d7762af5fd6c6b1dcf3f0b2ecbf5
+ª   ª   ª       
+ª   ª   +---e2
+ª   ª   ª       aa354eebc720964be9b2bc343fe95b8218e1cf
+ª   ª   ª       
+ª   ª   +---e3
+ª   ª   ª       69914165fedeaae91834bd38f17c39a255d90d
+ª   ª   ª       
+ª   ª   +---e4
+ª   ª   ª       87cab076a4a60e1508c6b92fbddca8784d0bcd
+ª   ª   ª       89ac12469bf69a4d02c59f1e1ece64ae9715cd
+ª   ª   ª       9c48161e6bc5a5174e2dd9763e0539ce400539
+ª   ª   ª       de6a73dd7f7ea4194fd0a36ca09e8368c7c053
+ª   ª   ª       
+ª   ª   +---e5
+ª   ª   ª       08e4f4f848becb593d05df33174427b8a76a58
+ª   ª   ª       39c5cce035446751ec080f6b621da019c89eed
+ª   ª   ª       6e240328e18b20cf6e166b2b27f48af4b18310
+ª   ª   ª       b46675609544578968f7eeb65f7b656d8dec85
+ª   ª   ª       
+ª   ª   +---e6
+ª   ª   ª       28587e7578a4ea98943a34e0277d9e0c57966e
+ª   ª   ª       511b1e3af4eb3e12dbea1154c1f04c6e2c6b27
+ª   ª   ª       9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+ª   ª   ª       
+ª   ª   +---e7
+ª   ª   ª       1e0c0abb8bea83b0666df483e5fef0d221fa4c
+ª   ª   ª       da886c5e2d56dd9236cc21c223f09236735074
+ª   ª   ª       
+ª   ª   +---ea
+ª   ª   ª       00cd767c70c9f9bfed30ded7cac94598c62d32
+ª   ª   ª       6526c668a30fc20dfd48d62c8235542ad57070
+ª   ª   ª       
+ª   ª   +---eb
+ª   ª   ª       97595e50c7af8627b1682c32bc028b17d763ff
+ª   ª   ª       9fc3ec6a62525b911a585c2d11c3402489dcbf
+ª   ª   ª       ec0fb857fdda84ec50524feb517441c35c48f9
+ª   ª   ª       f24bf3fd0eba3071fb67726d03724ef38697f9
+ª   ª   ª       
+ª   ª   +---ec
+ª   ª   ª       1305a4f49c4aeb732453738edb6ffe2bc4babc
+ª   ª   ª       
+ª   ª   +---ed
+ª   ª   ª       6babfcf878cccc6abec071c9d81b0b8d8864e1
+ª   ª   ª       b56a9fe62bae412ad06ed1987f33dfaa4eb4b4
+ª   ª   ª       
+ª   ª   +---ee
+ª   ª   ª       1236d2599dca8e8a8430a46fff9d7b783a9def
+ª   ª   ª       1c9130843e565e24c1e17e5a0d0e790013922b
+ª   ª   ª       41f3e3d41d88f8a2be69eaa4e240945a8ed5c0
+ª   ª   ª       79b44d4d34ea0ac985da94b9b4dbc01ab62bcf
+ª   ª   ª       948d16320a88e46c7d0835bdeb5de973966463
+ª   ª   ª       
+ª   ª   +---ef
+ª   ª   ª       0590619affd21b8846cb3845a1fb396692e192
+ª   ª   ª       0f19a043b01133676f272b2d5a8466404b0169
+ª   ª   ª       e15d2a88c10126a58b48cb86ffd42f8e59360e
+ª   ª   ª       
+ª   ª   +---f0
+ª   ª   ª       1ea9d334cfa310eb851ee9416c14783b53ad70
+ª   ª   ª       56eb80f9ca1745e92927d678ba2a38d12985b5
+ª   ª   ª       767eee92bae22249ecf59542f8be6543ac5bfa
+ª   ª   ª       
+ª   ª   +---f1
+ª   ª   ª       d25299a63e5a1f1ffa4767b375af202d94a944
+ª   ª   ª       dea478eff20d4423b5e9c7108989aaf2dcf445
+ª   ª   ª       
+ª   ª   +---f2
+ª   ª   ª       027e851494f7250e4de5257d41b3fe0d38c412
+ª   ª   ª       aff4af57b0281dccdaef593ca47daca552001b
+ª   ª   ª       
+ª   ª   +---f3
+ª   ª   ª       48d6c76a78fa4624cd818ca94de22d65083209
+ª   ª   ª       5f92a3cb737859e90f444da9eba588fe21b015
+ª   ª   ª       ab47a499d249f0476574627e623ee0923b8ab2
+ª   ª   ª       ad6d235fc287ef81aae7bfb9cfd038f3410079
+ª   ª   ª       b3dde000e2e0f32e9295643cd2dec38fc45019
+ª   ª   ª       d26c361cac5d36a207658c95c7e22328c286b6
+ª   ª   ª       
+ª   ª   +---f4
+ª   ª   ª       b0d18949c680e3bcbfc569650f114748668670
+ª   ª   ª       
+ª   ª   +---f5
+ª   ª   ª       781bbf1f0567c5212ce9d6e3fae1d9c59ab7ba
+ª   ª   ª       bee15f428ad62edb624c778b0f91aea44b5857
+ª   ª   ª       
+ª   ª   +---f6
+ª   ª   ª       206a0f248ae526ce6e4c6808ac1360fb0d97d5
+ª   ª   ª       7fed235db1fd1c8ef3f56ef7650906c957c16a
+ª   ª   ª       cf6d936ba9b13298df449cbb9bd982f947ce21
+ª   ª   ª       
+ª   ª   +---f7
+ª   ª   ª       10738136a222cf411f172e7c31a979c6a8768a
+ª   ª   ª       240771520058be7d34b81df5bc611d137c731d
+ª   ª   ª       8568e8cbc6a5fd220a32fa761cb08ce3ce824b
+ª   ª   ª       
+ª   ª   +---f8
+ª   ª   ª       ded6cdbe8aafb7e6f32cbc94e7ab9b32458708
+ª   ª   ª       
+ª   ª   +---f9
+ª   ª   ª       8503b530927084ea260b421b4f747d7814e813
+ª   ª   ª       
+ª   ª   +---fa
+ª   ª   ª       019704b1c60260c08a1a9f5f60385e6ffd07ae
+ª   ª   ª       84bf60102216405ae1af05c455a59522a486cb
+ª   ª   ª       
+ª   ª   +---fb
+ª   ª   ª       2cf03e9539d803e285b6a0d8c34e8d64920e91
+ª   ª   ª       33e614f86e0847de5b37444fba4a852b8fa2be
+ª   ª   ª       46dd7dcd3d5f5728a2e42a3668110a722d41f8
+ª   ª   ª       65c0faf4f49e8c902d97185b28c975014243ad
+ª   ª   ª       92a92a42c449bbe88ea623fef77cf660c8412a
+ª   ª   ª       
+ª   ª   +---fc
+ª   ª   ª       238e71360194806081b8e6c8e380b06277f32f
+ª   ª   ª       63edf1c675312cc22b31ddfa4ae629dc1fbeec
+ª   ª   ª       7b4d3067154a2d2dda428454daa3938252b01a
+ª   ª   ª       
+ª   ª   +---fe
+ª   ª   ª       44aa4d427c60ad11f730fbe2592d30e1242973
+ª   ª   ª       ac2b04fa0fa0ac3c0fed32494ca2ada5148057
+ª   ª   ª       
+ª   ª   +---ff
+ª   ª   ª       4ea2dbec504cb0992207f5aed4322ca6830ee0
+ª   ª   ª       
+ª   ª   +---info
+ª   ª   +---pack
+ª   +---refs
+ª       +---heads
+ª       ª   +---v17.8
+ª       ª   ª       inbox-index
+ª       ª   ª       scaffold
+ª       ª   ª       urgency-badges
+ª       ª   ª       
+ª       ª   +---v18.0.0
+ª       ª           baseline
+ª       ª           
+ª       +---tags
+ª               v17.8-final
+ª               v17.9.1
+ª               
++---.githooks
+ª       pre-commit
+ª       pre-commit.cmd
+ª       
++---archive
+ª   ª   CLOSEOUT_v17.8.md
+ª   ª   PLAYBOOK.md
+ª   ª   PROJECT_STATUS_v18.0.0.md
+ª   ª   project_structure.txt
+ª   ª   README_MIGRATION.txt
+ª   ª   SMOKE_v17.9.ps1
+ª   ª   TODO_v17.9.md
+ª   ª   VERSION.txt
+ª   ª   WEEKLY_DIGEST.md
+ª   ª   
+ª   +---BACKUPS
+ª   ª   ª   AD_v17.8_20251031_2205.zip
+ª   ª   ª   AD_v17.8_20251101_0918.zip
+ª   ª   ª   BACKUP_LOG.tsv
+ª   ª   ª   College_AD_Starter_Pack_v16_8_1_SNAPSHOT.zip
+ª   ª   ª   College_AD_Unified_Workspace_Blank_v17.2.zip
+ª   ª   ª   College_AD_v17.7_Stable.zip
+ª   ª   ª   College_AD_v17.8_Release.zip
+ª   ª   ª   
+ª   ª   +---College_AD_Starter_Pack_v16_8_1
+ª   ª   ª   ª   README_INSTALL.txt
+ª   ª   ª   ª   WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª   
+ª   ª   ª   +---bridge_in
+ª   ª   ª   ª       anchors.json
+ª   ª   ª   ª       coaches.json
+ª   ª   ª   ª       config.json
+ª   ª   ª   ª       contexts.json
+ª   ª   ª   ª       gravity.json
+ª   ª   ª   ª       meta.json
+ª   ª   ª   ª       world.json
+ª   ª   ª   ª       
+ª   ª   ª   +---bridge_out
+ª   ª   ª   ª       coaches.json
+ª   ª   ª   ª       logs.json
+ª   ª   ª   ª       world.json
+ª   ª   ª   ª       
+ª   ª   ª   +---config
+ª   ª   ª   ª       ad_archetypes.json
+ª   ª   ª   ª       archetype_anchors.json
+ª   ª   ª   ª       context_gravity.json
+ª   ª   ª   ª       core_principles.json
+ª   ª   ª   ª       interaction_catalog.json
+ª   ª   ª   ª       New Text Document.txt
+ª   ª   ª   ª       player_quiz_map.json
+ª   ª   ª   ª       reg_catalog.json
+ª   ª   ª   ª       reg_weights.json
+ª   ª   ª   ª       trait_components.json
+ª   ª   ª   ª       trait_engine.cfg
+ª   ª   ª   ª       trait_gravity.json
+ª   ª   ª   ª       
+ª   ª   ª   +---data
+ª   ª   ª   ª   ª   College_AD_Starter_Workbook.xlsx
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---logs
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b0.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b1.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b2.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b3.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b4.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b5.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b6.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.b7.csv
+ª   ª   ª   ª           TRAIT_HISTORY_LOG.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b0.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b1.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b2.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b3.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b4.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b5.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b6.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.b7.csv
+ª   ª   ª   ª           WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª           
+ª   ª   ª   +---dbs
+ª   ª   ª   ª   +---DBS_v1_Package
+ª   ª   ª   ª           dbs_config.json
+ª   ª   ª   ª           dbs_engine_dropin.py
+ª   ª   ª   ª           DBS_v1_README.md
+ª   ª   ª   ª           era_waterline.json
+ª   ª   ª   ª           
+ª   ª   ª   +---sandbox
+ª   ª   ª   ª       analyze_log.py
+ª   ª   ª   ª       batch_run.py
+ª   ª   ª   ª       batch_run_parallel.py
+ª   ª   ª   ª       sample_coaches.json
+ª   ª   ª   ª       
+ª   ª   ª   +---src
+ª   ª   ª           advance_week.py
+ª   ª   ª           advance_week_old.py
+ª   ª   ª           asserts.py
+ª   ª   ª           engine.py
+ª   ª   ª           excel_bridge.py
+ª   ª   ª           loaders.py
+ª   ª   ª           logger.py
+ª   ª   ª           models.py
+ª   ª   ª           reg_engine.py
+ª   ª   ª           reg_loaders.py
+ª   ª   ª           run_tick.py
+ª   ª   ª           world_logger.py
+ª   ª   ª           
+ª   ª   +---College_AD_v17.6_Backup
+ª   ª   ª   ª   .env
+ª   ª   ª   ª   README_MIGRATION.txt
+ª   ª   ª   ª   
+ª   ª   ª   +---configs
+ª   ª   ª   ª       reg_weights.json
+ª   ª   ª   ª       trait_components.json
+ª   ª   ª   ª       
+ª   ª   ª   +---data
+ª   ª   ª   ª       anchors.json
+ª   ª   ª   ª       cfg.json
+ª   ª   ª   ª       coaches.json
+ª   ª   ª   ª       context.json
+ª   ª   ª   ª       donors.json
+ª   ª   ª   ª       G.json
+ª   ª   ª   ª       world.json
+ª   ª   ª   ª       
+ª   ª   ª   +---engine
+ª   ª   ª   ª   ª   README_INSTALL.txt
+ª   ª   ª   ª   ª   WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª   ª   __init__.py
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---bridge_in
+ª   ª   ª   ª   ª       anchors.json
+ª   ª   ª   ª   ª       coaches.json
+ª   ª   ª   ª   ª       config.json
+ª   ª   ª   ª   ª       contexts.json
+ª   ª   ª   ª   ª       gravity.json
+ª   ª   ª   ª   ª       meta.json
+ª   ª   ª   ª   ª       world.json
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---bridge_out
+ª   ª   ª   ª   ª       coaches.json
+ª   ª   ª   ª   ª       logs.json
+ª   ª   ª   ª   ª       world.json
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---config
+ª   ª   ª   ª   ª       aad_persona.json
+ª   ª   ª   ª   ª       ad_archetypes.json
+ª   ª   ª   ª   ª       archetype_anchors.json
+ª   ª   ª   ª   ª       context_gravity.json
+ª   ª   ª   ª   ª       core_principles.json
+ª   ª   ª   ª   ª       interaction_catalog.json
+ª   ª   ª   ª   ª       New Text Document.txt
+ª   ª   ª   ª   ª       personality_profiles.json
+ª   ª   ª   ª   ª       player_quiz_map.json
+ª   ª   ª   ª   ª       reg_catalog.json
+ª   ª   ª   ª   ª       reg_weights.json
+ª   ª   ª   ª   ª       trait_components.json
+ª   ª   ª   ª   ª       trait_engine.cfg
+ª   ª   ª   ª   ª       trait_gravity.json
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---data
+ª   ª   ª   ª   ª   ª   College_AD_Starter_Workbook.xlsx
+ª   ª   ª   ª   ª   ª   
+ª   ª   ª   ª   ª   +---logs
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b0.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b1.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b2.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b3.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b4.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b5.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b6.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.b7.csv
+ª   ª   ª   ª   ª           TRAIT_HISTORY_LOG.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b0.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b1.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b2.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b3.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b4.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b5.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b6.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.b7.csv
+ª   ª   ª   ª   ª           WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª   ª           
+ª   ª   ª   ª   +---dbs
+ª   ª   ª   ª   ª   +---DBS_v1_Package
+ª   ª   ª   ª   ª           dbs_config.json
+ª   ª   ª   ª   ª           dbs_engine_dropin.py
+ª   ª   ª   ª   ª           DBS_v1_README.md
+ª   ª   ª   ª   ª           era_waterline.json
+ª   ª   ª   ª   ª           
+ª   ª   ª   ª   +---logs
+ª   ª   ª   ª   ª       WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---sandbox
+ª   ª   ª   ª   ª       analyze_log.py
+ª   ª   ª   ª   ª       batch_run.py
+ª   ª   ª   ª   ª       batch_run_parallel.py
+ª   ª   ª   ª   ª       sample_coaches.json
+ª   ª   ª   ª   ª       
+ª   ª   ª   ª   +---src
+ª   ª   ª   ª           aad_dialogue.py
+ª   ª   ª   ª           advance_week.py
+ª   ª   ª   ª           advance_week_old.py
+ª   ª   ª   ª           analyzer.py
+ª   ª   ª   ª           asserts.py
+ª   ª   ª   ª           donor_ledger.py
+ª   ª   ª   ª           donor_memory.py
+ª   ª   ª   ª           donor_report.py
+ª   ª   ª   ª           donor_report_plus.py
+ª   ª   ª   ª           engine.py
+ª   ª   ª   ª           excel_bridge.py
+ª   ª   ª   ª           finlog.py
+ª   ª   ª   ª           insights_core.py
+ª   ª   ª   ª           loaders.py
+ª   ª   ª   ª           logger.py
+ª   ª   ª   ª           models.py
+ª   ª   ª   ª           personality_engine.py
+ª   ª   ª   ª           persona_demo.py
+ª   ª   ª   ª           reg_engine.py
+ª   ª   ª   ª           reg_loaders.py
+ª   ª   ª   ª           run_tick.py
+ª   ª   ª   ª           seed_donors.py
+ª   ª   ª   ª           seed_world_132.py
+ª   ª   ª   ª           world_logger.py
+ª   ª   ª   ª           __init__.py
+ª   ª   ª   ª           
+ª   ª   ª   +---logs
+ª   ª   ª   ª   ª   DONOR_LEDGER.csv
+ª   ª   ª   ª   ª   DONOR_RELATIONSHIPS.csv
+ª   ª   ª   ª   ª   FINANCE_LOG.csv
+ª   ª   ª   ª   ª   FINANCE_LOG_backup_before_132.csv
+ª   ª   ª   ª   ª   FINANCE_LOG_backup_before_v17_5.csv
+ª   ª   ª   ª   ª   TRAIT_HISTORY_LOG.csv
+ª   ª   ª   ª   ª   WORLD_EVENTS_LOG.csv
+ª   ª   ª   ª   ª   
+ª   ª   ª   ª   +---INSIGHTS
+ª   ª   ª   ª           donors.summary.json
+ª   ª   ª   ª           
+ª   ª   ª   +---scripts
+ª   ª   ª   ª       Setup-Workspace.ps1
+ª   ª   ª   ª       
+ª   ª   ª   +---tools
+ª   ª   ª   ª       paths_example.py
+ª   ª   ª   ª       
+ª   ª   ª   +---_docs
+ª   ª   ª       ª   College_AD_v17.6_PersonalityCore_Design.md
+ª   ª   ª       ª   FINANCE_TRENDS.md
+ª   ª   ª       ª   
+ª   ª   ª       +---donors
+ª   ª   ª               State_U..md
+ª   ª   ª               
+ª   ª   +---configs_backup_v17.7
+ª   ª   ª       bridge_filters.json
+ª   ª   ª       donor_decay.json
+ª   ª   ª       pledge_rules.json
+ª   ª   ª       reg_weights.json
+ª   ª   ª       trait_components.json
+ª   ª   ª       
+ª   ª   +---docs_engine_backup_20251029
+ª   +---Channel Log_Notes
+ª   ª       CHANGELOG.backup.20251101_082009.md
+ª   ª       CHANGELOG.md
+ª   ª       CHANGELOG_v17.6.txt
+ª   ª       CHANGELOG_v17.8.md
+ª   ª       DEVELOPER_NOTES.md
+ª   ª       
+ª   +---CLOSEOUT_v17.9.2_20251101_162844
+ª   ª   ª   engine_config
+ª   ª   ª   engine_src
+ª   ª   ª   engine_state
+ª   ª   ª   scripts
+ª   ª   ª   status
+ª   ª   ª   tools
+ª   ª   ª   WEEKLY_DIGEST.md
+ª   ª   ª   
+ª   ª   +---_golden
+ª   ª       +---v17_9_1_20251101_105749
+ª   ª       ª       MEDIA_FEED__golden__20251101_105749.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_105749.md
+ª   ª       ª       SCHEDULE__golden__20251101_105749.md
+ª   ª       ª       
+ª   ª       +---v17_9_1_20251101_115942
+ª   ª       ª       MEDIA_FEED__golden__20251101_115942.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_115942.md
+ª   ª       ª       SCHEDULE__golden__20251101_115942.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_123621
+ª   ª       ª       MEDIA_FEED__golden__20251101_123621.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_123621.md
+ª   ª       ª       SCHEDULE__golden__20251101_123621.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125236
+ª   ª       ª       MEDIA_FEED__golden__20251101_125236.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125236.md
+ª   ª       ª       SCHEDULE__golden__20251101_125236.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125246
+ª   ª       ª       MEDIA_FEED__golden__20251101_125246.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125246.md
+ª   ª       ª       SCHEDULE__golden__20251101_125246.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125247
+ª   ª       ª       MEDIA_FEED__golden__20251101_125247.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125247.md
+ª   ª       ª       SCHEDULE__golden__20251101_125247.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125248
+ª   ª       ª       MEDIA_FEED__golden__20251101_125248.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125248.md
+ª   ª       ª       SCHEDULE__golden__20251101_125248.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125748
+ª   ª       ª       MEDIA_FEED__golden__20251101_125748.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125748.md
+ª   ª       ª       SCHEDULE__golden__20251101_125748.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_125822
+ª   ª       ª       MEDIA_FEED__golden__20251101_125822.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_125822.md
+ª   ª       ª       SCHEDULE__golden__20251101_125822.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_141830
+ª   ª       ª       MEDIA_FEED__golden__20251101_141830.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_141830.md
+ª   ª       ª       SCHEDULE__golden__20251101_141830.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_142258
+ª   ª       ª       MEDIA_FEED__golden__20251101_142258.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_142258.md
+ª   ª       ª       SCHEDULE__golden__20251101_142258.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_142707
+ª   ª       ª       MEDIA_FEED__golden__20251101_142707.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_142707.md
+ª   ª       ª       SCHEDULE__golden__20251101_142707.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_144034
+ª   ª       ª       MEDIA_FEED__golden__20251101_144034.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_144034.md
+ª   ª       ª       SCHEDULE__golden__20251101_144034.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_151517
+ª   ª       ª       MEDIA_FEED__golden__20251101_151517.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_151517.md
+ª   ª       ª       SCHEDULE__golden__20251101_151517.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_154510
+ª   ª       ª       MEDIA_FEED__golden__20251101_154510.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_154510.md
+ª   ª       ª       SCHEDULE__golden__20251101_154510.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_161104
+ª   ª       ª       MEDIA_FEED__golden__20251101_161104.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_161104.md
+ª   ª       ª       SCHEDULE__golden__20251101_161104.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_161441
+ª   ª       ª       MEDIA_FEED__golden__20251101_161441.md
+ª   ª       ª       MEDIA_REACH_MAP__golden__20251101_161441.md
+ª   ª       ª       SCHEDULE__golden__20251101_161441.md
+ª   ª       ª       
+ª   ª       +---v17_9_2_20251101_162153
+ª   ª               MEDIA_FEED__golden__20251101_162153.md
+ª   ª               MEDIA_REACH_MAP__golden__20251101_162153.md
+ª   ª               SCHEDULE__golden__20251101_162153.md
+ª   ª               
+ª   +---code
+ª   ª   +---v17_7
+ª   ª   ª   ª   communication_bridge.py
+ª   ª   ª   ª   donor_memory.py
+ª   ª   ª   ª   pledge_stipulations.py
+ª   ª   ª   ª   __init__.py
+ª   ª   ª   ª   
+ª   ª   ª   +---__pycache__
+ª   ª   ª           pledge_stipulations.cpython-314.pyc
+ª   ª   ª           __init__.cpython-314.pyc
+ª   ª   ª           
+ª   ª   +---v17_8
+ª   ª       ª   communication_bridge.py
+ª   ª       ª   donor_memory.py
+ª   ª       ª   pledge_stipulations.py
+ª   ª       ª   __init__.py
+ª   ª       ª   
+ª   ª       +---__pycache__
+ª   ª               pledge_stipulations.cpython-314.pyc
+ª   ª               __init__.cpython-314.pyc
+ª   ª               
+ª   +---Document Archive
+ª   +---INBOX
+ª   +---scripts
+ª   ª       start_v18.ps1
+ª   ª       
+ª   +---status
+ª   ª       PROJECT_STATUS_v17.6.md
+ª   ª       PROJECT_STATUS_v17.7.md
+ª   ª       PROJECT_STATUS_v17.8.md
+ª   ª       PROJECT_STATUS_v17.8_FINAL.md
+ª   ª       PROJECT_STATUS_v17.9.md
+ª   ª       status
+ª   ª       
+ª   +---Structure Audit
+ª   ª       STRUCTURE_AUDIT_2025-11-01_091809.md
+ª   ª       STRUCTURE_AUDIT_2025-11-01_15-29-37.md
+ª   ª       STRUCTURE_AUDIT_2025-11-01_15-33-38.md
+ª   ª       STRUCTURE_AUDIT_2025-11-01_16-28-46.md
+ª   ª       STRUCTURE_AUDIT_2025-11-01_16-32-50.md
+ª   ª       
+ª   +---zips
+ª   +---_docs
+ª           College_AD_v17.6_PersonalityCore_Design.md
+ª           
++---data
+ª       anchors.json
+ª       cfg.json
+ª       coaches.json
+ª       context.json
+ª       donors.json
+ª       G.json
+ª       world.json
+ª       
++---docs
+ª   ª   AD_HEALTH_TRENDS.md
+ª   ª   AD_PRESTIGE.md
+ª   ª   AD_PRESTIGE_TRENDS.md
+ª   ª   MEDIA_FEED.md
+ª   ª   MEDIA_REACH_MAP.md
+ª   ª   RECRUITING_READOUT.md
+ª   ª   RELATIONSHIPS.md
+ª   ª   SCHEDULE.md
+ª   ª   
+ª   +---donors
+ª   ª       State_U..md
+ª   ª       
+ª   +---_golden
+ª       +---v17_9_1_20251101_105749
+ª       ª       MEDIA_FEED__golden__20251101_105749.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_105749.md
+ª       ª       SCHEDULE__golden__20251101_105749.md
+ª       ª       
+ª       +---v17_9_1_20251101_115942
+ª       ª       MEDIA_FEED__golden__20251101_115942.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_115942.md
+ª       ª       SCHEDULE__golden__20251101_115942.md
+ª       ª       
+ª       +---v17_9_2_20251101_123621
+ª       ª       MEDIA_FEED__golden__20251101_123621.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_123621.md
+ª       ª       SCHEDULE__golden__20251101_123621.md
+ª       ª       
+ª       +---v17_9_2_20251101_125236
+ª       ª       MEDIA_FEED__golden__20251101_125236.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125236.md
+ª       ª       SCHEDULE__golden__20251101_125236.md
+ª       ª       
+ª       +---v17_9_2_20251101_125246
+ª       ª       MEDIA_FEED__golden__20251101_125246.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125246.md
+ª       ª       SCHEDULE__golden__20251101_125246.md
+ª       ª       
+ª       +---v17_9_2_20251101_125247
+ª       ª       MEDIA_FEED__golden__20251101_125247.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125247.md
+ª       ª       SCHEDULE__golden__20251101_125247.md
+ª       ª       
+ª       +---v17_9_2_20251101_125248
+ª       ª       MEDIA_FEED__golden__20251101_125248.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125248.md
+ª       ª       SCHEDULE__golden__20251101_125248.md
+ª       ª       
+ª       +---v17_9_2_20251101_125748
+ª       ª       MEDIA_FEED__golden__20251101_125748.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125748.md
+ª       ª       SCHEDULE__golden__20251101_125748.md
+ª       ª       
+ª       +---v17_9_2_20251101_125822
+ª       ª       MEDIA_FEED__golden__20251101_125822.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_125822.md
+ª       ª       SCHEDULE__golden__20251101_125822.md
+ª       ª       
+ª       +---v17_9_2_20251101_141830
+ª       ª       MEDIA_FEED__golden__20251101_141830.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_141830.md
+ª       ª       SCHEDULE__golden__20251101_141830.md
+ª       ª       
+ª       +---v17_9_2_20251101_142258
+ª       ª       MEDIA_FEED__golden__20251101_142258.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_142258.md
+ª       ª       SCHEDULE__golden__20251101_142258.md
+ª       ª       
+ª       +---v17_9_2_20251101_142707
+ª       ª       MEDIA_FEED__golden__20251101_142707.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_142707.md
+ª       ª       SCHEDULE__golden__20251101_142707.md
+ª       ª       
+ª       +---v17_9_2_20251101_144034
+ª       ª       MEDIA_FEED__golden__20251101_144034.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_144034.md
+ª       ª       SCHEDULE__golden__20251101_144034.md
+ª       ª       
+ª       +---v17_9_2_20251101_151517
+ª       ª       MEDIA_FEED__golden__20251101_151517.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_151517.md
+ª       ª       SCHEDULE__golden__20251101_151517.md
+ª       ª       
+ª       +---v17_9_2_20251101_154510
+ª       ª       MEDIA_FEED__golden__20251101_154510.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_154510.md
+ª       ª       SCHEDULE__golden__20251101_154510.md
+ª       ª       
+ª       +---v17_9_2_20251101_161104
+ª       ª       MEDIA_FEED__golden__20251101_161104.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_161104.md
+ª       ª       SCHEDULE__golden__20251101_161104.md
+ª       ª       
+ª       +---v17_9_2_20251101_161441
+ª       ª       MEDIA_FEED__golden__20251101_161441.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_161441.md
+ª       ª       SCHEDULE__golden__20251101_161441.md
+ª       ª       
+ª       +---v17_9_2_20251101_162153
+ª       ª       MEDIA_FEED__golden__20251101_162153.md
+ª       ª       MEDIA_REACH_MAP__golden__20251101_162153.md
+ª       ª       SCHEDULE__golden__20251101_162153.md
+ª       ª       
+ª       +---v17_9_2_20251101_163251
+ª               MEDIA_FEED__golden__20251101_163251.md
+ª               MEDIA_REACH_MAP__golden__20251101_163251.md
+ª               SCHEDULE__golden__20251101_163251.md
+ª               
++---engine
+ª   ª   README_INSTALL.txt
+ª   ª   __init__.py
+ª   ª   
+ª   +---bridge_in
+ª   ª       anchors.json
+ª   ª       coaches.json
+ª   ª       config.json
+ª   ª       contexts.json
+ª   ª       gravity.json
+ª   ª       meta.json
+ª   ª       world.json
+ª   ª       
+ª   +---bridge_out
+ª   ª       coaches.json
+ª   ª       logs.json
+ª   ª       world.json
+ª   ª       
+ª   +---config
+ª   ª       aad_persona.json
+ª   ª       aad_policies.json
+ª   ª       ad_archetypes.json
+ª   ª       archetype_anchors.json
+ª   ª       bridge_filters.json
+ª   ª       comm_auto.policy.json
+ª   ª       comm_auto_policy.json
+ª   ª       context_gravity.json
+ª   ª       core_principles.json
+ª   ª       donor_decay.json
+ª   ª       engine_config
+ª   ª       interaction_catalog.json
+ª   ª       media_map.config.json
+ª   ª       MEDIA_REACH.json
+ª   ª       personality_profiles.json
+ª   ª       player_quiz_map.json
+ª   ª       pledge_rules.json
+ª   ª       reg_catalog.json
+ª   ª       reg_weights.json
+ª   ª       trait_components.json
+ª   ª       trait_engine.cfg
+ª   ª       trait_gravity.json
+ª   ª       
+ª   +---data
+ª   ª   ª   College_AD_Starter_Workbook.xlsx
+ª   ª   ª   
+ª   ª   +---logs
+ª   ª           TRAIT_HISTORY_LOG.b0.csv
+ª   ª           TRAIT_HISTORY_LOG.b1.csv
+ª   ª           TRAIT_HISTORY_LOG.b2.csv
+ª   ª           TRAIT_HISTORY_LOG.b3.csv
+ª   ª           TRAIT_HISTORY_LOG.b4.csv
+ª   ª           TRAIT_HISTORY_LOG.b5.csv
+ª   ª           TRAIT_HISTORY_LOG.b6.csv
+ª   ª           TRAIT_HISTORY_LOG.b7.csv
+ª   ª           TRAIT_HISTORY_LOG.csv
+ª   ª           WORLD_EVENTS_LOG.b0.csv
+ª   ª           WORLD_EVENTS_LOG.b1.csv
+ª   ª           WORLD_EVENTS_LOG.b2.csv
+ª   ª           WORLD_EVENTS_LOG.b3.csv
+ª   ª           WORLD_EVENTS_LOG.b4.csv
+ª   ª           WORLD_EVENTS_LOG.b5.csv
+ª   ª           WORLD_EVENTS_LOG.b6.csv
+ª   ª           WORLD_EVENTS_LOG.b7.csv
+ª   ª           WORLD_EVENTS_LOG.csv
+ª   ª           
+ª   +---dbs
+ª   ª   +---DBS_v1_Package
+ª   ª           dbs_config.json
+ª   ª           dbs_engine_dropin.py
+ª   ª           DBS_v1_README.md
+ª   ª           era_waterline.json
+ª   ª           
+ª   +---sandbox
+ª   ª       analyze_log.py
+ª   ª       batch_run.py
+ª   ª       batch_run_parallel.py
+ª   ª       sample_coaches.json
+ª   ª       
+ª   +---src
+ª   ª   ª   aad_dialogue.py
+ª   ª   ª   adhs_nudges.py
+ª   ª   ª   advance_week.py
+ª   ª   ª   advance_week_old.py
+ª   ª   ª   ad_health.py
+ª   ª   ª   ad_prestige.py
+ª   ª   ª   ad_seed.py
+ª   ª   ª   analyzer.py
+ª   ª   ª   asserts.py
+ª   ª   ª   assistant_ad_engine.py
+ª   ª   ª   communication_bridge.py
+ª   ª   ª   comm_auto_engine.py
+ª   ª   ª   config_mirror.py
+ª   ª   ª   config_paths.py
+ª   ª   ª   donor_ledger.py
+ª   ª   ª   donor_memory.py
+ª   ª   ª   donor_report.py
+ª   ª   ª   donor_report_plus.py
+ª   ª   ª   donor_snapshot.py
+ª   ª   ª   engine.py
+ª   ª   ª   engine_src
+ª   ª   ª   excel_bridge.py
+ª   ª   ª   finance_validator.py
+ª   ª   ª   finlog.py
+ª   ª   ª   insights_core.py
+ª   ª   ª   loaders.py
+ª   ª   ª   logger.py
+ª   ª   ª   media_desk.py
+ª   ª   ª   media_helpers.py
+ª   ª   ª   media_map.py
+ª   ª   ª   media_time_guard.py
+ª   ª   ª   models.py
+ª   ª   ª   personality_engine.py
+ª   ª   ª   persona_demo.py
+ª   ª   ª   pledge_stipulations.py
+ª   ª   ª   prestige_factors.py
+ª   ª   ª   recruiting_bonus.py
+ª   ª   ª   recruiting_influence.py
+ª   ª   ª   reg_engine.py
+ª   ª   ª   reg_loaders.py
+ª   ª   ª   relationship_engine.py
+ª   ª   ª   relationship_manager.py
+ª   ª   ª   run_tick.py
+ª   ª   ª   schedule_engine.py
+ª   ª   ª   schedule_executor.py
+ª   ª   ª   seed_donors.py
+ª   ª   ª   seed_world_132.py
+ª   ª   ª   selftest_guardrails.py
+ª   ª   ª   types_shared.py
+ª   ª   ª   ui_aad_cli.py
+ª   ª   ª   ui_comm_auto_cli.py
+ª   ª   ª   ui_dayplay_cli.py
+ª   ª   ª   ui_inbox_cli.py
+ª   ª   ª   ui_media_cli.py
+ª   ª   ª   ui_media_map_cli.py
+ª   ª   ª   ui_recruiting_influence_cli.py
+ª   ª   ª   ui_relationships_cli.py
+ª   ª   ª   ui_schedule_cli.py
+ª   ª   ª   ui_strings.py
+ª   ª   ª   viz_api.py
+ª   ª   ª   weekly_digest.py
+ª   ª   ª   world_logger.py
+ª   ª   ª   __init__.py
+ª   ª   ª   
+ª   ª   +---__pycache__
+ª   ª           ad_health.cpython-314.pyc
+ª   ª           ad_prestige.cpython-314.pyc
+ª   ª           ad_seed.cpython-314.pyc
+ª   ª           assistant_ad_engine.cpython-314.pyc
+ª   ª           communication_bridge.cpython-314.pyc
+ª   ª           comm_auto_engine.cpython-314.pyc
+ª   ª           config_mirror.cpython-314.pyc
+ª   ª           config_paths.cpython-314.pyc
+ª   ª           donor_snapshot.cpython-314.pyc
+ª   ª           finance_validator.cpython-314.pyc
+ª   ª           logger.cpython-314.pyc
+ª   ª           media_desk.cpython-314.pyc
+ª   ª           media_helpers.cpython-314.pyc
+ª   ª           media_map.cpython-314.pyc
+ª   ª           media_time_guard.cpython-314.pyc
+ª   ª           pledge_stipulations.cpython-314.pyc
+ª   ª           prestige_factors.cpython-314.pyc
+ª   ª           recruiting_bonus.cpython-314.pyc
+ª   ª           recruiting_influence.cpython-314.pyc
+ª   ª           relationship_engine.cpython-314.pyc
+ª   ª           relationship_manager.cpython-314.pyc
+ª   ª           run_tick.cpython-314.pyc
+ª   ª           schedule_engine.cpython-314.pyc
+ª   ª           schedule_executor.cpython-314.pyc
+ª   ª           selftest_guardrails.cpython-314.pyc
+ª   ª           ui_aad_cli.cpython-314.pyc
+ª   ª           ui_comm_auto_cli.cpython-314.pyc
+ª   ª           ui_dayplay_cli.cpython-314.pyc
+ª   ª           ui_inbox_cli.cpython-314.pyc
+ª   ª           ui_media_cli.cpython-314.pyc
+ª   ª           ui_media_map_cli.cpython-314.pyc
+ª   ª           ui_recruiting_influence_cli.cpython-314.pyc
+ª   ª           ui_relationships_cli.cpython-314.pyc
+ª   ª           ui_schedule_cli.cpython-314.pyc
+ª   ª           viz_api.cpython-314.pyc
+ª   ª           weekly_digest.cpython-314.pyc
+ª   ª           __init__.cpython-314.pyc
+ª   ª           
+ª   +---state
+ª   ª       ad_prestige_state.json
+ª   ª       clock.json
+ª   ª       coach_morale.json
+ª   ª       engine_state
+ª   ª       fan_energy.json
+ª   ª       hot_topic.json
+ª   ª       media_meta.json
+ª   ª       recruiting_modifiers.json
+ª   ª       relationships.json
+ª   ª       reputation.json
+ª   ª       scandal_state.json
+ª   ª       schedule.json
+ª   ª       schedule.sample.json
+ª   ª       schedule_state.json
+ª   ª       season_awards.json
+ª   ª       
+ª   +---__pycache__
+ª           __init__.cpython-314.pyc
+ª           
++---logs
+ª   ª   DONOR_LEDGER.csv
+ª   ª   engine.log
+ª   ª   
+ª   +---INBOX
+ª   ª       W01-update-coach-briefing-0001.json
+ª   ª       W01-update-coach-briefing-0002.json
+ª   ª       W02-update-coach-briefing-0001.json
+ª   ª       W02-update-coach-briefing-0002.json
+ª   ª       W03-update-coach-briefing-0001.json
+ª   ª       W03-update-coach-briefing-0002.json
+ª   ª       W04-update-coach-briefing-0001.json
+ª   ª       W04-update-coach-briefing-0002.json
+ª   ª       W05-update-coach-briefing-0001.json
+ª   ª       W05-update-coach-briefing-0002.json
+ª   ª       W06-update-coach-briefing-0001.json
+ª   ª       W06-update-coach-briefing-0002.json
+ª   ª       W07-update-coach-briefing-0001.json
+ª   ª       W07-update-coach-briefing-0002.json
+ª   ª       W08-update-coach-briefing-0001.json
+ª   ª       W08-update-coach-briefing-0002.json
+ª   ª       W09-update-coach-briefing-0001.json
+ª   ª       W09-update-coach-briefing-0002.json
+ª   ª       W10-pledge-pending-0002.json
+ª   ª       W10-pledge-promised-0001.json
+ª   ª       W10-update-coach-briefing-0001.json
+ª   ª       W10-update-coach-briefing-0002.json
+ª   ª       W11-contact-required-0005.json
+ª   ª       W11-pledge-lapsed-0004.json
+ª   ª       W11-pledge-received-0003.json
+ª   ª       W11-update-0006.json
+ª   ª       W11-update-coach-briefing-0001.json
+ª   ª       W11-update-coach-briefing-0002.json
+ª   ª       W12-update-coach-briefing-0001.json
+ª   ª       W12-update-coach-briefing-0002.json
+ª   ª       W13-update-coach-briefing-0001.json
+ª   ª       W13-update-coach-briefing-0002.json
+ª   ª       W14-update-coach-briefing-0001.json
+ª   ª       W14-update-coach-briefing-0002.json
+ª   ª       W15-update-coach-briefing-0001.json
+ª   ª       W15-update-coach-briefing-0002.json
+ª   ª       W16-update-coach-briefing-0001.json
+ª   ª       W16-update-coach-briefing-0002.json
+ª   ª       W17-update-coach-briefing-0001.json
+ª   ª       W17-update-coach-briefing-0002.json
+ª   ª       W18-update-coach-briefing-0001.json
+ª   ª       W18-update-coach-briefing-0002.json
+ª   ª       W19-update-coach-briefing-0001.json
+ª   ª       W19-update-coach-briefing-0002.json
+ª   ª       W20-update-coach-briefing-0001.json
+ª   ª       W20-update-coach-briefing-0002.json
+ª   ª       W21-update-coach-briefing-0001.json
+ª   ª       W21-update-coach-briefing-0002.json
+ª   ª       W22-update-coach-briefing-0001.json
+ª   ª       W22-update-coach-briefing-0002.json
+ª   ª       W23-update-coach-briefing-0001.json
+ª   ª       W23-update-coach-briefing-0002.json
+ª   ª       
+ª   +---MEDIA
+ª           2025-10-31T02-345beab16f44.json
+ª           2025-10-31T02-37298e03a360.json
+ª           2025-10-31T02-526bb9fbfa34.json
+ª           2025-10-31T02-56e921c8d58b.json
+ª           2025-10-31T02-5e1b1867f412.json
+ª           2025-10-31T02-67a3b79d5388.json
+ª           2025-10-31T02-69b8cf637955.json
+ª           2025-10-31T02-7de5ed3127a4.json
+ª           2025-10-31T02-7fa41b1f2424.json
+ª           2025-10-31T02-84d63d154c5d.json
+ª           2025-10-31T02-879358c7f81f.json
+ª           2025-10-31T02-8c15fc975aeb.json
+ª           2025-10-31T02-8f0ecba493a3.json
+ª           2025-10-31T02-e3a58879603e.json
+ª           W01-media-state-u.json
+ª           W01-update-coach-briefing-0001.json
+ª           W01-update-coach-briefing-0001.media.json
+ª           W01-update-coach-briefing-0002.json
+ª           W01-update-coach-briefing-0002.media.json
+ª           W02-media-state-u.json
+ª           W02-update-coach-briefing-0001.json
+ª           W02-update-coach-briefing-0001.media.json
+ª           W02-update-coach-briefing-0002.json
+ª           W02-update-coach-briefing-0002.media.json
+ª           W03-media-state-u.json
+ª           W03-update-coach-briefing-0001.json
+ª           W03-update-coach-briefing-0001.media.json
+ª           W03-update-coach-briefing-0002.json
+ª           W03-update-coach-briefing-0002.media.json
+ª           W04-media-state-u.json
+ª           W04-update-coach-briefing-0001.json
+ª           W04-update-coach-briefing-0001.media.json
+ª           W04-update-coach-briefing-0002.json
+ª           W04-update-coach-briefing-0002.media.json
+ª           W05-media-state-u.json
+ª           W06-media-state-u.json
+ª           W07-media-state-u.json
+ª           W08-media-state-u.json
+ª           W09-media-state-u.json
+ª           W10-media-state-u.json
+ª           W10-pledge-pending-0002.json
+ª           W10-pledge-pending-0002.media.json
+ª           W10-pledge-promised-0001.json
+ª           W10-pledge-promised-0001.media.json
+ª           W11-contact-required-0005.json
+ª           W11-contact-required-0005.media.json
+ª           W11-media-state-u.json
+ª           W11-pledge-lapsed-0004.json
+ª           W11-pledge-lapsed-0004.media.json
+ª           W11-pledge-received-0003.json
+ª           W11-pledge-received-0003.media.json
+ª           W11-update-0006.json
+ª           W11-update-0006.media.json
+ª           W12-media-state-u.json
+ª           W13-media-state-u.json
+ª           W14-media-state-u.json
+ª           W15-media-state-u.json
+ª           W16-media-state-u.json
+ª           W17-media-state-u.json
+ª           W18-media-state-u.json
+ª           W19-media-state-u.json
+ª           W20-media-state-u.json
+ª           W21-media-state-u.json
+ª           W22-media-state-u.json
+ª           W23-media-state-u.json
+ª           
++---notes
+ª   +---_structure_snapshots
+ª           structure_post_docs_cleanup_.txt
+ª           structure_verified_v17.7.txt
+ª           
++---scripts
+ª       dayplay.ps1
+ª       finance.cmd
+ª       finance.ps1
+ª       mini_season.ps1
+ª       play_week.ps1
+ª       scripts
+ª       Setup-Workspace.ps1
+ª       start_v18.ps1
+ª       Validate-Workspace.ps1
+ª       
++---tools
+    ª   Consolidate-Archives.ps1
+    ª   dupbasename_guard.ps1
+    ª   dupbasename_guard.py
+    ª   inbox_build_index.py
+    ª   paths_example.py
+    ª   structure_audit.ps1
+    ª   tools
+    ª   ui_mock.py
+    ª   verify_guard.ps1
+    ª   
+    +---_docs

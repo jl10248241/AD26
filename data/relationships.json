@@ -1,0 +1,21 @@
+﻿{
+    "links":  {
+                  "Player_AD":  {
+                                    "Board.Chair":  {
+                                                        "respect":  50,
+                                                        "trust":  50,
+                                                        "loyalty":  50
+                                                    },
+                                    "Donor.TopBooster":  {
+                                                             "respect":  50,
+                                                             "trust":  50,
+                                                             "loyalty":  50
+                                                         },
+                                    "Coach.HeadCoach":  {
+                                                            "respect":  56,
+                                                            "trust":  57.2,
+                                                            "loyalty":  56
+                                                        }
+                                }
+              }
+}

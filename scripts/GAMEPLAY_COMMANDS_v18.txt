@@ -1,0 +1,56 @@
+﻿# College AD — Gameplay Command Reference (v18)
+
+Load this once per session (from project root):
+    . .\scripts\AD-Menu.ps1
+
+Available commands:
+----------------------------------------------------
+Start-Workday
+    • Opens your AD office for the day.
+    • Runs structure audit (read-only).
+    • Builds Quick Actions list.
+    • Sets resume to top item.
+    • Runs a Phone scene on that item.
+    • Launches Inbox CLI.
+
+Review-DailyBriefing [-MaxItems N] [-WriteCsv]
+    • Shows ranked to-do list (Quick Actions).
+    • Optionally writes status\QUICK_ACTIONS_v18.csv
+      if status\ folder exists.
+
+Return-Calls
+    • Runs a Phone scene using the top priority inbox item.
+
+Hold-Meeting
+    • Runs a Meeting scene using the top priority inbox item.
+
+Clean-Inbox
+    • De-duplicates inbox messages in place.
+    • Keeps newest copy, renames duplicates to *.dupe.*.disabled
+
+System-Check [-Apply]
+    • Audits folder structure.
+    • Use -Apply to fix safe conflicts (no new folders).
+
+Short aliases (optional):
+    start   → Start-Workday
+    brief   → Review-DailyBriefing
+    call    → Return-Calls
+    meet    → Hold-Meeting
+    clean   → Clean-Inbox
+    check   → System-Check
+
+Example daily loop:
+----------------------------------------------------
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+. .\scripts\AD-Menu.ps1
+Start-Workday
+# or review, call, meet, clean, check as desired
+
+Rule #1 respected:
+    • No new folders created.
+    • All scripts stay project-scoped.
+    • Writes occur only if the target folder already exists.
+
+----------------------------------------------------
+College AD v18 — Athletic Director Simulation

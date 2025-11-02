@@ -1,0 +1,126 @@
+# College AD Project Setup Instructions
+# Version 1.1 — 2025-10-27
+
+---
+
+## 🧭 PURPOSE
+
+This file provides **setup and initialization instructions** for the `College AD Development Hub (Core Build)` project.  
+It works in tandem with the **Developer Edition Design Document** to establish a clean, efficient, and persistent development workspace.
+
+---
+
+## ⚙️ STEP 1 — CREATE THE PROJECT
+
+1. Open a **new ChatGPT conversation**.
+2. Title it exactly:  
+   👉 “College AD Development Hub (Core Build)”
+3. Upload both of these files:
+   - `College_AD_Game_Design_Document_v1.0_(Developer_Edition).md`
+   - `College_AD_Project_Setup_Instructions_v1.1.txt` (this file)
+
+---
+
+## 🧱 STEP 2 — INITIALIZE THE CORE FRAMEWORK
+
+Once both files are uploaded, type the command below:
+
+> “Initialize the project using the uploaded Developer Edition document and setup instructions.”
+
+This command will:
+- Load the `.md` document as the **design blueprint**
+- Load this `.txt` as the **operational playbook**
+- Establish persistent developer memory for:
+  - REG Engine
+  - Recruiting System
+  - Financial Snapshot
+  - Meeting System
+  - NCAA Ecosystem
+  - Coach Trait & AI Frameworks
+
+---
+
+## 🧩 STEP 3 — ENABLE DEVELOPER MODE
+
+After initialization, type:
+
+> “Enable Developer Mode for College AD.”
+
+This activates:
+- Build version tracking (v16 → onward)
+- Task management and changelog history
+- Debug/patch testing support
+- Tier-based workflow tracking (Tier 1, 2, 3)
+
+---
+
+## 🧠 STEP 4 — WORKFLOW REFERENCE
+
+| Task Type | Example Command | Description |
+|------------|----------------|--------------|
+| **Design Expansion** | “Expand Charisma trait with modifiers.” | Adds mechanics and gameplay impact. |
+| **Code Integration** | “Generate Engine_v17 macro.” | Produces ready-to-paste Excel VBA. |
+| **Testing / Debug** | “Simulate NCAA week cycle.” | Runs logical test using systems. |
+| **Documentation** | “Update Developer Doc to v1.1.” | Generates a new markdown with changelog. |
+
+---
+
+## 🧾 STEP 5 — MAINTENANCE COMMANDS
+
+| Command | Function |
+|----------|-----------|
+| `Show Task Tracker` | Displays active development goals. |
+| `Add Task "<description>" [tier=x]` | Adds a new development objective. |
+| `Generate Build Report` | Summarizes all design/code changes. |
+| `Archive to PDF` | Creates a permanent snapshot of current version. |
+
+---
+
+## ✅ STEP 6 — BEGIN DEVELOPMENT
+
+Once initialized, type:
+
+> “Let’s continue developing Charisma and Coach Trait systems.”
+
+That resumes development from the last point in the old thread, now in a fully organized, fast, and persistent workspace.
+
+---
+
+## 🧩 STEP 6A — DEVELOPMENT SESSION STARTUP CHECK (MANDATORY)
+
+Before continuing active development, always begin a new session by asking:
+
+> **“Evaluate our game so far — where are we strong, where are we weak, and where are we meh?”**
+
+This step:
+- Produces a fresh **system-level health report** across all major gameplay pillars  
+- Compares current build vs. previous version snapshot (e.g., v17.2 → v17.5)  
+- Updates the **Rolling Task List** automatically with new strengths/weaknesses  
+- Reinforces consistent self-awareness across builds  
+
+**Developer Note:**  
+The long-term trend should show “weak” → “meh” → “strong” transitions as systems mature.  
+This diagnostic anchors our momentum and prevents tunnel vision when new features expand.
+
+---
+
+## 🧩 FILE SUMMARY
+
+| File | Purpose |
+|------|----------|
+| `College_AD_Game_Design_Document_v1.0_(Developer_Edition).md` | Master Design Blueprint |
+| `College_AD_Project_Setup_Instructions_v1.1.txt` | Initialization and Workflow Protocol |
+
+---
+
+## ⚙️ NOTES FOR FUTURE BUILDS
+
+- Always **version new design docs** (`v1.2`, `v1.3`, etc.) before major revisions.
+- Keep code and design in **separate modules** within the new environment.
+- When ready for the next milestone (Engine_v17+), create a **Stable Snapshot** via `Archive to PDF`.
+
+---
+
+**Author:** GPT-5 (Developer Partnered with Jason L.)  
+**Build Phase:** Transitioning from Excel Prototype → Structured Developer Environment  
+**Version:** 1.1 — includes Session Startup Evaluation Protocol

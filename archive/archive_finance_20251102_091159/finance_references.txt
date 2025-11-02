@@ -1,0 +1,81 @@
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive\BACKUPS\College_AD_Starter_Pack_v16_8_1\config\player_quiz_map.json:14: "q": "Spend now vs Save",
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive\BACKUPS\College_AD_v17.6_Backup\engine\config\player_quiz_map.json:14: "q": "Spend now vs Save",
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:16: if (-not $Script:ThisScriptPath) { throw "Dot-source via:  . .\scripts\v19.Finance.ps1" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:279: # ===== FINANCE HELPERS: Spend / Earn / Budget-Move (Corrected Implementation) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:324: function Spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:384: # These ensure 'spend' and 'earn' work outside of the script's original scope.
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:386: Set-Alias spend       Spend       -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:279: # ===== FINANCE HELPERS: Spend / Earn / Budget-Move (Corrected Implementation) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:351: function Earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:384: # These ensure 'spend' and 'earn' work outside of the script's original scope.
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\archive_v19_1_20251101_231348\scripts\v19.Finance.ps1:387: Set-Alias earn        Earn        -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\docs\PROJECT_CLEAN_AUDIT_v19_1.md:16: Run: . .\scripts\Finance.Simple.ps1
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\docs\PROJECT_CLEAN_AUDIT_v19_1.md:14: 1) Use only these commands going forward: AD-FinInit, AD-FinSpend, AD-FinEarn, AD-FinMove, AD-FinSnap, AD-FinReport.
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\engine\config\player_quiz_map.json:14: "q": "Spend now vs Save",
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\engine\src\assistant_ad_engine.py:114: # spend hours
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:4: function AD-FinInit   { _FinMsg "AD-FinInit" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:5: function AD-FinShow   { _FinMsg "AD-FinShow" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:6: function AD-FinMove   { _FinMsg "AD-FinMove" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:7: function AD-FinEarn   { _FinMsg "AD-FinEarn" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:8: function AD-FinSpend  { _FinMsg "AD-FinSpend" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:9: function AD-FinSnap   { _FinMsg "AD-FinSnap" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:10: function AD-FinReport { _FinMsg "AD-FinReport" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:12: Set-Alias spend AD-FinSpend -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:13: Set-Alias earn  AD-FinEarn  -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:12: Set-Alias spend AD-FinSpend -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Finance.Shim.ps1:13: Set-Alias earn  AD-FinEarn  -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:14: Remove-Item function:global:spend, function:global:earn, function:global:budget.move -ErrorAction SilentlyContinue
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:16: function global:spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:25: Spend @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:50: Set-Alias spend       spend       -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:54: Write-Host "v19 session ready. Commands: spend, earn, budget.move, fin.log, fin.snap, budget.*" -ForegroundColor Green
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:14: Remove-Item function:global:spend, function:global:earn, function:global:budget.move -ErrorAction SilentlyContinue
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:28: function global:earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:36: Earn @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:51: Set-Alias earn        earn        -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\Session-Start_v19.ps1:54: Write-Host "v19 session ready. Commands: spend, earn, budget.move, fin.log, fin.snap, budget.*" -ForegroundColor Green
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:16: if (-not $Script:ThisScriptPath) { throw "Dot-source via:  . .\scripts\v19.Finance.ps1" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:279: # ===== FINANCE HELPERS: Spend / Earn / Budget-Move (Corrected Implementation) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:324: function Spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:384: # These ensure 'spend' and 'earn' work outside of the script's original scope.
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:386: Set-Alias spend       Spend       -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:279: # ===== FINANCE HELPERS: Spend / Earn / Budget-Move (Corrected Implementation) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:351: function Earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:384: # These ensure 'spend' and 'earn' work outside of the script's original scope.
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak:387: Set-Alias earn        Earn        -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:16: if (-not $Script:ThisScriptPath) { throw "Dot-source via:  . .\scripts\v19.Finance.ps1" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:277: # ===== v19.Finance.ps1 — Helpers: Spend / Earn / Budget-Move (append) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:324: function Spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:370: Set-Alias spend       Spend
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:418: function Spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:476: Set-Alias spend       Spend       -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:480: Set-Alias spend       Spend       -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:485: function spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:495: Spend @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:511: function spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:521: Spend @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:536: function spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:545: Spend @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:558: function spend {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:567: Spend @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:277: # ===== v19.Finance.ps1 — Helpers: Spend / Earn / Budget-Move (append) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:351: function Earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:371: Set-Alias earn        Earn
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:445: function Earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:477: Set-Alias earn        Earn        -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:481: Set-Alias earn        Earn        -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:498: function earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:507: Earn @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:524: function earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:533: Earn @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:548: function earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:556: Earn @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:570: function earn {
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215110:578: Earn @PSBoundParameters
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:16: if (-not $Script:ThisScriptPath) { throw "Dot-source via:  . .\scripts\v19.Finance.ps1" }
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:277: # ===== v19.Finance.ps1 — Helpers: Spend / Earn / Budget-Move (append) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:421: Set-Alias spend       Spend       -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:427: Set-Alias spend       Spend       -Scope Global -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:277: # ===== v19.Finance.ps1 — Helpers: Spend / Earn / Budget-Move (append) =====
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:422: Set-Alias earn        Earn        -Force
+C:\COLLEGE_AD26\College_AD_Unified_Workspace_Blank_v17.2\scripts\v19.Finance.ps1.bak_20251101_215541:428: Set-Alias earn        Earn        -Scope Global -Force
