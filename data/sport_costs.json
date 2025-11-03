@@ -1,0 +1,11 @@
+{
+  "Football":        12000000,
+  "Basketball_M":     4500000,
+  "Basketball_W":     3200000,
+  "Baseball":         1700000,
+  "Softball":         1200000,
+  "Soccer_M":          800000,
+  "Soccer_W":         1000000,
+  "Track":             700000,
+  "Volleyball":        900000
+}

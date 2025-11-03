@@ -1,0 +1,4 @@
+week,school,donor_yield,expenses,balance,prestige_change,sentiment
+1,Tech U,95000,88000,44000,0.8,0.28
+0,State U,0,0,60000,0,0.24
+1,State U,120000,613076.92,-433076.92,1.2,0.36

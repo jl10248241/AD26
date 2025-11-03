@@ -1,0 +1,44 @@
+{
+  "globals": {
+    "sentiment_max": 1.0,
+    "week": 1,
+    "sentiment_min": -1.0,
+    "year": 2026,
+    "budget_open_week": 31,
+    "budget_window_weeks": 3,
+    "budget_close_week": 33,
+    "is_budget_open": false
+  },
+  "schools": {
+    "Tech U": {
+      "balance": 44000.0,
+      "sentiment": 0.28,
+      "sports_levels": {
+        "Football": "Maintain",
+        "Basketball_M": "Maintain",
+        "Basketball_W": "Maintain",
+        "Baseball": "Maintain",
+        "Softball": "Maintain",
+        "Soccer_M": "Maintain",
+        "Soccer_W": "Maintain",
+        "Track": "Maintain",
+        "Volleyball": "Maintain"
+      }
+    },
+    "State U": {
+      "sentiment": 0.24,
+      "balance": 60000.0,
+      "sports_levels": {
+        "Football": "HeavyInvest",
+        "Basketball_M": "Maintain",
+        "Basketball_W": "Maintain",
+        "Baseball": "Maintain",
+        "Softball": "Maintain",
+        "Soccer_M": "Maintain",
+        "Soccer_W": "Maintain",
+        "Track": "Maintain",
+        "Volleyball": "Maintain"
+      }
+    }
+  }
+}

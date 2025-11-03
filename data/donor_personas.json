@@ -1,0 +1,43 @@
+{
+  "personas": {
+    "LegacyAnchor": {
+      "desc": "Old-guard alum, values tradition and stability",
+      "positive": [
+        { "when": "legacy_up",  "action": "pledge_pct_of_base", "value": 0.10 }
+      ],
+      "negative": [
+        { "when": "coach_fired", "action": "withhold_weeks", "value": 2 },
+        { "when": "budget_cut_fave", "action": "withhold_weeks", "value": 4 }
+      ]
+    },
+    "FairWeather": {
+      "desc": "Rides the wave—gives on streaks, cools on skids",
+      "positive": [
+        { "when": "win_streak", "min": 3, "action": "pledge_pct_of_base", "value": 0.15 },
+        { "when": "sentiment_high", "min": 0.4, "action": "pledge_pct_of_base", "value": 0.05 }
+      ],
+      "negative": [
+        { "when": "loss_skid", "min": 3, "action": "withhold_weeks", "value": 3 }
+      ]
+    },
+    "BoosterShark": {
+      "desc": "Transactional—wants ROI, likes big projects/NIL",
+      "positive": [
+        { "when": "project_kickoff", "action": "matching_gift_ratio", "value": 1.0 },
+        { "when": "nil_fund_boost", "action": "pledge_pct_of_base", "value": 0.12 }
+      ],
+      "negative": [
+        { "when": "board_uncertain", "min": 35, "action": "pressure_board", "value": -3 }
+      ]
+    },
+    "CommunityBuilder": {
+      "desc": "Loves family events and accessible pricing",
+      "positive": [
+        { "when": "family_event_week", "action": "pledge_pct_of_base", "value": 0.05 }
+      ],
+      "negative": [
+        { "when": "ticket_hike_big", "min": 0.15, "action": "withhold_weeks", "value": 2 }
+      ]
+    }
+  }
+}

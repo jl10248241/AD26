@@ -1,0 +1,19 @@
+{
+  "events": {
+    "FamilyDay":      { "walkup_boost": 0.08, "donor_boost": 0.00, "cost": 5000,  "notes": "Kids free promos, concessions bundle" },
+    "RivalryNight":   { "walkup_boost": 0.12, "donor_boost": 0.02, "cost": 15000, "notes": "Big push vs. rival; booster suites" },
+    "ThrowbackNight": { "walkup_boost": 0.06, "donor_boost": 0.01, "cost": 8000,  "notes": "Retro jerseys & alumni tie-in" },
+    "StudentRush":    { "walkup_boost": 0.10, "donor_boost": 0.00, "cost": 3000,  "notes": "Student section push; limited seats" }
+  },
+  "per_sport_caps": {
+    "Basketball_M": { "season_cap": 8 },
+    "Basketball_W": { "season_cap": 8 },
+    "Baseball":     { "season_cap": 10 },
+    "Softball":     { "season_cap": 10 },
+    "Football":     { "season_cap": 2 },
+    "Soccer_M":     { "season_cap": 4 },
+    "Soccer_W":     { "season_cap": 4 },
+    "Track":        { "season_cap": 2 },
+    "Volleyball":   { "season_cap": 6 }
+  }
+}

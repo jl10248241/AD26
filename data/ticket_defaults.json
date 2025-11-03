@@ -1,0 +1,6 @@
+{
+  "economy":  { "price": 25,  "base_sales": 18000 },
+  "standard": { "price": 60,  "base_sales": 12000 },
+  "premium":  { "price": 220, "base_sales": 1500  },
+  "season_pct": 0.40
+}

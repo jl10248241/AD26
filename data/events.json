@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "school": "State U",
+      "sport": "Basketball_M",
+      "week": 2,
+      "year": 2028,
+      "event": "FamilyDay"
+    },
+    {
+      "school": "State U",
+      "sport": "Basketball_M",
+      "week": 6,
+      "year": 2028,
+      "event": "RivalryNight"
+    },
+    {
+      "school": "State U",
+      "sport": "Basketball_M",
+      "week": 2,
+      "year": 2028,
+      "event": "FamilyDay"
+    },
+    {
+      "school": "State U",
+      "sport": "Basketball_M",
+      "week": 6,
+      "year": 2028,
+      "event": "RivalryNight"
+    }
+  ]
+}

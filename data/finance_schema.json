@@ -1,0 +1,6 @@
+{
+  "csv_header": ["week","school","donor_yield","expenses","balance","prestige_change","sentiment"],
+  "state_required": ["week","balance","last_donor_yield","last_expenses","last_prestige","sentiment"],
+  "sentiment_min": -1.0,
+  "sentiment_max": 1.0
+}

@@ -1,0 +1,12 @@
+{
+  "tiers": {
+    "Elite": 0.15,
+    "Mid": 0.08,
+    "Local": 0.03,
+    "None": 0.0
+  },
+  "schools": {
+    "State U": "Elite",
+    "Tech U": "None"
+  }
+}
